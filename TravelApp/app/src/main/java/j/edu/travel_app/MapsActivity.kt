@@ -13,7 +13,7 @@ import com.google.android.gms.maps.model.MarkerOptions
 class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
 
     private lateinit var mMap: GoogleMap
-    private lateinit var gGroup: Group;
+    private lateinit var gGroup: Group
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -24,7 +24,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
         mapFragment.getMapAsync(this)
 
         // INITIALIZE THE GROUP
-        gGroup = Group();
+        gGroup = Group()
 
         // HARD CODE JUST FOR TESTING PURPOSES
         gGroup.addMember(Member("Jose", "Garcia", 21, Coordinates(36.1699, -115.1398)))
