@@ -1,3 +1,17 @@
+// HAVE TO DO THIS TO MAKE MAP APPEAR!
+// ALSO MAKE SURE YOU ARE CONNECTED TO THE INTERNET!
+
+// BELOW IS FROM AN ERROR IN THE LOG CAT
+//2019-11-14 18:24:32.902 5482-6996/j.edu.travel_app E/Google Maps Android API: In the Google Developer Console (https://console.developers.google.com)
+//Ensure that the "Google Maps Android API v2" is enabled.
+//Ensure that the following Android Key exists:
+//API Key: AIzaSyA5Yny5QlDtQPf5nPQy8g3VisAYkM9o6qw
+//Android Application (<cert_fingerprint>;<package_name>): 5C:F5:02:23:EE:06:8D:DA:FC:8E:B8:A0:59:21:28:3B:68:94:32:A1;j.edu.travel_app
+//2019-11-14 18:28:08.846 6666-6700/? E/GooglePlayServicesUtil: The Google Play services resources were not found. Check your project configuration to ensure that the resources are included.
+//2019-11-14 18:28:08.894 6666-6699/? E/GooglePlayServicesUtil: The Google Play services resources were not found. Check your project configuration to ensure that the resources are included.
+
+
+
 package j.edu.travel_app
 
 import androidx.appcompat.app.AppCompatActivity
