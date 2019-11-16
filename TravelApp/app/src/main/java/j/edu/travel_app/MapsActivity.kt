@@ -7,22 +7,16 @@ import com.google.android.gms.maps.CameraUpdateFactory
 import com.google.android.gms.maps.GoogleMap
 import com.google.android.gms.maps.OnMapReadyCallback
 import com.google.android.gms.maps.SupportMapFragment
-import com.google.android.gms.maps.model.BitmapDescriptorFactory
 import com.google.android.gms.maps.model.LatLng
 import com.google.android.gms.maps.model.MarkerOptions
 import com.google.android.gms.maps.model.Marker
 import java.util.Locale
-import android.text.method.TextKeyListener.clear
 
 
-
-
-
-class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
+class MapsActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnInfoWindowClickListener {
 
     private lateinit var mMap: GoogleMap
     private lateinit var gGroup: Group;
-    private lateinit var marker: Marker;
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -43,19 +37,26 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
 
 
     }
+    // User clicks on the map to get a dropped pin
+        // The pop up window for the dropped pin displays place details
     private fun setMapLongClick(map: GoogleMap) {
-        map.setOnMapLongClickListener { latLng ->
+
+        map.setOnMapLongClickListener { latlong ->
+            var place = Place("Dropped Pin", Coordinates(latlong.latitude, latlong.longitude),
+                                5, "Best Place Ever")
+
             // A Snippet is Additional text that's displayed below the title.
             val snippet = String.format(
                 Locale.getDefault(),
                 "Lat: %1$.5f, Long: %2$.5f",
-                latLng.latitude,
-                latLng.longitude
-            )
+                latlong.latitude,
+                latlong.longitude
+            ) + "\nRating: " + place.rating + "\nDescription: " + place.description
+
             map.addMarker(
                 MarkerOptions()
-                    .position(latLng)
-                    .title(getString(R.string.dropped_pin))
+                    .position(latlong)
+                    .title(place.name)
                     .snippet(snippet)
 
             )
@@ -82,19 +83,15 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
 
         gGroup.dispalyMembers(mMap)
 
+        // creates a custom marker window using the CustomMarker class
+            // use setOnInfoWindowClickListener to click on the pin and view details
+        var markerWindowAdapter = CustomMarker(applicationContext)
+        googleMap.setInfoWindowAdapter(markerWindowAdapter)
 
-        val sydney = LatLng(-34.0, 151.0)
-        mMap.addMarker(MarkerOptions().position(sydney).title("Marker in Sydney"))
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney))
-        val markerInfoWindowAdapter = CustomInfo(applicationContext)
-        googleMap.setInfoWindowAdapter(markerInfoWindowAdapter)
-        mMap.clear()
-        val markerOptions = MarkerOptions()
-        markerOptions.position(sydney)
-        mMap.animateCamera(CameraUpdateFactory.newLatLng(sydney))
-        marker = mMap.addMarker(markerOptions)
+        googleMap.setOnInfoWindowClickListener(this)
 
-        googleMap.setOnInfoWindowClickListener(GoogleMap.OnInfoWindowClickListener(){this})
+    }
+    override fun onInfoWindowClick(p0: Marker?) {
 
     }
 
