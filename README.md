@@ -1,2 +1,4 @@
 # Travel-App
-A travel App... Not to be used, not to be downloaded
+11/17/19
+There are now 2 fragments - Title & Map
+The map and all current functionality is accessible through MapFragment.kt and fragment_map.xml
