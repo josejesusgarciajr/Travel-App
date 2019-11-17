@@ -1,28 +1,31 @@
-package com.example.android.navigation
+package jwest.android_class.travel_app
 
-import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
+import android.util.Log
 import androidx.databinding.DataBindingUtil
+
+import androidx.drawerlayout.widget.DrawerLayout
 import androidx.navigation.findNavController
 import androidx.navigation.ui.NavigationUI
-import androidx.drawerlayout.widget.DrawerLayout
-import j.edu.travel_app.R
-import j.edu.travel_app.databinding.ActivityMainBinding
+import jwest.android_class.travel_app.databinding.ActivityMainBinding
 
-        class MainActivity : AppCompatActivity() {
-            private lateinit var drawerLayout: DrawerLayout
-            override fun onCreate(savedInstanceState: Bundle?) {
-                super.onCreate(savedInstanceState)
-                @Suppress("UNUSED_VARIABLE")
-                val binding = DataBindingUtil.setContentView<ActivityMainBinding>(this, R.layout.activity_main)
-                drawerLayout = binding.drawerLayout
+class MainActivity : AppCompatActivity() {
+    private lateinit var drawerLayout: DrawerLayout
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        @Suppress("UNUSED_VARIABLE")
+        val binding =
+            DataBindingUtil.setContentView<ActivityMainBinding>(this, R.layout.activity_main)
+        drawerLayout = binding.drawerLayout
         //getting a navController object
         val navController = this.findNavController(R.id.myNavHostFragment)
 
         //links navigation controller to the app bar
-        NavigationUI.setupActionBarWithNavController(this,navController)
+        NavigationUI.setupActionBarWithNavController(this, navController)
         NavigationUI.setupWithNavController(binding.navView, navController)
         NavigationUI.setupActionBarWithNavController(this, navController, drawerLayout)
+        Log.d("here", " main activity")
     }
 
 
@@ -33,3 +36,4 @@ import j.edu.travel_app.databinding.ActivityMainBinding
         return NavigationUI.navigateUp(navController, drawerLayout)
     }
 }
+

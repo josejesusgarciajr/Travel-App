@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <!--IMPORTANT! NEED THIS FOR DATA BINDING OBJECT-->
-<layout xmlns:tools="http://schemas.android.com/tools"
+<layout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     xmlns:android="http://schemas.android.com/apk/res/android">
     <data>
         <variable
             name="mapFragment"
-            type="j.edu.travel_app.MapFragment" />
+            type="jwest.android_class.travel_app.MapFragment" />
     </data>
+
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -18,4 +20,5 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
     </FrameLayout>
+
 </layout>

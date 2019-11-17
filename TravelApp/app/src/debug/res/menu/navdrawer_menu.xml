@@ -3,5 +3,7 @@
 
     <item android:title="@string/travel_buddy_title"
         android:id="@+id/titleFragment" />
+    <item android:title="@string/app_name"
+        android:id="@+id/mapFragment" />
 
 </menu>
