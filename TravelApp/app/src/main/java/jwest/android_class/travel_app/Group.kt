@@ -1,4 +1,4 @@
-package j.edu.travel_app
+package jwest.android_class.travel_app
 import com.google.android.gms.maps.GoogleMap
 import com.google.android.gms.maps.model.MarkerOptions
 
@@ -11,7 +11,7 @@ class Group {
     }
 
     fun removeMember(member : Member) {
-        group.remove(member);
+        group.remove(member)
     }
 
     fun dispalyMembers(mMap : GoogleMap) {

@@ -1,4 +1,4 @@
-package j.edu.travel_app
+package jwest.android_class.travel_app
 
 import com.google.android.gms.maps.model.LatLng
 
