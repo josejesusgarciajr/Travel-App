@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/navigation"
@@ -18,6 +19,9 @@
         <action
             android:id="@+id/action_titleFragment_to_mapFragment"
             app:destination="@id/mapFragment" />
+        <action
+            android:id="@+id/action_titleFragment_to_reviewFragment"
+            app:destination="@id/reviewFragment" />
     </fragment>
     <fragment
         android:id="@+id/mapFragment"
@@ -26,7 +30,12 @@
         android:layout_height="match_parent"
         >
     </fragment>
-<!--    <fragment-->
+    <fragment
+        android:id="@+id/reviewFragment"
+        android:name="jwest.android_class.travel_app.reviewFragment"
+        android:label="fragment_review"
+        tools:layout="@layout/fragment_review" />
+    <!--    <fragment-->
 <!--        android:id="@+id/map"-->
 <!--        android:name="com.google.android.gms.maps.SupportMapFragment"-->
 <!--        android:layout_width="match_parent"-->
