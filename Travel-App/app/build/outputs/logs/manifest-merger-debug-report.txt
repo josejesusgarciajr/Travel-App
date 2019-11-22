@@ -1,0 +1,497 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/jginvincible/git/TravelApp/Travel-App/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /Users/jginvincible/git/TravelApp/Travel-App/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /Users/jginvincible/git/TravelApp/Travel-App/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /Users/jginvincible/git/TravelApp/Travel-App/app/src/main/AndroidManifest.xml:2:1-31:12
+MERGED from [androidx.databinding:databinding-adapters:3.5.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/153a8b716e0760966c540046e215e4eb/databinding-adapters-3.5.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.databinding:databinding-runtime:3.5.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/15b6da1d39e9d4b273c3aca675a342aa/databinding-runtime-3.5.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui-ktx:2.1.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/8d974b73111d6451336ac78cb75b8b27/navigation-ui-ktx-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui:2.1.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/3a071f79a04924c9a01f7ef1707aae52/jetified-navigation-ui-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.0.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/487c49e46ee3d274192328aa89ce91d2/material-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/9adea920e51c9484d220608f44180ba7/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.1.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/2497ea1ef1d2c558c9d2e5e340b5e94c/core-ktx-1.1.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/d303468d549f66156038ae4516402db9/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/26daf7f40cdc840de2c9f82c2ee886de/jetified-play-services-maps-16.1.0/AndroidManifest.xml:17:1-38:12
+MERGED from [com.google.firebase:firebase-core:16.0.4] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/edfa9a88ebbd3a02b3bb206d61f29122/firebase-core-16.0.4/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/058d1d6847358ad26c18c00e1d7b3465/jetified-firebase-measurement-connector-impl-17.0.2/AndroidManifest.xml:17:1-34:12
+MERGED from [com.google.firebase:firebase-analytics:16.0.4] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/c6f1f85503b4cb0b64e22336f95856b9/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.2] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/9343b8000a7dba9efe05e92073876175/jetified-play-services-measurement-api-16.0.2/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/592a0aa7c2abe653d38f96237ccce45f/jetified-firebase-analytics-impl-16.2.2/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/23c73d4741213bde7a6a137e5929fab6/jetified-firebase-iid-17.0.3/AndroidManifest.xml:17:1-59:12
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/8d7fb4772ad685179e537f87e4acaae2/jetified-firebase-iid-interop-16.0.1/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/16b1ffa970c9824bfdefd964e9572ba5/jetified-play-services-base-16.0.1/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/7a5221952fefd3eb52b27eeb6f51cddf/jetified-play-services-stats-16.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-common:16.0.3] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/8714b791c976b532bcf25fd2d3cbab55/jetified-firebase-common-16.0.3/AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/4c350223de685b73695727ee90f726d1/jetified-firebase-measurement-connector-17.0.1/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/9d4a75b4622c29076e7ad8775c710dfc/jetified-play-services-tasks-16.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/6872fffda7649213e4f5a24f33c0b97d/jetified-play-services-ads-identifier-16.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/044239ddb69001075cd645e15944339f/jetified-play-services-basement-16.0.1/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/71a91956e4ff64bc142b226e37140d40/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.1.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/373a829a6e44f7a2b03947c4edae55b0/navigation-fragment-ktx-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-fragment:2.1.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/a89782c2e028eab0b547f6053a2a24d4/navigation-fragment-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment-ktx:1.1.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/b9f391b57d5a9207ae0a3a5e47aa8c48/fragment-ktx-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/2b5cc9974aee9d6a36458f4b04dabe2f/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/8ec0163d5c3f4ffd16ce131f8d7f8b54/appcompat-resources-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/9211a2cf489a1d5dc79c7486d78d894c/recyclerview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/86be2e3887de8186c3e197ae086c6701/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/f2b283ebc1c171c32dd8d144ca1a3863/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/0d6d65d8a937e57004d8a13c2dacaf7e/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/fa6e3e487d4584f65e86e85721e10fd6/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/3d9f84e10cd398c844e523f46f332116/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/d445192463acae265fa58cc1910ed4a4/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.1.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/550a2fcec73eb93a61e3f0b129465a98/navigation-runtime-ktx-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime:2.1.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/03c491d6f2ef454da42b0919278a6814/navigation-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-ktx:1.0.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/70e4facc6b54b8d060c427128a93b8b0/activity-ktx-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.0.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/27cd7dd29377f4fb24c796112407838b/activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/6ff287230bb34e8b8dcdde591d7cafc8/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/02d3c6352ae804ce31d7f7eb89d84928/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/3c9003e2c1715304cd8f6428f43b98c3/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/c29a13bd71fdbcf574af74a702ba6c7b/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/3b85616eab80ea29c26cce8a280d9810/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/4a0f2e435afdcab3203aa1243de7656d/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/83eb9eda4a6d705999043b6ddb2294b2/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.1] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/fcb20f35f91b9fb88f9931485de94bdd/transition-1.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.1.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/bb0de9f854545f0a2c68dcfa2b9e8e0a/navigation-common-ktx-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common:2.1.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/e1c47c3ae02eeaa276fa4168c69c505e/navigation-common-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.1.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/80f4ec32b056e92b0f8e39e2d02f4a95/core-1.1.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/ebcf1dc0c341448f247ad8412015fd07/lifecycle-runtime-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/db082a519cd5bdc2bce9af2b16419904/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.1.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/22940838c349c04f0e7d1fe0955aba8e/lifecycle-viewmodel-ktx-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/0b4856d9d22f1c4e8d674ed644ba4bdf/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/217b374cf3af5d1f71e453b17efb9c98/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/915b0552b3880522fc76537a70f45fd7/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/2fa2a93bfc089c00d13706f7d1c8509e/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/5a513cb388b14c6fd94daded5e798781/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/9aae511b0fc98fd333d44b715412e9bd/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/4a9ae471d7570b6c0a6d4e7742dad874/savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/c7d4926539d53800708916331d0900fc/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/14f253fb5453f79cd9bd6e4c679c1bdb/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/c5585d6f0cad588a26b4b67860798de6/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/6aa887336454dd463a7db7fa9705ba7c/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.3] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/289244e7a5638351cdce76288e166772/play-services-measurement-base-16.0.3/AndroidManifest.xml:2:1-9:12
+INJECTED from /Users/jginvincible/git/TravelApp/Travel-App/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /Users/jginvincible/git/TravelApp/Travel-App/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /Users/jginvincible/git/TravelApp/Travel-App/app/src/main/AndroidManifest.xml:2:1-31:12
+	package
+		ADDED from /Users/jginvincible/git/TravelApp/Travel-App/app/src/main/AndroidManifest.xml:3:5-45
+		INJECTED from /Users/jginvincible/git/TravelApp/Travel-App/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/jginvincible/git/TravelApp/Travel-App/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/jginvincible/git/TravelApp/Travel-App/app/src/main/AndroidManifest.xml
+		ADDED from /Users/jginvincible/git/TravelApp/Travel-App/app/src/main/AndroidManifest.xml:2:1-31:12
+		INJECTED from /Users/jginvincible/git/TravelApp/Travel-App/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/jginvincible/git/TravelApp/Travel-App/app/src/main/AndroidManifest.xml
+		ADDED from /Users/jginvincible/git/TravelApp/Travel-App/app/src/main/AndroidManifest.xml:2:1-31:12
+		INJECTED from /Users/jginvincible/git/TravelApp/Travel-App/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/jginvincible/git/TravelApp/Travel-App/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/jginvincible/git/TravelApp/Travel-App/app/src/main/AndroidManifest.xml:4:5-81
+	android:name
+		ADDED from /Users/jginvincible/git/TravelApp/Travel-App/app/src/main/AndroidManifest.xml:4:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/jginvincible/git/TravelApp/Travel-App/app/src/main/AndroidManifest.xml:5:5-79
+	android:name
+		ADDED from /Users/jginvincible/git/TravelApp/Travel-App/app/src/main/AndroidManifest.xml:5:22-76
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/jginvincible/git/TravelApp/Travel-App/app/src/main/AndroidManifest.xml:6:5-81
+	android:name
+		ADDED from /Users/jginvincible/git/TravelApp/Travel-App/app/src/main/AndroidManifest.xml:6:22-78
+application
+ADDED from /Users/jginvincible/git/TravelApp/Travel-App/app/src/main/AndroidManifest.xml:8:5-25:19
+MERGED from [com.google.android.material:material:1.0.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/487c49e46ee3d274192328aa89ce91d2/material-1.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/487c49e46ee3d274192328aa89ce91d2/material-1.0.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/d303468d549f66156038ae4516402db9/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/d303468d549f66156038ae4516402db9/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/26daf7f40cdc840de2c9f82c2ee886de/jetified-play-services-maps-16.1.0/AndroidManifest.xml:30:5-36:19
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/26daf7f40cdc840de2c9f82c2ee886de/jetified-play-services-maps-16.1.0/AndroidManifest.xml:30:5-36:19
+MERGED from [com.google.firebase:firebase-core:16.0.4] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/edfa9a88ebbd3a02b3bb206d61f29122/firebase-core-16.0.4/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:16.0.4] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/edfa9a88ebbd3a02b3bb206d61f29122/firebase-core-16.0.4/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/058d1d6847358ad26c18c00e1d7b3465/jetified-firebase-measurement-connector-impl-17.0.2/AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/058d1d6847358ad26c18c00e1d7b3465/jetified-firebase-measurement-connector-impl-17.0.2/AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-analytics:16.0.4] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/c6f1f85503b4cb0b64e22336f95856b9/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.firebase:firebase-analytics:16.0.4] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/c6f1f85503b4cb0b64e22336f95856b9/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.2] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/9343b8000a7dba9efe05e92073876175/jetified-play-services-measurement-api-16.0.2/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.2] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/9343b8000a7dba9efe05e92073876175/jetified-play-services-measurement-api-16.0.2/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/592a0aa7c2abe653d38f96237ccce45f/jetified-firebase-analytics-impl-16.2.2/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/592a0aa7c2abe653d38f96237ccce45f/jetified-firebase-analytics-impl-16.2.2/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/23c73d4741213bde7a6a137e5929fab6/jetified-firebase-iid-17.0.3/AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/23c73d4741213bde7a6a137e5929fab6/jetified-firebase-iid-17.0.3/AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/8d7fb4772ad685179e537f87e4acaae2/jetified-firebase-iid-interop-16.0.1/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/8d7fb4772ad685179e537f87e4acaae2/jetified-firebase-iid-interop-16.0.1/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/16b1ffa970c9824bfdefd964e9572ba5/jetified-play-services-base-16.0.1/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/16b1ffa970c9824bfdefd964e9572ba5/jetified-play-services-base-16.0.1/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/7a5221952fefd3eb52b27eeb6f51cddf/jetified-play-services-stats-16.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/7a5221952fefd3eb52b27eeb6f51cddf/jetified-play-services-stats-16.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-common:16.0.3] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/8714b791c976b532bcf25fd2d3cbab55/jetified-firebase-common-16.0.3/AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.firebase:firebase-common:16.0.3] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/8714b791c976b532bcf25fd2d3cbab55/jetified-firebase-common-16.0.3/AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/4c350223de685b73695727ee90f726d1/jetified-firebase-measurement-connector-17.0.1/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/4c350223de685b73695727ee90f726d1/jetified-firebase-measurement-connector-17.0.1/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/9d4a75b4622c29076e7ad8775c710dfc/jetified-play-services-tasks-16.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/9d4a75b4622c29076e7ad8775c710dfc/jetified-play-services-tasks-16.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/6872fffda7649213e4f5a24f33c0b97d/jetified-play-services-ads-identifier-16.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/6872fffda7649213e4f5a24f33c0b97d/jetified-play-services-ads-identifier-16.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/044239ddb69001075cd645e15944339f/jetified-play-services-basement-16.0.1/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/044239ddb69001075cd645e15944339f/jetified-play-services-basement-16.0.1/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.1.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/80f4ec32b056e92b0f8e39e2d02f4a95/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/80f4ec32b056e92b0f8e39e2d02f4a95/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/db082a519cd5bdc2bce9af2b16419904/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/db082a519cd5bdc2bce9af2b16419904/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.3] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/289244e7a5638351cdce76288e166772/play-services-measurement-base-16.0.3/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.3] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/289244e7a5638351cdce76288e166772/play-services-measurement-base-16.0.3/AndroidManifest.xml:7:5-20
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/80f4ec32b056e92b0f8e39e2d02f4a95/core-1.1.0/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /Users/jginvincible/git/TravelApp/Travel-App/app/src/main/AndroidManifest.xml:13:9-35
+	android:label
+		ADDED from /Users/jginvincible/git/TravelApp/Travel-App/app/src/main/AndroidManifest.xml:11:9-41
+	android:roundIcon
+		ADDED from /Users/jginvincible/git/TravelApp/Travel-App/app/src/main/AndroidManifest.xml:12:9-54
+	android:icon
+		ADDED from /Users/jginvincible/git/TravelApp/Travel-App/app/src/main/AndroidManifest.xml:10:9-43
+	android:allowBackup
+		ADDED from /Users/jginvincible/git/TravelApp/Travel-App/app/src/main/AndroidManifest.xml:9:9-35
+	android:theme
+		ADDED from /Users/jginvincible/git/TravelApp/Travel-App/app/src/main/AndroidManifest.xml:14:9-40
+activity#jwest.android_class.travel_app.MainActivity
+ADDED from /Users/jginvincible/git/TravelApp/Travel-App/app/src/main/AndroidManifest.xml:15:9-21:20
+	android:name
+		ADDED from /Users/jginvincible/git/TravelApp/Travel-App/app/src/main/AndroidManifest.xml:15:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/jginvincible/git/TravelApp/Travel-App/app/src/main/AndroidManifest.xml:16:13-20:29
+action#android.intent.action.MAIN
+ADDED from /Users/jginvincible/git/TravelApp/Travel-App/app/src/main/AndroidManifest.xml:17:17-69
+	android:name
+		ADDED from /Users/jginvincible/git/TravelApp/Travel-App/app/src/main/AndroidManifest.xml:17:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/jginvincible/git/TravelApp/Travel-App/app/src/main/AndroidManifest.xml:19:17-77
+	android:name
+		ADDED from /Users/jginvincible/git/TravelApp/Travel-App/app/src/main/AndroidManifest.xml:19:27-74
+meta-data#com.google.android.geo.API_KEY
+ADDED from /Users/jginvincible/git/TravelApp/Travel-App/app/src/main/AndroidManifest.xml:22:9-24:55
+	android:value
+		ADDED from /Users/jginvincible/git/TravelApp/Travel-App/app/src/main/AndroidManifest.xml:24:13-52
+	android:name
+		ADDED from /Users/jginvincible/git/TravelApp/Travel-App/app/src/main/AndroidManifest.xml:23:13-58
+uses-feature#0x00020000
+ADDED from /Users/jginvincible/git/TravelApp/Travel-App/app/src/main/AndroidManifest.xml:27:5-30:11
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/26daf7f40cdc840de2c9f82c2ee886de/jetified-play-services-maps-16.1.0/AndroidManifest.xml:26:5-28:35
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/26daf7f40cdc840de2c9f82c2ee886de/jetified-play-services-maps-16.1.0/AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from /Users/jginvincible/git/TravelApp/Travel-App/app/src/main/AndroidManifest.xml:28:9-41
+	android:required
+		ADDED from /Users/jginvincible/git/TravelApp/Travel-App/app/src/main/AndroidManifest.xml:29:9-32
+uses-sdk
+INJECTED from /Users/jginvincible/git/TravelApp/Travel-App/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/jginvincible/git/TravelApp/Travel-App/app/src/main/AndroidManifest.xml
+INJECTED from /Users/jginvincible/git/TravelApp/Travel-App/app/src/main/AndroidManifest.xml
+MERGED from [androidx.databinding:databinding-adapters:3.5.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/153a8b716e0760966c540046e215e4eb/databinding-adapters-3.5.0/AndroidManifest.xml:22:5-44
+MERGED from [androidx.databinding:databinding-adapters:3.5.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/153a8b716e0760966c540046e215e4eb/databinding-adapters-3.5.0/AndroidManifest.xml:22:5-44
+MERGED from [androidx.databinding:databinding-runtime:3.5.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/15b6da1d39e9d4b273c3aca675a342aa/databinding-runtime-3.5.0/AndroidManifest.xml:22:5-44
+MERGED from [androidx.databinding:databinding-runtime:3.5.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/15b6da1d39e9d4b273c3aca675a342aa/databinding-runtime-3.5.0/AndroidManifest.xml:22:5-44
+MERGED from [androidx.navigation:navigation-ui-ktx:2.1.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/8d974b73111d6451336ac78cb75b8b27/navigation-ui-ktx-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.1.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/8d974b73111d6451336ac78cb75b8b27/navigation-ui-ktx-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.1.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/3a071f79a04924c9a01f7ef1707aae52/jetified-navigation-ui-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.1.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/3a071f79a04924c9a01f7ef1707aae52/jetified-navigation-ui-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.0.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/487c49e46ee3d274192328aa89ce91d2/material-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/487c49e46ee3d274192328aa89ce91d2/material-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/9adea920e51c9484d220608f44180ba7/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/9adea920e51c9484d220608f44180ba7/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.1.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/2497ea1ef1d2c558c9d2e5e340b5e94c/core-ktx-1.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.1.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/2497ea1ef1d2c558c9d2e5e340b5e94c/core-ktx-1.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/d303468d549f66156038ae4516402db9/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/d303468d549f66156038ae4516402db9/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/26daf7f40cdc840de2c9f82c2ee886de/jetified-play-services-maps-16.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/26daf7f40cdc840de2c9f82c2ee886de/jetified-play-services-maps-16.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.4] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/edfa9a88ebbd3a02b3bb206d61f29122/firebase-core-16.0.4/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.4] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/edfa9a88ebbd3a02b3bb206d61f29122/firebase-core-16.0.4/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/058d1d6847358ad26c18c00e1d7b3465/jetified-firebase-measurement-connector-impl-17.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/058d1d6847358ad26c18c00e1d7b3465/jetified-firebase-measurement-connector-impl-17.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.0.4] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/c6f1f85503b4cb0b64e22336f95856b9/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.0.4] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/c6f1f85503b4cb0b64e22336f95856b9/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.2] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/9343b8000a7dba9efe05e92073876175/jetified-play-services-measurement-api-16.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.2] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/9343b8000a7dba9efe05e92073876175/jetified-play-services-measurement-api-16.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/592a0aa7c2abe653d38f96237ccce45f/jetified-firebase-analytics-impl-16.2.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/592a0aa7c2abe653d38f96237ccce45f/jetified-firebase-analytics-impl-16.2.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/23c73d4741213bde7a6a137e5929fab6/jetified-firebase-iid-17.0.3/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/23c73d4741213bde7a6a137e5929fab6/jetified-firebase-iid-17.0.3/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/8d7fb4772ad685179e537f87e4acaae2/jetified-firebase-iid-interop-16.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/8d7fb4772ad685179e537f87e4acaae2/jetified-firebase-iid-interop-16.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/16b1ffa970c9824bfdefd964e9572ba5/jetified-play-services-base-16.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/16b1ffa970c9824bfdefd964e9572ba5/jetified-play-services-base-16.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/7a5221952fefd3eb52b27eeb6f51cddf/jetified-play-services-stats-16.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/7a5221952fefd3eb52b27eeb6f51cddf/jetified-play-services-stats-16.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:16.0.3] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/8714b791c976b532bcf25fd2d3cbab55/jetified-firebase-common-16.0.3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-common:16.0.3] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/8714b791c976b532bcf25fd2d3cbab55/jetified-firebase-common-16.0.3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/4c350223de685b73695727ee90f726d1/jetified-firebase-measurement-connector-17.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/4c350223de685b73695727ee90f726d1/jetified-firebase-measurement-connector-17.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/9d4a75b4622c29076e7ad8775c710dfc/jetified-play-services-tasks-16.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/9d4a75b4622c29076e7ad8775c710dfc/jetified-play-services-tasks-16.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/6872fffda7649213e4f5a24f33c0b97d/jetified-play-services-ads-identifier-16.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/6872fffda7649213e4f5a24f33c0b97d/jetified-play-services-ads-identifier-16.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/044239ddb69001075cd645e15944339f/jetified-play-services-basement-16.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/044239ddb69001075cd645e15944339f/jetified-play-services-basement-16.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/71a91956e4ff64bc142b226e37140d40/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/71a91956e4ff64bc142b226e37140d40/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.1.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/373a829a6e44f7a2b03947c4edae55b0/navigation-fragment-ktx-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.1.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/373a829a6e44f7a2b03947c4edae55b0/navigation-fragment-ktx-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.1.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/a89782c2e028eab0b547f6053a2a24d4/navigation-fragment-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.1.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/a89782c2e028eab0b547f6053a2a24d4/navigation-fragment-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.1.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/b9f391b57d5a9207ae0a3a5e47aa8c48/fragment-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.1.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/b9f391b57d5a9207ae0a3a5e47aa8c48/fragment-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/2b5cc9974aee9d6a36458f4b04dabe2f/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/2b5cc9974aee9d6a36458f4b04dabe2f/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/8ec0163d5c3f4ffd16ce131f8d7f8b54/appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/8ec0163d5c3f4ffd16ce131f8d7f8b54/appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/9211a2cf489a1d5dc79c7486d78d894c/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/9211a2cf489a1d5dc79c7486d78d894c/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/86be2e3887de8186c3e197ae086c6701/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/86be2e3887de8186c3e197ae086c6701/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/f2b283ebc1c171c32dd8d144ca1a3863/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/f2b283ebc1c171c32dd8d144ca1a3863/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/0d6d65d8a937e57004d8a13c2dacaf7e/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/0d6d65d8a937e57004d8a13c2dacaf7e/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/fa6e3e487d4584f65e86e85721e10fd6/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/fa6e3e487d4584f65e86e85721e10fd6/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/3d9f84e10cd398c844e523f46f332116/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/3d9f84e10cd398c844e523f46f332116/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/d445192463acae265fa58cc1910ed4a4/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/d445192463acae265fa58cc1910ed4a4/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.1.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/550a2fcec73eb93a61e3f0b129465a98/navigation-runtime-ktx-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.1.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/550a2fcec73eb93a61e3f0b129465a98/navigation-runtime-ktx-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.1.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/03c491d6f2ef454da42b0919278a6814/navigation-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.1.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/03c491d6f2ef454da42b0919278a6814/navigation-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.0.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/70e4facc6b54b8d060c427128a93b8b0/activity-ktx-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.0.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/70e4facc6b54b8d060c427128a93b8b0/activity-ktx-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/27cd7dd29377f4fb24c796112407838b/activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/27cd7dd29377f4fb24c796112407838b/activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/6ff287230bb34e8b8dcdde591d7cafc8/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/6ff287230bb34e8b8dcdde591d7cafc8/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/02d3c6352ae804ce31d7f7eb89d84928/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/02d3c6352ae804ce31d7f7eb89d84928/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/3c9003e2c1715304cd8f6428f43b98c3/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/3c9003e2c1715304cd8f6428f43b98c3/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/c29a13bd71fdbcf574af74a702ba6c7b/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/c29a13bd71fdbcf574af74a702ba6c7b/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/3b85616eab80ea29c26cce8a280d9810/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/3b85616eab80ea29c26cce8a280d9810/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/4a0f2e435afdcab3203aa1243de7656d/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/4a0f2e435afdcab3203aa1243de7656d/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/83eb9eda4a6d705999043b6ddb2294b2/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/83eb9eda4a6d705999043b6ddb2294b2/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.1] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/fcb20f35f91b9fb88f9931485de94bdd/transition-1.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.1] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/fcb20f35f91b9fb88f9931485de94bdd/transition-1.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.1.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/bb0de9f854545f0a2c68dcfa2b9e8e0a/navigation-common-ktx-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.1.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/bb0de9f854545f0a2c68dcfa2b9e8e0a/navigation-common-ktx-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.1.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/e1c47c3ae02eeaa276fa4168c69c505e/navigation-common-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.1.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/e1c47c3ae02eeaa276fa4168c69c505e/navigation-common-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/80f4ec32b056e92b0f8e39e2d02f4a95/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/80f4ec32b056e92b0f8e39e2d02f4a95/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/ebcf1dc0c341448f247ad8412015fd07/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/ebcf1dc0c341448f247ad8412015fd07/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/db082a519cd5bdc2bce9af2b16419904/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/db082a519cd5bdc2bce9af2b16419904/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.1.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/22940838c349c04f0e7d1fe0955aba8e/lifecycle-viewmodel-ktx-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.1.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/22940838c349c04f0e7d1fe0955aba8e/lifecycle-viewmodel-ktx-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/0b4856d9d22f1c4e8d674ed644ba4bdf/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/0b4856d9d22f1c4e8d674ed644ba4bdf/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/217b374cf3af5d1f71e453b17efb9c98/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/217b374cf3af5d1f71e453b17efb9c98/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/915b0552b3880522fc76537a70f45fd7/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/915b0552b3880522fc76537a70f45fd7/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/2fa2a93bfc089c00d13706f7d1c8509e/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/2fa2a93bfc089c00d13706f7d1c8509e/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/5a513cb388b14c6fd94daded5e798781/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/5a513cb388b14c6fd94daded5e798781/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/9aae511b0fc98fd333d44b715412e9bd/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/9aae511b0fc98fd333d44b715412e9bd/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/4a9ae471d7570b6c0a6d4e7742dad874/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/4a9ae471d7570b6c0a6d4e7742dad874/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/c7d4926539d53800708916331d0900fc/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/c7d4926539d53800708916331d0900fc/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/14f253fb5453f79cd9bd6e4c679c1bdb/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/14f253fb5453f79cd9bd6e4c679c1bdb/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/c5585d6f0cad588a26b4b67860798de6/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/c5585d6f0cad588a26b4b67860798de6/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/6aa887336454dd463a7db7fa9705ba7c/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/6aa887336454dd463a7db7fa9705ba7c/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.3] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/289244e7a5638351cdce76288e166772/play-services-measurement-base-16.0.3/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.3] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/289244e7a5638351cdce76288e166772/play-services-measurement-base-16.0.3/AndroidManifest.xml:5:5-44
+INJECTED from /Users/jginvincible/git/TravelApp/Travel-App/app/src/main/AndroidManifest.xml
+INJECTED from /Users/jginvincible/git/TravelApp/Travel-App/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/jginvincible/git/TravelApp/Travel-App/app/src/main/AndroidManifest.xml
+		ADDED from /Users/jginvincible/git/TravelApp/Travel-App/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/jginvincible/git/TravelApp/Travel-App/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/jginvincible/git/TravelApp/Travel-App/app/src/main/AndroidManifest.xml
+		ADDED from /Users/jginvincible/git/TravelApp/Travel-App/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/jginvincible/git/TravelApp/Travel-App/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-maps:16.1.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/26daf7f40cdc840de2c9f82c2ee886de/jetified-play-services-maps-16.1.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/058d1d6847358ad26c18c00e1d7b3465/jetified-firebase-measurement-connector-impl-17.0.2/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/058d1d6847358ad26c18c00e1d7b3465/jetified-firebase-measurement-connector-impl-17.0.2/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-analytics:16.0.4] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/c6f1f85503b4cb0b64e22336f95856b9/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics:16.0.4] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/c6f1f85503b4cb0b64e22336f95856b9/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/592a0aa7c2abe653d38f96237ccce45f/jetified-firebase-analytics-impl-16.2.2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/592a0aa7c2abe653d38f96237ccce45f/jetified-firebase-analytics-impl-16.2.2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/23c73d4741213bde7a6a137e5929fab6/jetified-firebase-iid-17.0.3/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/23c73d4741213bde7a6a137e5929fab6/jetified-firebase-iid-17.0.3/AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:16.1.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/26daf7f40cdc840de2c9f82c2ee886de/jetified-play-services-maps-16.1.0/AndroidManifest.xml:23:22-76
+uses-permission#android.permission.INTERNET
+ADDED from [com.google.android.gms:play-services-maps:16.1.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/26daf7f40cdc840de2c9f82c2ee886de/jetified-play-services-maps-16.1.0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/058d1d6847358ad26c18c00e1d7b3465/jetified-firebase-measurement-connector-impl-17.0.2/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/058d1d6847358ad26c18c00e1d7b3465/jetified-firebase-measurement-connector-impl-17.0.2/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.0.4] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/c6f1f85503b4cb0b64e22336f95856b9/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.0.4] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/c6f1f85503b4cb0b64e22336f95856b9/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/592a0aa7c2abe653d38f96237ccce45f/jetified-firebase-analytics-impl-16.2.2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/592a0aa7c2abe653d38f96237ccce45f/jetified-firebase-analytics-impl-16.2.2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/23c73d4741213bde7a6a137e5929fab6/jetified-firebase-iid-17.0.3/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/23c73d4741213bde7a6a137e5929fab6/jetified-firebase-iid-17.0.3/AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:16.1.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/26daf7f40cdc840de2c9f82c2ee886de/jetified-play-services-maps-16.1.0/AndroidManifest.xml:24:22-64
+uses-library#org.apache.http.legacy
+ADDED from [com.google.android.gms:play-services-maps:16.1.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/26daf7f40cdc840de2c9f82c2ee886de/jetified-play-services-maps-16.1.0/AndroidManifest.xml:33:9-35:40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:16.1.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/26daf7f40cdc840de2c9f82c2ee886de/jetified-play-services-maps-16.1.0/AndroidManifest.xml:35:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:16.1.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/26daf7f40cdc840de2c9f82c2ee886de/jetified-play-services-maps-16.1.0/AndroidManifest.xml:34:13-50
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/058d1d6847358ad26c18c00e1d7b3465/jetified-firebase-measurement-connector-impl-17.0.2/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-analytics:16.0.4] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/c6f1f85503b4cb0b64e22336f95856b9/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics:16.0.4] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/c6f1f85503b4cb0b64e22336f95856b9/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/592a0aa7c2abe653d38f96237ccce45f/jetified-firebase-analytics-impl-16.2.2/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/592a0aa7c2abe653d38f96237ccce45f/jetified-firebase-analytics-impl-16.2.2/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/23c73d4741213bde7a6a137e5929fab6/jetified-firebase-iid-17.0.3/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/23c73d4741213bde7a6a137e5929fab6/jetified-firebase-iid-17.0.3/AndroidManifest.xml:24:5-68
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/058d1d6847358ad26c18c00e1d7b3465/jetified-firebase-measurement-connector-impl-17.0.2/AndroidManifest.xml:24:22-65
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/058d1d6847358ad26c18c00e1d7b3465/jetified-firebase-measurement-connector-impl-17.0.2/AndroidManifest.xml:27:9-31:19
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/23c73d4741213bde7a6a137e5929fab6/jetified-firebase-iid-17.0.3/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/23c73d4741213bde7a6a137e5929fab6/jetified-firebase-iid-17.0.3/AndroidManifest.xml:29:9-35:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/23c73d4741213bde7a6a137e5929fab6/jetified-firebase-iid-17.0.3/AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/058d1d6847358ad26c18c00e1d7b3465/jetified-firebase-measurement-connector-impl-17.0.2/AndroidManifest.xml:27:18-89
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/058d1d6847358ad26c18c00e1d7b3465/jetified-firebase-measurement-connector-impl-17.0.2/AndroidManifest.xml:28:13-30:85
+	android:value
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/058d1d6847358ad26c18c00e1d7b3465/jetified-firebase-measurement-connector-impl-17.0.2/AndroidManifest.xml:30:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/058d1d6847358ad26c18c00e1d7b3465/jetified-firebase-measurement-connector-impl-17.0.2/AndroidManifest.xml:29:17-139
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.firebase:firebase-analytics:16.0.4] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/c6f1f85503b4cb0b64e22336f95856b9/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/592a0aa7c2abe653d38f96237ccce45f/jetified-firebase-analytics-impl-16.2.2/AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/592a0aa7c2abe653d38f96237ccce45f/jetified-firebase-analytics-impl-16.2.2/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/c6f1f85503b4cb0b64e22336f95856b9/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:16.0.4] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/c6f1f85503b4cb0b64e22336f95856b9/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/c6f1f85503b4cb0b64e22336f95856b9/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/c6f1f85503b4cb0b64e22336f95856b9/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/c6f1f85503b4cb0b64e22336f95856b9/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:16.0.4] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/c6f1f85503b4cb0b64e22336f95856b9/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:34:9-42:20
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/592a0aa7c2abe653d38f96237ccce45f/jetified-firebase-analytics-impl-16.2.2/AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/592a0aa7c2abe653d38f96237ccce45f/jetified-firebase-analytics-impl-16.2.2/AndroidManifest.xml:29:9-37:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/c6f1f85503b4cb0b64e22336f95856b9/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/c6f1f85503b4cb0b64e22336f95856b9/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/c6f1f85503b4cb0b64e22336f95856b9/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/c6f1f85503b4cb0b64e22336f95856b9/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:35:13-100
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:16.0.4] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/c6f1f85503b4cb0b64e22336f95856b9/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:39:13-41:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:16.0.4] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/c6f1f85503b4cb0b64e22336f95856b9/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:40:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/c6f1f85503b4cb0b64e22336f95856b9/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:40:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:16.0.4] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/c6f1f85503b4cb0b64e22336f95856b9/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:44:9-47:40
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/c6f1f85503b4cb0b64e22336f95856b9/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/c6f1f85503b4cb0b64e22336f95856b9/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/c6f1f85503b4cb0b64e22336f95856b9/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:45:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.firebase:firebase-analytics:16.0.4] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/c6f1f85503b4cb0b64e22336f95856b9/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/c6f1f85503b4cb0b64e22336f95856b9/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/c6f1f85503b4cb0b64e22336f95856b9/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/c6f1f85503b4cb0b64e22336f95856b9/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/c6f1f85503b4cb0b64e22336f95856b9/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:49:13-87
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/23c73d4741213bde7a6a137e5929fab6/jetified-firebase-iid-17.0.3/AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/23c73d4741213bde7a6a137e5929fab6/jetified-firebase-iid-17.0.3/AndroidManifest.xml:26:22-79
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/23c73d4741213bde7a6a137e5929fab6/jetified-firebase-iid-17.0.3/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/23c73d4741213bde7a6a137e5929fab6/jetified-firebase-iid-17.0.3/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/23c73d4741213bde7a6a137e5929fab6/jetified-firebase-iid-17.0.3/AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/23c73d4741213bde7a6a137e5929fab6/jetified-firebase-iid-17.0.3/AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/23c73d4741213bde7a6a137e5929fab6/jetified-firebase-iid-17.0.3/AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/23c73d4741213bde7a6a137e5929fab6/jetified-firebase-iid-17.0.3/AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/23c73d4741213bde7a6a137e5929fab6/jetified-firebase-iid-17.0.3/AndroidManifest.xml:38:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/23c73d4741213bde7a6a137e5929fab6/jetified-firebase-iid-17.0.3/AndroidManifest.xml:41:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/23c73d4741213bde7a6a137e5929fab6/jetified-firebase-iid-17.0.3/AndroidManifest.xml:42:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/23c73d4741213bde7a6a137e5929fab6/jetified-firebase-iid-17.0.3/AndroidManifest.xml:42:25-78
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/23c73d4741213bde7a6a137e5929fab6/jetified-firebase-iid-17.0.3/AndroidManifest.xml:50:9-56:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/23c73d4741213bde7a6a137e5929fab6/jetified-firebase-iid-17.0.3/AndroidManifest.xml:52:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/23c73d4741213bde7a6a137e5929fab6/jetified-firebase-iid-17.0.3/AndroidManifest.xml:51:13-77
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/23c73d4741213bde7a6a137e5929fab6/jetified-firebase-iid-17.0.3/AndroidManifest.xml:53:13-55:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/23c73d4741213bde7a6a137e5929fab6/jetified-firebase-iid-17.0.3/AndroidManifest.xml:53:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/23c73d4741213bde7a6a137e5929fab6/jetified-firebase-iid-17.0.3/AndroidManifest.xml:54:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/23c73d4741213bde7a6a137e5929fab6/jetified-firebase-iid-17.0.3/AndroidManifest.xml:54:25-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/16b1ffa970c9824bfdefd964e9572ba5/jetified-play-services-base-16.0.1/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/16b1ffa970c9824bfdefd964e9572ba5/jetified-play-services-base-16.0.1/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/16b1ffa970c9824bfdefd964e9572ba5/jetified-play-services-base-16.0.1/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/16b1ffa970c9824bfdefd964e9572ba5/jetified-play-services-base-16.0.1/AndroidManifest.xml:24:13-79
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:16.0.3] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/8714b791c976b532bcf25fd2d3cbab55/jetified-firebase-common-16.0.3/AndroidManifest.xml:10:9-14:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:16.0.3] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/8714b791c976b532bcf25fd2d3cbab55/jetified-firebase-common-16.0.3/AndroidManifest.xml:12:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:16.0.3] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/8714b791c976b532bcf25fd2d3cbab55/jetified-firebase-common-16.0.3/AndroidManifest.xml:13:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:16.0.3] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/8714b791c976b532bcf25fd2d3cbab55/jetified-firebase-common-16.0.3/AndroidManifest.xml:14:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:16.0.3] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/8714b791c976b532bcf25fd2d3cbab55/jetified-firebase-common-16.0.3/AndroidManifest.xml:11:13-77
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:16.0.1] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/044239ddb69001075cd645e15944339f/jetified-play-services-basement-16.0.1/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/044239ddb69001075cd645e15944339f/jetified-play-services-basement-16.0.1/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/044239ddb69001075cd645e15944339f/jetified-play-services-basement-16.0.1/AndroidManifest.xml:24:13-58

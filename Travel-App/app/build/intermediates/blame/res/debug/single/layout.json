@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/jginvincible/git/TravelApp/Travel-App/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_title.xml",
+        "source": "/Users/jginvincible/git/TravelApp/Travel-App/app/src/main/res/layout/fragment_title.xml"
+    },
+    {
+        "merged": "/Users/jginvincible/git/TravelApp/Travel-App/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main.xml",
+        "source": "/Users/jginvincible/git/TravelApp/Travel-App/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/jginvincible/git/TravelApp/Travel-App/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_map.xml",
+        "source": "/Users/jginvincible/git/TravelApp/Travel-App/app/src/main/res/layout/fragment_map.xml"
+    }
+]
