@@ -34,8 +34,7 @@ class MapFragment : Fragment(), OnMapReadyCallback, GoogleMap.OnInfoWindowClickL
     }
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
-        savedInstanceState: Bundle?
-    ): View? {
+        savedInstanceState: Bundle?): View? {
         // MIGHT NEED TO IMPLEMENT BINDING
         gGroup = Group()
 
@@ -97,4 +96,18 @@ class MapFragment : Fragment(), OnMapReadyCallback, GoogleMap.OnInfoWindowClickL
     override fun onInfoWindowClick(p0: Marker?) {
 
     }
+
+//    fun loadDatabase(firebaseData: DatabaseReference) {
+//        val availableSalads: List<Salad> = mutableListOf(
+//            Salad("Gherkin", "Fresh and delicious"),
+//            Salad("Lettuce", "Easy to prepare"),
+//            Salad("Tomato", "Boring but healthy"),
+//            Salad("Zucchini", "Healthy and gross")
+//        )
+//        availableSalads.forEach {
+//            val key = firebaseData.child("salads").push().key
+//            it.uuid = key
+//            firebaseData.child("salads").child(key).setValue(it)
+//        }
+//    }
 }
