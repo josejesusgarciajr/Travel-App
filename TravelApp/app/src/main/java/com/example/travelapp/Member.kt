@@ -1,8 +1,8 @@
-package j.edu.travel_app
+package com.example.travelapp
 
 import com.google.android.gms.maps.model.LatLng
 
-class Member (firstName: String, lastName: String, age : Int, coordinates: Coordinates) {
+class Member (firstName: String, lastName: String, age : Int, coordinates: Coordinates)  {
 
     val firstName = firstName;
     fun getFullName() : String {

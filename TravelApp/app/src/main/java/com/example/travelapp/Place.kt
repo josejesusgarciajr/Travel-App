@@ -1,4 +1,4 @@
-package j.edu.travel_app
+package com.example.travelapp
 
 class Place(name: String, coordinates: Coordinates, rating: Int, description : String) {
     var name = name;

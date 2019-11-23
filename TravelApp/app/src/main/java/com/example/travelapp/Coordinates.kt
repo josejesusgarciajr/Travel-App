@@ -1,4 +1,4 @@
-package j.edu.travel_app
+package com.example.travelapp
 
 import com.google.android.gms.maps.model.LatLng
 

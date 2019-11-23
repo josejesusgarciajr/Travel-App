@@ -1,4 +1,4 @@
-package j.edu.travel_app
+package com.example.travelapp
 
 import org.junit.Test
 
