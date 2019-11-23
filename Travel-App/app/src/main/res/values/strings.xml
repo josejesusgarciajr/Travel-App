@@ -1,6 +1,0 @@
-<resources>
-    <string name="app_name">Travel App</string>
-    <string name="map_name">Map</string>
-    <string name="title_activity_maps">Map</string>
-    <string name="dropped_pin">Dropped Pin</string>
-</resources>
