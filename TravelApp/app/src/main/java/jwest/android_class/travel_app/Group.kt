@@ -11,7 +11,7 @@ class Group {
     }
 
     fun removeMember(member : Member) {
-        group.remove(member)
+        group.remove(member);
     }
 
     fun dispalyMembers(mMap : GoogleMap) {

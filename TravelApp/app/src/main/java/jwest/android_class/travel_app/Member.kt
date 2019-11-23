@@ -1,7 +1,7 @@
 package jwest.android_class.travel_app
 import com.google.android.gms.maps.model.LatLng
 
-class Member (firstName: String, lastName: String, age : Int, coordinates: Coordinates)  {
+class Member (firstName: String, lastName: String, age : Int, coordinates: Coordinates) {
 
     val firstName = firstName;
     fun getFullName() : String {

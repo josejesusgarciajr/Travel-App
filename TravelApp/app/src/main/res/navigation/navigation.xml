@@ -25,6 +25,16 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         >
+        <action
+            android:id="@+id/action_mapFragment_to_landmarkFragment"
+            app:destination="@id/landmarkFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/landmarkFragment"
+        android:name="jwest.android_class.travel_app.LandmarkFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
     </fragment>
 <!--    <fragment-->
 <!--        android:id="@+id/map"-->
