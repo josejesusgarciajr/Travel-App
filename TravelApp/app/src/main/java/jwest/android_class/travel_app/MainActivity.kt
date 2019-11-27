@@ -3,12 +3,18 @@ package jwest.android_class.travel_app
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import android.widget.Toast
 import androidx.databinding.DataBindingUtil
 
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.navigation.findNavController
 import androidx.navigation.ui.NavigationUI
 import jwest.android_class.travel_app.databinding.ActivityMainBinding
+import androidx.databinding.adapters.NumberPickerBindingAdapter.setValue
+import com.google.firebase.database.DatabaseReference
+import com.google.firebase.database.FirebaseDatabase
+
+
 
 class MainActivity : AppCompatActivity() {
     private lateinit var drawerLayout: DrawerLayout
@@ -26,9 +32,25 @@ class MainActivity : AppCompatActivity() {
         NavigationUI.setupWithNavController(binding.navView, navController)
         NavigationUI.setupActionBarWithNavController(this, navController, drawerLayout)
         Log.d("here", " main activity")
+
+        // Write a message to the database
+//        val database = FirebaseDatabase.getInstance()
+//        val myRef = database.getReference("message")
+//
+//        myRef.setValue("Hello, World!")
+
+        // THIS IS SUPPOSE TO GET A CONNECTION TO FIREBASE
+        val ref = FirebaseDatabase.getInstance().getReference("members")
+        val memberID : String = ref.push().key.toString()
+        val coordinates : Coordinates = Coordinates(100.0, 100.0)
+        val member : Member = Member(memberID, "Cindy", "Molina", 21, coordinates)
+        Log.d("REF", ref.database.reference.toString())
+        Log.d("MemberID", memberID)
+        // THIS IS SUPPOSE TO ADD A MEMBER TO FIREBASE WITH NAME Cindy Molina
+        ref.child(memberID).setValue(member).addOnCompleteListener {
+            Toast.makeText(applicationContext, "Member added Successfully", Toast.LENGTH_LONG).show()
+        }
     }
-
-
     //override this method to tell Android to call navigateUp() in the navigation controller when
     //up button is pressed
     override fun onSupportNavigateUp(): Boolean {

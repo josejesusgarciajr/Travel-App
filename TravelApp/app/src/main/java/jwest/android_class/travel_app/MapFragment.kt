@@ -22,6 +22,8 @@ import java.util.*
 class MapFragment : Fragment(), OnMapReadyCallback, GoogleMap.OnInfoWindowClickListener {
     private lateinit var binding: FragmentMapBinding
     private lateinit var gGroup: Group
+
+    //private val ref = FirebaseDatabase
     var mapFragment : SupportMapFragment? = null
 
     private lateinit var mMap : GoogleMap
@@ -39,10 +41,10 @@ class MapFragment : Fragment(), OnMapReadyCallback, GoogleMap.OnInfoWindowClickL
         gGroup = Group()
 
         // HARD CODE JUST FOR TESTING PURPOSES
-        gGroup.addMember(Member("Jose", "Garcia", 21, Coordinates(36.1699, -115.1398)))
-        gGroup.addMember(Member("Nairbis", "Sibrian", 21, Coordinates(38.7567, -120.8607)))
-        gGroup.addMember(Member("Ruben", "Garcia", 22, Coordinates(21.1619, -86.8515)))
-        gGroup.addMember(Member("Leslie", "Garcia", 21, Coordinates(19.8968, -155.5828)))
+        gGroup.addMember(Member("test1","Jose", "Garcia", 21, Coordinates(36.1699, -115.1398)))
+        gGroup.addMember(Member("test2","Nairbis", "Sibrian", 21, Coordinates(38.7567, -120.8607)))
+        gGroup.addMember(Member("test3","Ruben", "Garcia", 22, Coordinates(21.1619, -86.8515)))
+        gGroup.addMember(Member("test4","Leslie", "Garcia", 21, Coordinates(19.8968, -155.5828)))
         return inflater.inflate(R.layout.fragment_map, container, false)
     }
 
