@@ -21,7 +21,7 @@ class LandmarkFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         binding = DataBindingUtil.inflate<FragmentLandmarkBinding>(inflater,
-            R.layout.fragment_title,container,false)
+            R.layout.fragment_landmark, container,false)
         // Bind this fragment class to the layout
         binding.landmarkFragment = this
 

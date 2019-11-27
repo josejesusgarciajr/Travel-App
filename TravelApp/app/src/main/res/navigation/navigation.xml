@@ -22,6 +22,9 @@
         <action
             android:id="@+id/action_titleFragment_to_reviewFragment"
             app:destination="@id/reviewFragment" />
+        <action
+            android:id="@+id/action_titleFragment_to_landmarkFragment"
+            app:destination="@id/landmarkFragment" />
     </fragment>
     <fragment
         android:id="@+id/mapFragment"
