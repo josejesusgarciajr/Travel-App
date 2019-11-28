@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">TravelApp</string>
     <string name="map_name">Map</string>
+    <string name="place_name">Location</string>
+    <string name="place_description">Description</string>
 
 </resources>
