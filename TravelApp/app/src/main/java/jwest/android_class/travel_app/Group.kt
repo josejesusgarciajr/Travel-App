@@ -41,7 +41,7 @@ class Group {
                         val member = M.getValue(Member::class.java)
                         group.add(member!!)
 
-                        val latLng : LatLng = LatLng(member.coord.lng, member.coord.lng)
+                        val latLng : LatLng = LatLng(member.coord.lat, member.coord.lng)
                         val info = member.getFullName() + " Lat: " + member.coord.lat + " Lng: " + member.coord.lng
                         Log.d("NameLatLng", info)
                         //mMap.addMarker(MarkerOptions().position(member.LatLng()).title(member.getFullName()))
