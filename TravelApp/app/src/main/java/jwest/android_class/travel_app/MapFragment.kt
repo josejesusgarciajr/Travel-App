@@ -41,10 +41,10 @@ class MapFragment : Fragment(), OnMapReadyCallback, GoogleMap.OnInfoWindowClickL
         gGroup = Group()
 
         // HARD CODE JUST FOR TESTING PURPOSES
-        gGroup.addMember(Member("test1","Jose", "Garcia", 21, Coordinates(36.1699, -115.1398)))
-        gGroup.addMember(Member("test2","Nairbis", "Sibrian", 21, Coordinates(38.7567, -120.8607)))
-        gGroup.addMember(Member("test3","Ruben", "Garcia", 22, Coordinates(21.1619, -86.8515)))
-        gGroup.addMember(Member("test4","Leslie", "Garcia", 21, Coordinates(19.8968, -155.5828)))
+//        gGroup.addMember(Member("test1","Jose", "Garcia", 21, Coordinates(36.1699, -115.1398)))
+//        gGroup.addMember(Member("test2","Nairbis", "Sibrian", 21, Coordinates(38.7567, -120.8607)))
+//        gGroup.addMember(Member("test3","Ruben", "Garcia", 22, Coordinates(21.1619, -86.8515)))
+//        gGroup.addMember(Member("test4","Leslie", "Garcia", 21, Coordinates(19.8968, -155.5828)))
         return inflater.inflate(R.layout.fragment_map, container, false)
     }
 
@@ -52,7 +52,7 @@ class MapFragment : Fragment(), OnMapReadyCallback, GoogleMap.OnInfoWindowClickL
         google_map?. let{
             mMap = it
         }
-        gGroup.dispalyMembers(mMap)
+        gGroup.displayMembers(mMap)
 
         setMapLongClick(mMap)
 
@@ -60,7 +60,7 @@ class MapFragment : Fragment(), OnMapReadyCallback, GoogleMap.OnInfoWindowClickL
 
         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(LatLng(36.1000, -115.1000), zoom))
 
-        gGroup.dispalyMembers(mMap)
+        gGroup.displayMembers(mMap)
 
         // creates a custom marker window using the CustomMarker class
         // use setOnInfoWindowClickListener to click on the pin and view details
@@ -99,17 +99,4 @@ class MapFragment : Fragment(), OnMapReadyCallback, GoogleMap.OnInfoWindowClickL
 
     }
 
-//    fun loadDatabase(firebaseData: DatabaseReference) {
-//        val availableSalads: List<Salad> = mutableListOf(
-//            Salad("Gherkin", "Fresh and delicious"),
-//            Salad("Lettuce", "Easy to prepare"),
-//            Salad("Tomato", "Boring but healthy"),
-//            Salad("Zucchini", "Healthy and gross")
-//        )
-//        availableSalads.forEach {
-//            val key = firebaseData.child("salads").push().key
-//            it.uuid = key
-//            firebaseData.child("salads").child(key).setValue(it)
-//        }
-//    }
 }

@@ -17,7 +17,11 @@ import com.google.firebase.database.FirebaseDatabase
 
 
 class MainActivity : AppCompatActivity() {
+
+
     private lateinit var drawerLayout: DrawerLayout
+    private lateinit var ref: DatabaseReference
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         @Suppress("UNUSED_VARIABLE")
@@ -33,23 +37,18 @@ class MainActivity : AppCompatActivity() {
         NavigationUI.setupActionBarWithNavController(this, navController, drawerLayout)
         Log.d("here", " main activity")
 
-        // Write a message to the database
-//        val database = FirebaseDatabase.getInstance()
-//        val myRef = database.getReference("message")
-//
-//        myRef.setValue("Hello, World!")
 
         // THIS IS SUPPOSE TO GET A CONNECTION TO FIREBASE
-        val ref = FirebaseDatabase.getInstance().getReference("members")
-        val memberID : String = ref.push().key.toString()
-        val coordinates : Coordinates = Coordinates(100.0, 100.0)
-        val member : Member = Member(memberID, "Cindy", "Molina", 21, coordinates)
-        Log.d("REF", ref.database.reference.toString())
-        Log.d("MemberID", memberID)
-        // THIS IS SUPPOSE TO ADD A MEMBER TO FIREBASE WITH NAME Cindy Molina
-        ref.child(memberID).setValue(member).addOnCompleteListener {
-            Toast.makeText(applicationContext, "Member added Successfully", Toast.LENGTH_LONG).show()
-        }
+        ref = FirebaseDatabase.getInstance().getReference("members")
+//        val memberID : String = ref.push().key.toString()
+//        val coordinates : Coordinates = Coordinates(36.2048, -138.2529)
+//        val member : Member = Member(memberID, "Saul", "V.", 21, coordinates)
+//        Log.d("REF", ref.database.reference.toString())
+//        Log.d("MemberID", memberID)
+//        // THIS IS SUPPOSE TO ADD A MEMBER TO FIREBASE WITH NAME Cindy Molina
+//        ref.child(memberID).setValue(member).addOnCompleteListener {
+//            Toast.makeText(applicationContext, "Member added Successfully", Toast.LENGTH_LONG).show()
+//        }
     }
     //override this method to tell Android to call navigateUp() in the navigation controller when
     //up button is pressed
