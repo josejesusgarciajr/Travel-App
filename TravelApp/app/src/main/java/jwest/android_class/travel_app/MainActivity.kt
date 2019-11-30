@@ -40,15 +40,8 @@ class MainActivity : AppCompatActivity() {
 
         // THIS IS SUPPOSE TO GET A CONNECTION TO FIREBASE
         ref = FirebaseDatabase.getInstance().getReference("members")
-//        val memberID : String = ref.push().key.toString()
-//        val coordinates : Coordinates = Coordinates(36.2048, -138.2529)
-//        val member : Member = Member(memberID, "Saul", "V.", 21, coordinates)
-//        Log.d("REF", ref.database.reference.toString())
-//        Log.d("MemberID", memberID)
-//        // THIS IS SUPPOSE TO ADD A MEMBER TO FIREBASE WITH NAME Cindy Molina
-//        ref.child(memberID).setValue(member).addOnCompleteListener {
-//            Toast.makeText(applicationContext, "Member added Successfully", Toast.LENGTH_LONG).show()
-//        }
+
+        Log.d("FIREBASE_REF", ref.database.getReference().toString())
     }
     //override this method to tell Android to call navigateUp() in the navigation controller when
     //up button is pressed

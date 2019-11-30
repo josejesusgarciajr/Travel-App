@@ -56,11 +56,5 @@ class Group {
         Log.d("DISPLAYONGOOGLE...MAPS", "GOING TO FOR LOOP")
         Log.d("GROUP_SIZE", group.size.toString())
 
-//        for(member: Member in group) {
-//            val latLng : LatLng = LatLng(member.coord.Lng, member.coord.Lng)
-//            //mMap.addMarker(MarkerOptions().position(member.LatLng()).title(member.getFullName()))
-//            mMap.addMarker(MarkerOptions().position(latLng).title(member.getFullName()))
-//            Log.d("GOOGLEMAPS: ", member.firstName)
-//        }
     }
 }
