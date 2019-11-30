@@ -41,6 +41,16 @@ class MainActivity : AppCompatActivity() {
         // THIS IS SUPPOSE TO GET A CONNECTION TO FIREBASE
         ref = FirebaseDatabase.getInstance().getReference("members")
 
+        // ADDING
+//        val memberID : String = ref.push().key!!
+//        val c : Coordinates = Coordinates(40.7128, -74.0060)
+//
+//        val member : Member = Member(memberID, "Justine", "West", 22, c)
+//
+//        ref.child(memberID).setValue(member).addOnCompleteListener {
+//            Toast.makeText(applicationContext, "ADDED MEMBER SUCCESSFULLY!", Toast.LENGTH_LONG).show()
+//        }
+
         Log.d("FIREBASE_REF", ref.database.getReference().toString())
     }
     //override this method to tell Android to call navigateUp() in the navigation controller when
