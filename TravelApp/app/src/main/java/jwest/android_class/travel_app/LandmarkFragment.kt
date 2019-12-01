@@ -9,7 +9,6 @@ import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import androidx.navigation.findNavController
 import jwest.android_class.travel_app.databinding.FragmentLandmarkBinding
-import jwest.android_class.travel_app.databinding.FragmentTitleBinding
 
 /**
  * A simple [Fragment] subclass.
