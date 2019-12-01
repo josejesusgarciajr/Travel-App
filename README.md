@@ -22,5 +22,5 @@ Added a LandmarkFragment </br></br>
 </br>
 11/30/19</br>
 Add Landmark functionality is complete! </br></br>
-Users can now hold down the map at desired point to add landmarks! Once users choose destination, they will be prompted with input fields so they can enter the title, description, and rating of the landmark they are adding. Once successfully added, users will be redirected to the map, where there new landmark is a pin on the map.
+Users can now hold down the map at desired point to add landmarks! Once users choose a destination, they will be prompted with input fields so they can enter the title, description, and rating of the landmark they are adding. Once successfully added, users will be redirected to the MapFragment, where their new landmark is a pin on the map.
 </br>
