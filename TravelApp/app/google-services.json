@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "634997813665-0ulo9d07gbr20017co53eg40k2h26ijq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "jwest.android_class.travel_app",
+            "certificate_hash": "5cf50223ee068ddafc8eb8a05921283b689432a1"
+          }
+        },
+        {
           "client_id": "634997813665-bsop3sudqaf1l9u9unugegu63262lg61.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {

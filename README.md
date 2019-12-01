@@ -11,3 +11,11 @@ Navigation implentation needed</br>
   <li>Review fragment</li>
   <li>Styles,String and Colors xml files</li>
 </ul>
+</br>
+11/26/19</br>
+Added a LandmarkFragment </br></br>
+<ul>
+  <li>Displays the individual landmark page</li>
+  <li>Includes title, description, and rating of landmark</li>
+  <li>Future: Will have the functionality to submit a rating</li>
+</ul>
