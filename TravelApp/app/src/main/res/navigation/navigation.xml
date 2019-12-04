@@ -13,12 +13,25 @@
         <action
             android:id="@+id/action_titleFragment_to_mapFragment"
             app:destination="@id/mapFragment" />
+        <action
+            android:id="@+id/action_titleFragment_to_windowFragment"
+            app:destination="@id/windowFragment" />
     </fragment>
 
     <fragment
         android:id="@+id/mapFragment"
         android:name="com.example.travelapp.MapFragment"
         android:label="fragment_map"
-        tools:layout="@layout/fragment_map" />
+        tools:layout="@layout/fragment_map" >
+    <action
+        android:id="@+id/action_mapFragment_to_windowFragment"
+        app:destination="@id/windowFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/windowFragment"
+        android:name="com.example.travelapp.WindowFragment"
+        android:label="WindowFragment"
+        tools:layout="@layout/dialog_window" />
 
 </navigation>

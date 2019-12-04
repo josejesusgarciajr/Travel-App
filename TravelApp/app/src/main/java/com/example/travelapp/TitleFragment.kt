@@ -12,12 +12,16 @@ import androidx.navigation.findNavController
 import com.example.travelapp.databinding.FragmentTitleBinding
 import android.widget.Toast
 import android.content.DialogInterface
+import com.example.travelapp.databinding.DialogWindowBinding
 import kotlinx.android.synthetic.main.dialog_window.*
+import kotlinx.android.synthetic.main.dialog_window.view.*
 import kotlinx.android.synthetic.main.fragment_title.*
 
 
 class TitleFragment : Fragment() {
     private lateinit var binding: FragmentTitleBinding
+
+    private lateinit var binding2: DialogWindowBinding
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -29,10 +33,18 @@ class TitleFragment : Fragment() {
         // Bind this fragment class to the layout
         binding.title = this
 
+        binding2 = DataBindingUtil.inflate<DialogWindowBinding>(inflater,
+            R.layout.dialog_window,container,false)
+
         // Set the onClickListener for the submitButton
         binding.titleToMapButton.setOnClickListener { view : View ->
             view.findNavController().navigate(R.id.action_titleFragment_to_mapFragment)
         }
+
+
+//        binding.userDialogButton.setOnClickListener{view : View ->
+//            view.findNavController().navigate(R.id.action_titleFragment_to_windowFragment)
+//        }
 
         binding.userDialogButton.setOnClickListener{onClickShowAlert(it)}
 
@@ -46,17 +58,22 @@ class TitleFragment : Fragment() {
             // Get layout inflater
             val inflater = requireActivity().layoutInflater
 
+            // Inflate the dialog with custom window
+            val dialogView = inflater.inflate(R.layout.dialog_window, null)
+
             // Inflate and set the layout for the dialog
             // Pass null as the parent view because its going in the dialog layout
-            builder.setView(inflater.inflate(R.layout.dialog_window, null))
+            builder.setView(dialogView)
                 // Add action buttons
                 .setPositiveButton("OK")
                     { dialog, which ->
 
-                        //var rating = ratingBar.rating
+                        //val rating = ratingBar.rating.toString()
+                        val rating = dialogView.ratingBar.rating.toString()
+
                         // User clicked OK button.
                         Toast.makeText(
-                            view.context, "Pressed OK",
+                            view.context, "Pressed OK " + rating,
                             Toast.LENGTH_SHORT
                         ).show()
                     }
@@ -96,6 +113,10 @@ class TitleFragment : Fragment() {
 //        myAlertBuilder.show();
 //    }
 
+
+    }
+
+    private fun onClick(view: View) {
 
     }
 

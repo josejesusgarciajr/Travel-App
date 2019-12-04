@@ -28,4 +28,10 @@
         android:textColor="@android:color/black"
         android:textSize="12sp" />
 
+    <Button
+        android:id="@+id/edit_button"
+        android:layout_width="60dp"
+        android:layout_height="35dp"
+        android:text="Edit" />
+
 </LinearLayout>
