@@ -13,6 +13,7 @@ import androidx.navigation.findNavController
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
 import jwest.android_class.travel_app.databinding.FragmentAddLandmarkBinding
+import kotlin.math.roundToInt
 
 /**
  * A simple [Fragment] subclass.
@@ -31,7 +32,7 @@ class AddLandmarkFragment : Fragment() {
             // Inflate the layout for this fragment
             val args = AddLandmarkFragmentArgs.fromBundle(arguments!!)
 
-            binding.addLandmarkSubmitButton.setOnClickListener { createLandmark(args.latitude, args.longitude, binding.landmarkTitleInput.text.toString(), binding.landmarkDescriptionInput.text.toString(), Integer.parseInt(binding.landmarkRatingInput.text.toString()) ) }
+            binding.addLandmarkSubmitButton.setOnClickListener { createLandmark(args.latitude, args.longitude, binding.landmarkTitleInput.text.toString(), binding.landmarkDescriptionInput.text.toString(), binding.landmarkRatingInput.rating.toString().toFloat().roundToInt() ) }
             return binding.root
     }
 
