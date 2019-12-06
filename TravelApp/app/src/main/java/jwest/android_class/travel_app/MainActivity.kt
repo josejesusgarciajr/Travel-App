@@ -38,14 +38,14 @@ class MainActivity : AppCompatActivity() {
         Log.d("here", " main activity")
 
 
-        // THIS IS SUPPOSE TO GET A CONNECTION TO FIREBASE
+        // GET A CONNECTION TO FIREBASE
         ref = FirebaseDatabase.getInstance().getReference("members")
 
         // ADDING
 //        val memberID : String = ref.push().key!!
-//        val c : Coordinates = Coordinates(40.7128, -74.0060)
+//        val c : Coordinates = Coordinates(52.36674, 4.8945)
 //
-//        val member : Member = Member(memberID, "Justine", "West", 22, c)
+//        val member : Member = Member(memberID, "Adrian", "Valenzuela", 19, c, "adrian", "drinksAlot")
 //
 //        ref.child(memberID).setValue(member).addOnCompleteListener {
 //            Toast.makeText(applicationContext, "ADDED MEMBER SUCCESSFULLY!", Toast.LENGTH_LONG).show()

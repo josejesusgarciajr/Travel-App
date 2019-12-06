@@ -3,4 +3,11 @@
     <string name="map_name">Map</string>
     <string name="title_activity_maps">Map</string>
     <string name="dropped_pin">Dropped Pin</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <!-- LOG IN FRAGMENT -->
+    <string name="LogInTitle">Log In</string>
+    <string name="LogInHint">UserName</string>
+    <string name="LogInPasswordHint">Password</string>
+    <string name="LogInButton">Log In!</string>
 </resources>

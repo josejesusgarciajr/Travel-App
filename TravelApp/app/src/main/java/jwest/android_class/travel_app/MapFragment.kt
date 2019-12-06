@@ -1,17 +1,22 @@
 package jwest.android_class.travel_app
 
 
+import android.content.Context
+import android.content.SharedPreferences
 import android.os.Bundle
+import android.util.Log
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.databinding.DataBindingUtil
+import androidx.navigation.findNavController
 import com.google.android.gms.maps.*
 import com.google.android.gms.maps.model.LatLng
 import com.google.android.gms.maps.model.Marker
 import com.google.android.gms.maps.model.MarkerOptions
+import jwest.android_class.travel_app.databinding.FragmentLogInBinding
 import jwest.android_class.travel_app.databinding.FragmentMapBinding
 import jwest.android_class.travel_app.databinding.FragmentTitleBinding
 import kotlinx.android.synthetic.main.fragment_map.*
@@ -22,6 +27,7 @@ import java.util.*
 class MapFragment : Fragment(), OnMapReadyCallback, GoogleMap.OnInfoWindowClickListener {
     private lateinit var binding: FragmentMapBinding
     private lateinit var gGroup: Group
+    private lateinit var token : SharedPreferences
 
     //private val ref = FirebaseDatabase
     var mapFragment : SupportMapFragment? = null
@@ -40,7 +46,30 @@ class MapFragment : Fragment(), OnMapReadyCallback, GoogleMap.OnInfoWindowClickL
         // MIGHT NEED TO IMPLEMENT BINDING
         gGroup = Group()
 
-        return inflater.inflate(R.layout.fragment_map, container, false)
+        binding = DataBindingUtil.inflate<FragmentMapBinding>(inflater,
+            R.layout.fragment_map,container,false)
+        // Bind this fragment class to the layout
+        binding.mapFragment = this
+
+        token = binding.root.context.getSharedPreferences("jose", Context.MODE_PRIVATE)
+
+        Log.d("GMAPS", "IDK WHAT IS GOING ON...")
+        // SET ON CLICK LISTENER FOR LOG OUT BTN
+        binding.GMapsLogOutBtn.setOnClickListener { view : View ->
+            logout()
+        }
+
+        return binding.root
+        //return inflater.inflate(R.layout.fragment_map, container, false)
+    }
+
+    private fun logout() {
+        var editor = token.edit()
+        editor.putString("loginuser", " ")
+        editor.commit()
+        Log.d("LOGOUT..", "hello?")
+        Log.d("LOGOUT...", token.getString("loginuser", " ").toString())
+        view!!.findNavController().navigate(R.id.log_In)
     }
 
     override fun onMapReady(google_map: GoogleMap?) {
@@ -63,6 +92,11 @@ class MapFragment : Fragment(), OnMapReadyCallback, GoogleMap.OnInfoWindowClickL
         mMap.setInfoWindowAdapter(markerWindowAdapter)
 
         mMap.setOnInfoWindowClickListener(this)
+
+//        // SET ON CLICK LISTENER FOR LOG OUT BTN
+//        binding.GMapsLogOutBtn.setOnClickListener { view : View ->
+//            logout()
+//        }
     }
 
     // User clicks on the map to get a dropped pin
