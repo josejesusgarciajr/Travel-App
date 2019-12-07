@@ -32,11 +32,11 @@ class AddLandmarkFragment : Fragment() {
             // Inflate the layout for this fragment
             val args = AddLandmarkFragmentArgs.fromBundle(arguments!!)
 
-            binding.addLandmarkSubmitButton.setOnClickListener { createLandmark(args.latitude, args.longitude, binding.landmarkTitleInput.text.toString(), binding.landmarkDescriptionInput.text.toString(), binding.landmarkRatingInput.rating.toString().toFloat().roundToInt() ) }
+            binding.addLandmarkSubmitButton.setOnClickListener { createLandmark(args.latitude, args.longitude, binding.landmarkTitleInput.text.toString(), binding.landmarkDescriptionInput.text.toString(), binding.landmarkRatingInput.rating.toString().toFloat() ) }
             return binding.root
     }
 
-    private fun createLandmark(latitude : Float, longitude : Float, title : String, description : String, rating : Int){
+    private fun createLandmark(latitude : Float, longitude : Float, title : String, description : String, rating : Float){
         ref = FirebaseDatabase.getInstance().getReference("landmarks")
         val landmarkId : String = ref.push().key!!
 
