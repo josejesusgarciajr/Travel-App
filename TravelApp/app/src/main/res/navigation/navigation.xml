@@ -35,6 +35,9 @@
         <action
             android:id="@+id/action_mapFragment_to_addLandmarkFragment"
             app:destination="@id/addLandmarkFragment" />
+        <action
+            android:id="@+id/action_mapFragment_to_landmarkFragment"
+            app:destination="@id/landmarkFragment" />
     </fragment>
     <fragment
         android:id="@+id/landmarkFragment"
@@ -42,6 +45,18 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         >
+        <argument
+            android:name="landmarkTitle"
+            app:argType="string" />
+        <argument
+            android:name="landmarkDescription"
+            app:argType="string" />
+        <argument
+            android:name="landmarkRating"
+            app:argType="float" />
+        <argument
+            android:name="landmarkId"
+            app:argType="string" />
     </fragment>
     <fragment
         android:id="@+id/addLandmarkFragment"
