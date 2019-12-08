@@ -17,8 +17,7 @@ class TitleFragment : Fragment() {
     private lateinit var binding: FragmentTitleBinding
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
-        savedInstanceState: Bundle?
-    ): View? {
+        savedInstanceState: Bundle?): View? {
         binding = DataBindingUtil.inflate<FragmentTitleBinding>(inflater,
             R.layout.fragment_title,container,false)
         // Bind this fragment class to the layout

@@ -96,6 +96,16 @@
         android:name="jwest.android_class.travel_app.RegistrationFragment"
         android:label="fragment_registration"
         tools:layout="@layout/fragment_registration" >
+        <action
+            android:id="@+id/registration_To_RegistrationPartTwo"
+            app:destination="@+id/registrationPartTwoFragment"/>
     </fragment>
+
+    <!-- REGISTRATION PART TWO FRAGMENT -->
+    <fragment
+        android:id="@+id/registrationPartTwoFragment"
+        android:name="jwest.android_class.travel_app.RegistrationPartTwoFragment"
+        android:label="fragment_registration_part_two"
+        tools:layout="@layout/fragment_registration_part_two" />
 
 </navigation>

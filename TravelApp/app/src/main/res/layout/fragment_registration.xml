@@ -16,7 +16,6 @@
         android:layout_height="match_parent"
         android:background="#CDEBF9">
 
-        <!-- TODO: Update blank fragment layout -->
         <TextView
             android:id="@+id/textView5"
             android:layout_width="wrap_content"
