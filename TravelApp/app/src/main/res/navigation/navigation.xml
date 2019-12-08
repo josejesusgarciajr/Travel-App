@@ -34,10 +34,12 @@
         >
         <action
             android:id="@+id/action_mapFragment_to_addLandmarkFragment"
-            app:destination="@id/addLandmarkFragment" />
+            app:destination="@id/addLandmarkFragment"
+            app:popUpTo="@+id/mapFragment" />
         <action
             android:id="@+id/action_mapFragment_to_landmarkFragment"
-            app:destination="@id/landmarkFragment" />
+            app:destination="@id/landmarkFragment"
+            app:popUpTo="@+id/mapFragment" />
     </fragment>
     <fragment
         android:id="@+id/landmarkFragment"
@@ -71,7 +73,9 @@
             app:argType="float" />
         <action
             android:id="@+id/action_addLandmarkFragment_to_mapFragment"
-            app:destination="@id/mapFragment" />
+            app:destination="@id/mapFragment"
+            app:popUpTo="@+id/addLandmarkFragment"
+            app:popUpToInclusive="true" />
     </fragment>
     <fragment
         android:id="@+id/reviewFragment"
