@@ -1,4 +1,5 @@
-![travelbuddylogo.png](https://github.com/josejesusgarciajr/Travel-App/blob/master/TravelApp/app/src/main/res/drawable/travelbuddylogo.png | width= 10)
+<p align="center"><img src="https://github.com/josejesusgarciajr/Travel-App/blob/master/TravelApp/app/src/main/res/drawable/travelbuddylogo.png" height="200">
+</p>
 # Travel Buddy
 Whether you're a hiker, trekking, or cardio, spending time walking through nature is relaxing. With our application, one can simply the greatest hiking experience. One can look for a good rating on a landmark and enjoy their afternoon trip.
 
