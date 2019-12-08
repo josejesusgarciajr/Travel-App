@@ -1,4 +1,6 @@
-[travel buddy logo](https://github.com/josejesusgarciajr/Travel-App/blob/master/TravelApp/app/src/main/res/drawable/travelbuddylogo.png?style=centerme)
+<p align="center">
+  <img src="https://github.com/josejesusgarciajr/Travel-App/blob/master/TravelApp/app/src/main/res/drawable/travelbuddylogo.png" width="200">
+</p>
 
 # Travel Buddy
 
