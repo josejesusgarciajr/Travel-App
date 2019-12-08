@@ -13,9 +13,9 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         >
-<!--        <action-->
-<!--            android:id="@+id/action_titleFragment_to_map"-->
-<!--            app:destination="@+id/map" />-->
+        <!--        <action-->
+        <!--            android:id="@+id/action_titleFragment_to_map"-->
+        <!--            app:destination="@+id/map" />-->
         <action
             android:id="@+id/action_titleFragment_to_mapFragment"
             app:destination="@id/mapFragment" />
@@ -35,6 +35,9 @@
         <action
             android:id="@+id/action_mapFragment_to_addLandmarkFragment"
             app:destination="@id/addLandmarkFragment" />
+        <action
+            android:id="@+id/action_mapFragment_to_landmarkFragment"
+            app:destination="@id/landmarkFragment" />
     </fragment>
     <fragment
         android:id="@+id/landmarkFragment"
@@ -42,6 +45,18 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         >
+        <argument
+            android:name="landmarkTitle"
+            app:argType="string" />
+        <argument
+            android:name="landmarkDescription"
+            app:argType="string" />
+        <argument
+            android:name="landmarkRating"
+            app:argType="float" />
+        <argument
+            android:name="landmarkId"
+            app:argType="string" />
     </fragment>
     <fragment
         android:id="@+id/addLandmarkFragment"
@@ -65,14 +80,16 @@
         tools:layout="@layout/fragment_review" />
 
 
-    <!--    <fragment-->
-<!--        android:id="@+id/map"-->
-<!--        android:name="com.google.android.gms.maps.SupportMapFragment"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="match_parent"-->
-<!--        tools:context=".MapFragment" >-->
-<!--        <action-->
-<!--            android:id="@+id/action_map_self"-->
-<!--            app:destination="@id/map" />-->
-<!--    </fragment>-->
+    <!-- LOG IN FRAGMENT -->
+    <fragment
+        android:id="@+id/log_In"
+        android:name="jwest.android_class.travel_app.Log_In"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:label="fragment_log__in"
+        tools:layout="@layout/fragment_log__in">
+        <action
+            android:id="@+id/logIn_To_Google_Maps"
+            app:destination="@+id/mapFragment" />
+    </fragment>
 </navigation>

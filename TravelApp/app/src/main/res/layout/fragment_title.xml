@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <!--IMPORTANT! NEED THIS FOR DATA BINDING OBJECT-->
 <layout xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -15,33 +14,20 @@
         android:id="@+id/back"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#758669B8"
+        android:background="#CDEBF9"
         tools:context=".MainActivity">
-
-        <TextView
-            android:id="@+id/textView4"
-            android:layout_width="409dp"
-            android:layout_height="wrap_content"
-            android:text="Travel Buddy"
-            android:textAlignment="center"
-            android:textColor="#FCFAFA"
-            android:textSize="40sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.255" />
 
         <Button
             android:id="@+id/title_to_map_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="50dp"
             android:text="Map"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView4" />
+            app:layout_constraintTop_toBottomOf="@+id/imageView2"
+            app:layout_constraintVertical_bias="-0"
+            tools:layout_editor_absoluteY="277dp" />
 
         <Button
             android:id="@+id/title_to_review_button"
@@ -63,6 +49,17 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/title_to_map_button" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="408dp"
+            android:layout_height="349dp"
+            android:layout_marginTop="75dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/travelbuddylogo" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

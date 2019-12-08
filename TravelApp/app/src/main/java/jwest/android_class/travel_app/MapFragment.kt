@@ -1,6 +1,8 @@
 package jwest.android_class.travel_app
 
 
+import android.content.Context
+import android.content.SharedPreferences
 import android.os.Bundle
 import android.util.Log
 import androidx.fragment.app.Fragment
@@ -26,6 +28,7 @@ class MapFragment : Fragment(), OnMapReadyCallback, GoogleMap.OnInfoWindowClickL
     private lateinit var binding: FragmentMapBinding
     private lateinit var gGroup: Group
     private lateinit var landmarksReference: DatabaseReference
+    private lateinit var token : SharedPreferences
 
 
     //private val ref = FirebaseDatabase
@@ -48,12 +51,21 @@ class MapFragment : Fragment(), OnMapReadyCallback, GoogleMap.OnInfoWindowClickL
 //        return inflater.inflate(R.layout.fragment_map, container, false)
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-        ): View? {
-            binding = DataBindingUtil.inflate<FragmentMapBinding>(inflater,
-                R.layout.fragment_map,container,false)
-            // Bind this fragment class to the layout
-            binding.mapFragment = this
-            return binding.root
+    ): View? {
+        binding = DataBindingUtil.inflate<FragmentMapBinding>(inflater,
+            R.layout.fragment_map,container,false)
+        // Bind this fragment class to the layout
+        binding.mapFragment = this
+
+        token = binding.root.context.getSharedPreferences("jose", Context.MODE_PRIVATE)
+
+        Log.d("GMAPS", "IDK WHAT IS GOING ON...")
+        // SET ON CLICK LISTENER FOR LOG OUT BTN
+        binding.GMapsLogOutBtn.setOnClickListener { view : View ->
+            logout()
+        }
+
+        return binding.root
     }
 
     override fun onMapReady(google_map: GoogleMap?) {
@@ -83,9 +95,9 @@ class MapFragment : Fragment(), OnMapReadyCallback, GoogleMap.OnInfoWindowClickL
     private fun setMapLongClick(map: GoogleMap, view: View?) {
 
         map.setOnMapLongClickListener { latlong ->
-                var latitude : Float = latlong.latitude.toFloat()
-                var longitude : Float = latlong.longitude.toFloat()
-                view?.findNavController()?.navigate(MapFragmentDirections.actionMapFragmentToAddLandmarkFragment(latitude, longitude))
+            var latitude : Float = latlong.latitude.toFloat()
+            var longitude : Float = latlong.longitude.toFloat()
+            view?.findNavController()?.navigate(MapFragmentDirections.actionMapFragmentToAddLandmarkFragment(latitude, longitude))
             //            var place = Place("Dropped Pin", Coordinates(latlong.latitude, latlong.longitude),
 //                5, "Best Place Ever")
 //
@@ -130,7 +142,8 @@ class MapFragment : Fragment(), OnMapReadyCallback, GoogleMap.OnInfoWindowClickL
                         val info = landmark.title + " Lat: " + latLng.latitude + " Lng: " + latLng.longitude
                         Log.d("NameLatLng", info)
                         //mMap.addMarker(MarkerOptions().position(member.LatLng()).title(member.getFullName()))
-                        mMap.addMarker(MarkerOptions().position(latLng).title(landmark.title))
+                        var marker : Marker = mMap.addMarker(MarkerOptions().position(latLng).title(landmark.title + "\n" + landmark.description))
+                        marker.tag = landmark
                         Log.d("GOOGLEMAPS: ", landmark.title)
                     }
                 }
@@ -138,7 +151,18 @@ class MapFragment : Fragment(), OnMapReadyCallback, GoogleMap.OnInfoWindowClickL
         })
     }
     override fun onInfoWindowClick(p0: Marker?) {
-
+        Log.d("marker clicked!", p0?.title + " is the landmark info")
+        Log.d("the object ", p0?.tag.toString())
+        var landmark = p0?.tag as? Landmark
+        view?.findNavController()?.navigate(MapFragmentDirections.actionMapFragmentToLandmarkFragment(landmark!!.title, landmark!!.description, landmark!!.rating, landmark!!.id))
     }
 
+    private fun logout() {
+        var editor = token.edit()
+        editor.putString("loginuser", " ")
+        editor.commit()
+        Log.d("LOGOUT..", "hello?")
+        Log.d("LOGOUT...", token.getString("loginuser", " ").toString())
+        view!!.findNavController().navigate(R.id.log_In)
+    }
 }
