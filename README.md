@@ -32,3 +32,5 @@ Users can now hold down the map at desired point to add landmarks! Once users ch
 <ul>
   <li>When a user clicks a marker pop up window on the map they are taken to that landmark's page.</li>
   <li>Users can now Edit & Delete landmarks</li>
+  <li>The back button now leads all fragments back to the MapFragment</i>
+</ul>
