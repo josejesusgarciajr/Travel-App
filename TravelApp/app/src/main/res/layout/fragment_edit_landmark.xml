@@ -5,15 +5,15 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
     <data>
         <variable
-            name="addLandmarkFragment"
-            type="jwest.android_class.travel_app.AddLandmarkFragment" />
+            name="editLandmarkFragment"
+            type="jwest.android_class.travel_app.EditLandmarkFragment" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/frameLayout2"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".AddLandmarkFragment">
+        tools:context=".EditLandmarkFragment">
 
         <!-- TODO: Update blank fragment layout -->
 
@@ -71,41 +71,17 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/landmarkTitleInput" />
 
-        <TextView
-            android:id="@+id/textView8"
+
+        <Button
+            android:id="@+id/editLandmarkSubmit"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:padding="5sp"
-            android:text="You're Rating"
-            android:textSize="18sp"
+            android:text="Submit!"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.09"
+            app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/landmarkDescriptionInput" />
-
-        <RatingBar
-            android:id="@+id/landmarkRatingInput"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="28dp"
-            android:numStars="5"
-            android:stepSize="0.5"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView8" />
-
-        <Button
-            android:id="@+id/addLandmarkSubmitButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="24dp"
-            android:text="Add Landmark!"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.909"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/landmarkRatingInput" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>
