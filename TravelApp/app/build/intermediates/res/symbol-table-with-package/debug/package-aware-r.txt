@@ -296,7 +296,9 @@ attr fontStyle
 attr fontVariationSettings
 attr fontWeight
 attr foregroundInsidePadding
+attr freezesAnimation
 attr gapBetweenBars
+attr gifSource
 attr goIcon
 attr graph
 attr headerLayout
@@ -329,6 +331,7 @@ attr indeterminateProgressStyle
 attr initialActivityCount
 attr insetForeground
 attr isLightTheme
+attr isOpaque
 attr itemBackground
 attr itemHorizontalPadding
 attr itemHorizontalTranslationEnabled
@@ -432,6 +435,7 @@ attr listPreferredItemPaddingStart
 attr liteMode
 attr logo
 attr logoDescription
+attr loopCount
 attr mapType
 attr materialButtonStyle
 attr materialCardViewStyle
@@ -1136,6 +1140,7 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable globetextgrow
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable ic_launcher_background
@@ -1214,7 +1219,10 @@ id action_bar_title
 id action_container
 id action_context_bar
 id action_divider
+id action_editLandmarkFragment_to_landmarkFragment
 id action_image
+id action_landmarkFragment_to_editLandmarkFragment
+id action_landmarkFragment_to_mapFragment
 id action_mapFragment_to_addLandmarkFragment
 id action_mapFragment_to_landmarkFragment
 id action_menu_divider
@@ -1278,6 +1286,8 @@ id dimensions
 id direct
 id disableHome
 id drawerLayout
+id editLandmarkFragment
+id editLandmarkSubmit
 id edit_query
 id end
 id end_padder
@@ -1307,13 +1317,14 @@ id icon_group
 id icon_only
 id ifRoom
 id image
-id imageView2
 id info
 id invisible
 id italic
 id item_touch_helper_previous_elevation
 id labeled
+id landmarkDeleteButton
 id landmarkDescriptionInput
+id landmarkEditButton
 id landmarkFragment
 id landmarkRatingInput
 id landmarkTitleInput
@@ -1554,6 +1565,7 @@ layout design_navigation_menu_item
 layout design_text_input_password_icon
 layout dialog_window
 layout fragment_add_landmark
+layout fragment_edit_landmark
 layout fragment_landmark
 layout fragment_log__in
 layout fragment_map
@@ -2221,6 +2233,8 @@ styleable FontFamily fontProviderAuthority fontProviderCerts fontProviderFetchSt
 styleable FontFamilyFont android_font android_fontWeight android_fontStyle android_ttcIndex android_fontVariationSettings font fontStyle fontVariationSettings fontWeight ttcIndex
 styleable ForegroundLinearLayout android_foreground android_foregroundGravity foregroundInsidePadding
 styleable FragmentNavigator android_name
+styleable GifTextureView gifSource isOpaque
+styleable GifView freezesAnimation loopCount
 styleable GradientColor android_startColor android_endColor android_type android_centerX android_centerY android_gradientRadius android_tileMode android_centerColor android_startX android_startY android_endX android_endY
 styleable GradientColorItem android_color android_offset
 styleable LinearConstraintLayout android_orientation

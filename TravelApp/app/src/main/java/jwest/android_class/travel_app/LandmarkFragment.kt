@@ -13,11 +13,12 @@ import jwest.android_class.travel_app.databinding.FragmentLandmarkBinding
 import android.graphics.PorterDuff
 import android.graphics.drawable.LayerDrawable
 import android.graphics.Color
+import android.util.Log
 import android.widget.RatingBar
-import android.widget.Toast
-import kotlinx.android.synthetic.main.dialog_window.*
-import kotlinx.android.synthetic.main.dialog_window.view.*
+import com.google.firebase.database.DatabaseReference
+import com.google.firebase.database.FirebaseDatabase
 import kotlinx.android.synthetic.main.dialog_window.view.ratingBar
+import kotlinx.android.synthetic.main.fragment_edit_landmark.*
 
 
 /**
@@ -25,6 +26,8 @@ import kotlinx.android.synthetic.main.dialog_window.view.ratingBar
  */
 class LandmarkFragment : Fragment() {
     private lateinit var binding: FragmentLandmarkBinding
+    private lateinit var ref: DatabaseReference
+
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -38,11 +41,13 @@ class LandmarkFragment : Fragment() {
         binding.landmarkTitleText.text = args.landmarkTitle
         binding.landmarkDescriptionText.text = args.landmarkDescription
 
-        var ratingBar = binding.landmarkRatingInput as RatingBar
+        val ratingBar = binding.landmarkRatingInput as RatingBar
         ratingBar.rating = args.landmarkRating
 
         binding.rateButton.setOnClickListener{userRating(it)}
 
+        binding.landmarkDeleteButton.setOnClickListener{ deleteLandmark(args.landmarkId) }
+        binding.landmarkEditButton.setOnClickListener{ view?.findNavController()?.navigate(LandmarkFragmentDirections.actionLandmarkFragmentToEditLandmarkFragment(args.landmarkId, args.landmarkTitle, args.landmarkDescription, args.landmarkRating)) }
         return binding.root
     }
 
@@ -89,4 +94,16 @@ class LandmarkFragment : Fragment() {
             builder.show()
         }
     }
+
+    private fun deleteLandmark(landmarkId : String) {
+        ref = FirebaseDatabase.getInstance().getReference("landmarks")
+        var landmark = ref.child(landmarkId)
+        landmark.removeValue()
+        Log.d("delete : ", landmarkId)
+        view?.findNavController()?.navigate(R.id.action_landmarkFragment_to_mapFragment)
+    }
+
+//    private fun editLandmark() {
+//        view?.findNavController()?.navigate(LandmarkFragmentDirections.actionLandmarkFragmentToEditLandmarkFragment)
+//    }
 }

@@ -5,7 +5,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.ImageView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -22,9 +21,6 @@ public abstract class FragmentTitleBinding extends ViewDataBinding {
   public final ConstraintLayout back;
 
   @NonNull
-  public final ImageView imageView2;
-
-  @NonNull
   public final Button titleToLandmarkButton;
 
   @NonNull
@@ -37,11 +33,10 @@ public abstract class FragmentTitleBinding extends ViewDataBinding {
   protected TitleFragment mTitleFragment;
 
   protected FragmentTitleBinding(Object _bindingComponent, View _root, int _localFieldCount,
-      ConstraintLayout back, ImageView imageView2, Button titleToLandmarkButton,
-      Button titleToMapButton, Button titleToReviewButton) {
+      ConstraintLayout back, Button titleToLandmarkButton, Button titleToMapButton,
+      Button titleToReviewButton) {
     super(_bindingComponent, _root, _localFieldCount);
     this.back = back;
-    this.imageView2 = imageView2;
     this.titleToLandmarkButton = titleToLandmarkButton;
     this.titleToMapButton = titleToMapButton;
     this.titleToReviewButton = titleToReviewButton;

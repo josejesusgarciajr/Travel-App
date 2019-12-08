@@ -20,6 +20,8 @@ public class FragmentLandmarkBindingImpl extends FragmentLandmarkBinding  {
         sViewsWithIds.put(R.id.scrollView2, 4);
         sViewsWithIds.put(R.id.linearLayout, 5);
         sViewsWithIds.put(R.id.landmark_description_text, 6);
+        sViewsWithIds.put(R.id.landmarkDeleteButton, 7);
+        sViewsWithIds.put(R.id.landmarkEditButton, 8);
     }
     // views
     // variables
@@ -28,12 +30,14 @@ public class FragmentLandmarkBindingImpl extends FragmentLandmarkBinding  {
     // Inverse Binding Event Handlers
 
     public FragmentLandmarkBindingImpl(@Nullable androidx.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
-        this(bindingComponent, root, mapBindings(bindingComponent, root, 7, sIncludes, sViewsWithIds));
+        this(bindingComponent, root, mapBindings(bindingComponent, root, 9, sIncludes, sViewsWithIds));
     }
     private FragmentLandmarkBindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 0
             , (androidx.constraintlayout.widget.ConstraintLayout) bindings[0]
+            , (android.widget.ImageButton) bindings[7]
             , (android.widget.TextView) bindings[6]
+            , (android.widget.ImageButton) bindings[8]
             , (android.widget.RatingBar) bindings[2]
             , (android.widget.TextView) bindings[1]
             , (androidx.constraintlayout.widget.ConstraintLayout) bindings[5]

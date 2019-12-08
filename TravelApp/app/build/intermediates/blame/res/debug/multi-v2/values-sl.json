@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/Nikita/Downloads/Travel-App-justine/TravelApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sl/values-sl.xml",
+            "outputFile": "/Users/Nikita/Downloads/Travel-App-brandon/TravelApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sl/values-sl.xml",
             "map": [
                 {
                     "source": "/Users/Nikita/.gradle/caches/transforms-2/files-2.1/8c2a88aba7ee815450a283e4adee1eea/jetified-play-services-base-16.0.1/res/values-sl/values.xml",
