@@ -45,7 +45,6 @@ class AddLandmarkFragment : Fragment() {
         ref.child(landmarkId).setValue(newLandmark).addOnCompleteListener {
             Log.d("added successfully! ", newLandmark.title)
             view?.findNavController()?.navigate(R.id.action_addLandmarkFragment_to_mapFragment)
-
         }
 
     }

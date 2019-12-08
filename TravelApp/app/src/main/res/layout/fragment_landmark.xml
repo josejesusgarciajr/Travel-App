@@ -17,11 +17,12 @@
         tools:context=".LandmarkFragment">
 
         <!-- TODO: Update blank fragment layout -->
+
         <TextView
             android:id="@+id/landmark_title_text"
             android:layout_width="409dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="50dp"
             android:padding="20sp"
             android:text="Hollywood Sign"
             android:textAlignment="center"
@@ -38,18 +39,18 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
+            android:isIndicator="true"
             android:numStars="5"
             android:stepSize="0.5"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/landmark_title_text"
-            android:isIndicator="true"/>
+            app:layout_constraintTop_toBottomOf="@+id/landmark_title_text" />
 
         <ScrollView
             android:id="@+id/scrollView2"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginTop="175dp"
+            android:layout_marginTop="230dp"
             android:padding="15sp"
             app:layout_constraintTop_toTopOf="@+id/landmark_title_text">
 
@@ -70,6 +71,28 @@
                     app:layout_constraintTop_toTopOf="parent" />
             </androidx.constraintlayout.widget.ConstraintLayout>
         </ScrollView>
+
+        <ImageButton
+            android:id="@+id/landmarkDeleteButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="30dp"
+            android:background="#00FFFFFF"
+            app:layout_constraintBottom_toTopOf="@+id/landmark_title_text"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@android:drawable/ic_delete" />
+
+        <ImageButton
+            android:id="@+id/landmarkEditButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="30dp"
+            android:background="#00FFFFFF"
+            app:layout_constraintBottom_toTopOf="@+id/landmark_title_text"
+            app:layout_constraintEnd_toStartOf="@+id/landmarkDeleteButton"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@android:drawable/ic_menu_edit" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

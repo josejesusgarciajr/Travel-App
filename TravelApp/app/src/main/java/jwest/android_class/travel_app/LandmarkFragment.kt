@@ -12,8 +12,11 @@ import jwest.android_class.travel_app.databinding.FragmentLandmarkBinding
 import android.graphics.PorterDuff
 import android.graphics.drawable.LayerDrawable
 import android.graphics.Color
+import android.util.Log
 import android.widget.RatingBar
-
+import com.google.firebase.database.DatabaseReference
+import com.google.firebase.database.FirebaseDatabase
+import kotlinx.android.synthetic.main.fragment_edit_landmark.*
 
 
 /**
@@ -21,6 +24,8 @@ import android.widget.RatingBar
  */
 class LandmarkFragment : Fragment() {
     private lateinit var binding: FragmentLandmarkBinding
+    private lateinit var ref: DatabaseReference
+
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -36,6 +41,21 @@ class LandmarkFragment : Fragment() {
 
         val ratingBar = binding.landmarkRatingInput as RatingBar
         ratingBar.rating = args.landmarkRating
+
+        binding.landmarkDeleteButton.setOnClickListener{ deleteLandmark(args.landmarkId) }
+        binding.landmarkEditButton.setOnClickListener{ view?.findNavController()?.navigate(LandmarkFragmentDirections.actionLandmarkFragmentToEditLandmarkFragment(args.landmarkId, args.landmarkTitle, args.landmarkDescription, args.landmarkRating)) }
         return binding.root
     }
+
+    private fun deleteLandmark(landmarkId : String) {
+        ref = FirebaseDatabase.getInstance().getReference("landmarks")
+        var landmark = ref.child(landmarkId)
+        landmark.removeValue()
+        Log.d("delete : ", landmarkId)
+        view?.findNavController()?.navigate(R.id.action_landmarkFragment_to_mapFragment)
+    }
+
+//    private fun editLandmark() {
+//        view?.findNavController()?.navigate(LandmarkFragmentDirections.actionLandmarkFragmentToEditLandmarkFragment)
+//    }
 }
