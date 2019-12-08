@@ -7,11 +7,12 @@
 Whether you're a hiker, trekking, or cardio, spending time walking through nature is relaxing. With our application, one can simply the greatest hiking experience. One can look for a good rating on a landmark and enjoy their afternoon trip.
 
 ## Group members
-  - Nikita
-  - gabriel alvarado
+  - Nikita Aggarwal
+  - Gabriela Alvarado
   - Brandon Arevalo
-  - Justine West
   - Jose Gracia 
+  - Justine West
+  
 
 11/17/19 </br>
 There are now 2 fragments - TitleFragment & MapFragment </br>
