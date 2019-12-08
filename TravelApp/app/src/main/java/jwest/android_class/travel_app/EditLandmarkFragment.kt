@@ -43,7 +43,6 @@ class EditLandmarkFragment : Fragment() {
     private fun editLandmark(landmarkId : String, landmarkRating : Float) {
         ref = FirebaseDatabase.getInstance().getReference("landmarks")
         var landmark = ref.child(landmarkId)
-        //.child("quantity").setValue(String.valueOf(counterValue));
         landmark.child("title").setValue(binding.landmarkTitleInput.text.toString())
         landmark.child("description").setValue(binding.landmarkDescriptionInput.text.toString())
         view?.findNavController()?.navigate(EditLandmarkFragmentDirections.actionEditLandmarkFragmentToLandmarkFragment(binding.landmarkTitleInput.text.toString(), binding.landmarkDescriptionInput.text.toString(), landmarkRating, landmarkId))
