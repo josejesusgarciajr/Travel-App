@@ -17,7 +17,6 @@
         tools:context=".LandmarkFragment">
 
         <!-- TODO: Update blank fragment layout -->
-
         <TextView
             android:id="@+id/landmark_title_text"
             android:layout_width="409dp"
@@ -46,6 +45,19 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/landmark_title_text" />
 
+        <Button
+            android:id="@+id/rate_button"
+            android:layout_width="93dp"
+            android:layout_height="33dp"
+            android:layout_marginStart="290dp"
+            android:layout_marginEnd="28dp"
+            android:background="@color/colorAccent"
+            android:text="Add Rating!"
+            android:textColor="@android:color/background_light"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/landmarkRatingInput" />
+
         <ScrollView
             android:id="@+id/scrollView2"
             android:layout_width="match_parent"
@@ -69,6 +81,7 @@
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
+
             </androidx.constraintlayout.widget.ConstraintLayout>
         </ScrollView>
 
