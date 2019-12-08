@@ -14,3 +14,6 @@ User can tap on a pin to view a custom marker window. The custom marker window w
 User can touch and hold on the map to navigate to the input window. User will be prompted to input place and description. User can swipe to rate the place with stars. The rating will be in 0.5 increments. Potential to me combined with LandmarkFragment as popup window.
 
 ![Snap1](https://user-images.githubusercontent.com/35715963/70112319-c989f600-1609-11ea-898e-692319029eec.jpg)
+
+## Combined Pop Up Rating Window with Landmark
+User can touch and hold on the map to go to another fragment where user inputs place and description of landmark. Then user clicks the Add Landmark button to be prompted with a rating window. The user will swipe on the stars to rate. The Firebase database is also connected to store the landmark details.

@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools">
 
+<!--IMPORTANT! NEED THIS FOR DATA BINDING OBJECT-->
+<layout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
     <data>
         <variable
-            name="map"
-            type="com.example.travelapp.MapFragment" />
+            name="mapFragment"
+            type="jwest.android_class.travel_app.MapFragment" />
     </data>
 
     <FrameLayout
@@ -14,10 +15,17 @@
         android:layout_height="match_parent"
         tools:context=".MapFragment">
 
+        <Button
+            android:id="@+id/GMapsLogOutBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Log Out" />
+
         <com.google.android.gms.maps.MapView
             android:id="@+id/mapView"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
+
     </FrameLayout>
 
 </layout>
