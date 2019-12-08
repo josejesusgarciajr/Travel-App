@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "/Users/Nikita/Downloads/Travel-App-justine/TravelApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main.xml",
+        "source": "/Users/Nikita/Downloads/Travel-App-justine/TravelApp/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/Nikita/Downloads/Travel-App-justine/TravelApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_add_landmark.xml",
+        "source": "/Users/Nikita/Downloads/Travel-App-justine/TravelApp/app/src/main/res/layout/fragment_add_landmark.xml"
+    },
+    {
+        "merged": "/Users/Nikita/Downloads/Travel-App-justine/TravelApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_map.xml",
+        "source": "/Users/Nikita/Downloads/Travel-App-justine/TravelApp/app/src/main/res/layout/fragment_map.xml"
+    },
+    {
+        "merged": "/Users/Nikita/Downloads/Travel-App-justine/TravelApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_review.xml",
+        "source": "/Users/Nikita/Downloads/Travel-App-justine/TravelApp/app/src/main/res/layout/fragment_review.xml"
+    },
+    {
+        "merged": "/Users/Nikita/Downloads/Travel-App-justine/TravelApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/dialog_window.xml",
+        "source": "/Users/Nikita/Downloads/Travel-App-justine/TravelApp/app/src/main/res/layout/dialog_window.xml"
+    },
+    {
+        "merged": "/Users/Nikita/Downloads/Travel-App-justine/TravelApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_log__in.xml",
+        "source": "/Users/Nikita/Downloads/Travel-App-justine/TravelApp/app/src/main/res/layout/fragment_log__in.xml"
+    },
+    {
+        "merged": "/Users/Nikita/Downloads/Travel-App-justine/TravelApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_landmark.xml",
+        "source": "/Users/Nikita/Downloads/Travel-App-justine/TravelApp/app/src/main/res/layout/fragment_landmark.xml"
+    },
+    {
+        "merged": "/Users/Nikita/Downloads/Travel-App-justine/TravelApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_title.xml",
+        "source": "/Users/Nikita/Downloads/Travel-App-justine/TravelApp/app/src/main/res/layout/fragment_title.xml"
+    }
+]
