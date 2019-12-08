@@ -142,7 +142,8 @@ class MapFragment : Fragment(), OnMapReadyCallback, GoogleMap.OnInfoWindowClickL
                         val info = landmark.title + " Lat: " + latLng.latitude + " Lng: " + latLng.longitude
                         Log.d("NameLatLng", info)
                         //mMap.addMarker(MarkerOptions().position(member.LatLng()).title(member.getFullName()))
-                        mMap.addMarker(MarkerOptions().position(latLng).title(landmark.title))
+                        var marker : Marker = mMap.addMarker(MarkerOptions().position(latLng).title(landmark.title + "\n" + landmark.description))
+                        marker.tag = landmark
                         Log.d("GOOGLEMAPS: ", landmark.title)
                     }
                 }
@@ -150,7 +151,10 @@ class MapFragment : Fragment(), OnMapReadyCallback, GoogleMap.OnInfoWindowClickL
         })
     }
     override fun onInfoWindowClick(p0: Marker?) {
-
+        Log.d("marker clicked!", p0?.title + " is the landmark info")
+        Log.d("the object ", p0?.tag.toString())
+        var landmark = p0?.tag as? Landmark
+        view?.findNavController()?.navigate(MapFragmentDirections.actionMapFragmentToLandmarkFragment(landmark!!.title, landmark!!.description, landmark!!.rating, landmark!!.id))
     }
 
     private fun logout() {

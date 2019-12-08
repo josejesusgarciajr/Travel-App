@@ -15,7 +15,6 @@ import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
 import jwest.android_class.travel_app.databinding.FragmentAddLandmarkBinding
 import kotlinx.android.synthetic.main.dialog_window.view.*
-import kotlinx.android.synthetic.main.fragment_add_landmark.view.*
 import kotlin.math.roundToInt
 
 /**
@@ -33,6 +32,7 @@ class AddLandmarkFragment : Fragment() {
             R.layout.fragment_add_landmark, container,false)
         // Bind this fragment class to the layout
         binding.addLandmarkFragment = this
+
 
         binding.addLandmarkSubmitButton.setOnClickListener{onClickShowRating(it)}
 
@@ -56,7 +56,7 @@ class AddLandmarkFragment : Fragment() {
                 .setPositiveButton("OK")
                 { dialog, which ->
 
-                    //val rating = ratingBar.rating.toString()
+
                     var rating = dialogView.ratingBar.rating.toString()
 
                     // User clicked OK button.
