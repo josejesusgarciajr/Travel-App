@@ -18,6 +18,7 @@ import java.util.List;
 import jwest.android_class.travel_app.databinding.ActivityMainBindingImpl;
 import jwest.android_class.travel_app.databinding.DialogWindowBindingImpl;
 import jwest.android_class.travel_app.databinding.FragmentAddLandmarkBindingImpl;
+import jwest.android_class.travel_app.databinding.FragmentEditLandmarkBindingImpl;
 import jwest.android_class.travel_app.databinding.FragmentLandmarkBindingImpl;
 import jwest.android_class.travel_app.databinding.FragmentLogInBindingImpl;
 import jwest.android_class.travel_app.databinding.FragmentMapBindingImpl;
@@ -31,22 +32,25 @@ public class DataBinderMapperImpl extends DataBinderMapper {
 
   private static final int LAYOUT_FRAGMENTADDLANDMARK = 3;
 
-  private static final int LAYOUT_FRAGMENTLANDMARK = 4;
+  private static final int LAYOUT_FRAGMENTEDITLANDMARK = 4;
 
-  private static final int LAYOUT_FRAGMENTLOGIN = 5;
+  private static final int LAYOUT_FRAGMENTLANDMARK = 5;
 
-  private static final int LAYOUT_FRAGMENTMAP = 6;
+  private static final int LAYOUT_FRAGMENTLOGIN = 6;
 
-  private static final int LAYOUT_FRAGMENTREVIEW = 7;
+  private static final int LAYOUT_FRAGMENTMAP = 7;
 
-  private static final int LAYOUT_FRAGMENTTITLE = 8;
+  private static final int LAYOUT_FRAGMENTREVIEW = 8;
 
-  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(8);
+  private static final int LAYOUT_FRAGMENTTITLE = 9;
+
+  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(9);
 
   static {
     INTERNAL_LAYOUT_ID_LOOKUP.put(jwest.android_class.travel_app.R.layout.activity_main, LAYOUT_ACTIVITYMAIN);
     INTERNAL_LAYOUT_ID_LOOKUP.put(jwest.android_class.travel_app.R.layout.dialog_window, LAYOUT_DIALOGWINDOW);
     INTERNAL_LAYOUT_ID_LOOKUP.put(jwest.android_class.travel_app.R.layout.fragment_add_landmark, LAYOUT_FRAGMENTADDLANDMARK);
+    INTERNAL_LAYOUT_ID_LOOKUP.put(jwest.android_class.travel_app.R.layout.fragment_edit_landmark, LAYOUT_FRAGMENTEDITLANDMARK);
     INTERNAL_LAYOUT_ID_LOOKUP.put(jwest.android_class.travel_app.R.layout.fragment_landmark, LAYOUT_FRAGMENTLANDMARK);
     INTERNAL_LAYOUT_ID_LOOKUP.put(jwest.android_class.travel_app.R.layout.fragment_log__in, LAYOUT_FRAGMENTLOGIN);
     INTERNAL_LAYOUT_ID_LOOKUP.put(jwest.android_class.travel_app.R.layout.fragment_map, LAYOUT_FRAGMENTMAP);
@@ -80,6 +84,12 @@ public class DataBinderMapperImpl extends DataBinderMapper {
             return new FragmentAddLandmarkBindingImpl(component, view);
           }
           throw new IllegalArgumentException("The tag for fragment_add_landmark is invalid. Received: " + tag);
+        }
+        case  LAYOUT_FRAGMENTEDITLANDMARK: {
+          if ("layout/fragment_edit_landmark_0".equals(tag)) {
+            return new FragmentEditLandmarkBindingImpl(component, view);
+          }
+          throw new IllegalArgumentException("The tag for fragment_edit_landmark is invalid. Received: " + tag);
         }
         case  LAYOUT_FRAGMENTLANDMARK: {
           if ("layout/fragment_landmark_0".equals(tag)) {
@@ -156,26 +166,28 @@ public class DataBinderMapperImpl extends DataBinderMapper {
   }
 
   private static class InnerBrLookup {
-    static final SparseArray<String> sKeys = new SparseArray<String>(8);
+    static final SparseArray<String> sKeys = new SparseArray<String>(9);
 
     static {
       sKeys.put(0, "_all");
       sKeys.put(1, "addLandmarkFragment");
       sKeys.put(2, "landmarkFragment");
-      sKeys.put(3, "window");
-      sKeys.put(4, "mapFragment");
-      sKeys.put(5, "titleFragment");
-      sKeys.put(6, "LogInFragment");
+      sKeys.put(3, "editLandmarkFragment");
+      sKeys.put(4, "window");
+      sKeys.put(5, "mapFragment");
+      sKeys.put(6, "titleFragment");
+      sKeys.put(7, "LogInFragment");
     }
   }
 
   private static class InnerLayoutIdLookup {
-    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(8);
+    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(9);
 
     static {
       sKeys.put("layout/activity_main_0", jwest.android_class.travel_app.R.layout.activity_main);
       sKeys.put("layout/dialog_window_0", jwest.android_class.travel_app.R.layout.dialog_window);
       sKeys.put("layout/fragment_add_landmark_0", jwest.android_class.travel_app.R.layout.fragment_add_landmark);
+      sKeys.put("layout/fragment_edit_landmark_0", jwest.android_class.travel_app.R.layout.fragment_edit_landmark);
       sKeys.put("layout/fragment_landmark_0", jwest.android_class.travel_app.R.layout.fragment_landmark);
       sKeys.put("layout/fragment_log__in_0", jwest.android_class.travel_app.R.layout.fragment_log__in);
       sKeys.put("layout/fragment_map_0", jwest.android_class.travel_app.R.layout.fragment_map);

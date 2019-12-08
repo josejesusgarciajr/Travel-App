@@ -6,26 +6,26 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="19"
-8-->/Users/Nikita/Downloads/Travel-App-justine/TravelApp/app/src/main/AndroidManifest.xml
+8-->/Users/Nikita/Downloads/Travel-App-brandon/TravelApp/app/src/main/AndroidManifest.xml
 9        android:targetSdkVersion="29" />
-9-->/Users/Nikita/Downloads/Travel-App-justine/TravelApp/app/src/main/AndroidManifest.xml
+9-->/Users/Nikita/Downloads/Travel-App-brandon/TravelApp/app/src/main/AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-11-->/Users/Nikita/Downloads/Travel-App-justine/TravelApp/app/src/main/AndroidManifest.xml:4:5-81
-11-->/Users/Nikita/Downloads/Travel-App-justine/TravelApp/app/src/main/AndroidManifest.xml:4:22-78
+11-->/Users/Nikita/Downloads/Travel-App-brandon/TravelApp/app/src/main/AndroidManifest.xml:4:5-81
+11-->/Users/Nikita/Downloads/Travel-App-brandon/TravelApp/app/src/main/AndroidManifest.xml:4:22-78
 12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-12-->/Users/Nikita/Downloads/Travel-App-justine/TravelApp/app/src/main/AndroidManifest.xml:5:5-79
-12-->/Users/Nikita/Downloads/Travel-App-justine/TravelApp/app/src/main/AndroidManifest.xml:5:22-76
+12-->/Users/Nikita/Downloads/Travel-App-brandon/TravelApp/app/src/main/AndroidManifest.xml:5:5-79
+12-->/Users/Nikita/Downloads/Travel-App-brandon/TravelApp/app/src/main/AndroidManifest.xml:5:22-76
 13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-13-->/Users/Nikita/Downloads/Travel-App-justine/TravelApp/app/src/main/AndroidManifest.xml:6:5-81
-13-->/Users/Nikita/Downloads/Travel-App-justine/TravelApp/app/src/main/AndroidManifest.xml:6:22-78
+13-->/Users/Nikita/Downloads/Travel-App-brandon/TravelApp/app/src/main/AndroidManifest.xml:6:5-81
+13-->/Users/Nikita/Downloads/Travel-App-brandon/TravelApp/app/src/main/AndroidManifest.xml:6:22-78
 14
 15    <uses-feature
-15-->/Users/Nikita/Downloads/Travel-App-justine/TravelApp/app/src/main/AndroidManifest.xml:27:5-30:11
+15-->/Users/Nikita/Downloads/Travel-App-brandon/TravelApp/app/src/main/AndroidManifest.xml:27:5-30:11
 16        android:glEsVersion="0x00020000"
-16-->/Users/Nikita/Downloads/Travel-App-justine/TravelApp/app/src/main/AndroidManifest.xml:28:9-41
+16-->/Users/Nikita/Downloads/Travel-App-brandon/TravelApp/app/src/main/AndroidManifest.xml:28:9-41
 17        android:required="true" />
-17-->/Users/Nikita/Downloads/Travel-App-justine/TravelApp/app/src/main/AndroidManifest.xml:29:9-32
+17-->/Users/Nikita/Downloads/Travel-App-brandon/TravelApp/app/src/main/AndroidManifest.xml:29:9-32
 18    <!-- Include required permissions for Google Maps API to run. -->
 19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 19-->[com.google.android.gms:play-services-maps:16.1.0] /Users/Nikita/.gradle/caches/transforms-2/files-2.1/fe8347d364caf030b3b732fcf6c1e590/jetified-play-services-maps-16.1.0/AndroidManifest.xml:23:5-79
@@ -44,44 +44,44 @@
 23-->[com.google.firebase:firebase-iid:17.0.3] /Users/Nikita/.gradle/caches/transforms-2/files-2.1/5ae6bf9249984482ba0c2af723cfd417/jetified-firebase-iid-17.0.3/AndroidManifest.xml:26:22-79
 24
 25    <application
-25-->/Users/Nikita/Downloads/Travel-App-justine/TravelApp/app/src/main/AndroidManifest.xml:8:5-25:19
+25-->/Users/Nikita/Downloads/Travel-App-brandon/TravelApp/app/src/main/AndroidManifest.xml:8:5-25:19
 26        android:allowBackup="true"
-26-->/Users/Nikita/Downloads/Travel-App-justine/TravelApp/app/src/main/AndroidManifest.xml:9:9-35
+26-->/Users/Nikita/Downloads/Travel-App-brandon/TravelApp/app/src/main/AndroidManifest.xml:9:9-35
 27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 27-->[androidx.core:core:1.1.0] /Users/Nikita/.gradle/caches/transforms-2/files-2.1/45ad85c46df4b70f083f5acde98f35fc/core-1.1.0/AndroidManifest.xml:24:18-86
 28        android:debuggable="true"
 29        android:icon="@mipmap/ic_launcher"
-29-->/Users/Nikita/Downloads/Travel-App-justine/TravelApp/app/src/main/AndroidManifest.xml:10:9-43
+29-->/Users/Nikita/Downloads/Travel-App-brandon/TravelApp/app/src/main/AndroidManifest.xml:10:9-43
 30        android:label="@string/app_name"
-30-->/Users/Nikita/Downloads/Travel-App-justine/TravelApp/app/src/main/AndroidManifest.xml:11:9-41
+30-->/Users/Nikita/Downloads/Travel-App-brandon/TravelApp/app/src/main/AndroidManifest.xml:11:9-41
 31        android:roundIcon="@mipmap/ic_launcher_round"
-31-->/Users/Nikita/Downloads/Travel-App-justine/TravelApp/app/src/main/AndroidManifest.xml:12:9-54
+31-->/Users/Nikita/Downloads/Travel-App-brandon/TravelApp/app/src/main/AndroidManifest.xml:12:9-54
 32        android:supportsRtl="true"
-32-->/Users/Nikita/Downloads/Travel-App-justine/TravelApp/app/src/main/AndroidManifest.xml:13:9-35
+32-->/Users/Nikita/Downloads/Travel-App-brandon/TravelApp/app/src/main/AndroidManifest.xml:13:9-35
 33        android:testOnly="true"
 34        android:theme="@style/AppTheme" >
-34-->/Users/Nikita/Downloads/Travel-App-justine/TravelApp/app/src/main/AndroidManifest.xml:14:9-40
+34-->/Users/Nikita/Downloads/Travel-App-brandon/TravelApp/app/src/main/AndroidManifest.xml:14:9-40
 35        <activity android:name="jwest.android_class.travel_app.MainActivity" >
-35-->/Users/Nikita/Downloads/Travel-App-justine/TravelApp/app/src/main/AndroidManifest.xml:15:9-21:20
-35-->/Users/Nikita/Downloads/Travel-App-justine/TravelApp/app/src/main/AndroidManifest.xml:15:19-47
+35-->/Users/Nikita/Downloads/Travel-App-brandon/TravelApp/app/src/main/AndroidManifest.xml:15:9-21:20
+35-->/Users/Nikita/Downloads/Travel-App-brandon/TravelApp/app/src/main/AndroidManifest.xml:15:19-47
 36            <intent-filter>
-36-->/Users/Nikita/Downloads/Travel-App-justine/TravelApp/app/src/main/AndroidManifest.xml:16:13-20:29
+36-->/Users/Nikita/Downloads/Travel-App-brandon/TravelApp/app/src/main/AndroidManifest.xml:16:13-20:29
 37                <action android:name="android.intent.action.MAIN" />
-37-->/Users/Nikita/Downloads/Travel-App-justine/TravelApp/app/src/main/AndroidManifest.xml:17:17-69
-37-->/Users/Nikita/Downloads/Travel-App-justine/TravelApp/app/src/main/AndroidManifest.xml:17:25-66
+37-->/Users/Nikita/Downloads/Travel-App-brandon/TravelApp/app/src/main/AndroidManifest.xml:17:17-69
+37-->/Users/Nikita/Downloads/Travel-App-brandon/TravelApp/app/src/main/AndroidManifest.xml:17:25-66
 38
 39                <category android:name="android.intent.category.LAUNCHER" />
-39-->/Users/Nikita/Downloads/Travel-App-justine/TravelApp/app/src/main/AndroidManifest.xml:19:17-77
-39-->/Users/Nikita/Downloads/Travel-App-justine/TravelApp/app/src/main/AndroidManifest.xml:19:27-74
+39-->/Users/Nikita/Downloads/Travel-App-brandon/TravelApp/app/src/main/AndroidManifest.xml:19:17-77
+39-->/Users/Nikita/Downloads/Travel-App-brandon/TravelApp/app/src/main/AndroidManifest.xml:19:27-74
 40            </intent-filter>
 41        </activity>
 42
 43        <meta-data
-43-->/Users/Nikita/Downloads/Travel-App-justine/TravelApp/app/src/main/AndroidManifest.xml:22:9-24:55
+43-->/Users/Nikita/Downloads/Travel-App-brandon/TravelApp/app/src/main/AndroidManifest.xml:22:9-24:55
 44            android:name="com.google.android.geo.API_KEY"
-44-->/Users/Nikita/Downloads/Travel-App-justine/TravelApp/app/src/main/AndroidManifest.xml:23:13-58
+44-->/Users/Nikita/Downloads/Travel-App-brandon/TravelApp/app/src/main/AndroidManifest.xml:23:13-58
 45            android:value="@string/google_maps_key" />
-45-->/Users/Nikita/Downloads/Travel-App-justine/TravelApp/app/src/main/AndroidManifest.xml:24:13-52
+45-->/Users/Nikita/Downloads/Travel-App-brandon/TravelApp/app/src/main/AndroidManifest.xml:24:13-52
 46        <!-- Needs to be explicitly declared on P+ -->
 47        <uses-library
 47-->[com.google.android.gms:play-services-maps:16.1.0] /Users/Nikita/.gradle/caches/transforms-2/files-2.1/fe8347d364caf030b3b732fcf6c1e590/jetified-play-services-maps-16.1.0/AndroidManifest.xml:33:9-35:40

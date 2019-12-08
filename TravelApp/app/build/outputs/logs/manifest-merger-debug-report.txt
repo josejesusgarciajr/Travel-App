@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/Nikita/Downloads/Travel-App-justine/TravelApp/app/src/main/AndroidManifest.xml:2:1-31:12
-INJECTED from /Users/Nikita/Downloads/Travel-App-justine/TravelApp/app/src/main/AndroidManifest.xml:2:1-31:12
-INJECTED from /Users/Nikita/Downloads/Travel-App-justine/TravelApp/app/src/main/AndroidManifest.xml:2:1-31:12
-INJECTED from /Users/Nikita/Downloads/Travel-App-justine/TravelApp/app/src/main/AndroidManifest.xml:2:1-31:12
+ADDED from /Users/Nikita/Downloads/Travel-App-brandon/TravelApp/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /Users/Nikita/Downloads/Travel-App-brandon/TravelApp/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /Users/Nikita/Downloads/Travel-App-brandon/TravelApp/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /Users/Nikita/Downloads/Travel-App-brandon/TravelApp/app/src/main/AndroidManifest.xml:2:1-31:12
 MERGED from [androidx.databinding:databinding-adapters:3.5.0] /Users/Nikita/.gradle/caches/transforms-2/files-2.1/f73545341c8a0fdcf45f48875a0504ea/databinding-adapters-3.5.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.databinding:databinding-runtime:3.5.0] /Users/Nikita/.gradle/caches/transforms-2/files-2.1/7c2eed087fbb23d614b1fa5935b2d31c/databinding-runtime-3.5.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.navigation:navigation-ui-ktx:2.1.0] /Users/Nikita/.gradle/caches/transforms-2/files-2.1/e2ed394ad49518e20c0fcd7e545b7999/navigation-ui-ktx-2.1.0/AndroidManifest.xml:17:1-24:12
@@ -31,6 +31,7 @@ MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/
 MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/Nikita/.gradle/caches/transforms-2/files-2.1/e964194295ef4e6f16e04310809a5640/jetified-play-services-basement-16.0.1/AndroidManifest.xml:17:1-28:12
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/Nikita/.gradle/caches/transforms-2/files-2.1/8fb6c815ce30989b72ab89d8f9ce526d/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-fragment-ktx:2.1.0] /Users/Nikita/.gradle/caches/transforms-2/files-2.1/9b9cfeb39897342d6efdc6304ecf477a/navigation-fragment-ktx-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [pl.droidsonroids.gif:android-gif-drawable:1.2.19] /Users/Nikita/.gradle/caches/transforms-2/files-2.1/45ac75b201d7835726de289db763d52a/jetified-android-gif-drawable-1.2.19/AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.navigation:navigation-fragment:2.1.0] /Users/Nikita/.gradle/caches/transforms-2/files-2.1/97561fd4e3b69b34f397b37002c54fbf/navigation-fragment-2.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.fragment:fragment-ktx:1.1.0] /Users/Nikita/.gradle/caches/transforms-2/files-2.1/352ad1c0c1b903fb47382457c813fe4d/fragment-ktx-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.fragment:fragment:1.1.0] /Users/Nikita/.gradle/caches/transforms-2/files-2.1/234948f3ce0975623d5928ec25cc2dbb/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
@@ -71,38 +72,39 @@ MERGED from [androidx.cardview:cardview:1.0.0] /Users/Nikita/.gradle/caches/tran
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/Nikita/.gradle/caches/transforms-2/files-2.1/7295ecfd4788b7e64c45ebbfa8a27f4e/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/Nikita/.gradle/caches/transforms-2/files-2.1/2e2e81006a11eb4f46c99ec3662629a6/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/Nikita/.gradle/caches/transforms-2/files-2.1/99820f5455c8845efa7ec16a9454576c/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [pl.droidsonroids:relinker:1.3.1] /Users/Nikita/.gradle/caches/transforms-2/files-2.1/35b7a3a5896bdecc9e7c591d598b9025/relinker-1.3.1/AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.gms:play-services-measurement-base:16.0.3] /Users/Nikita/.gradle/caches/transforms-2/files-2.1/87f98c7e8e2e9e4bafc084b6f4ced16c/play-services-measurement-base-16.0.3/AndroidManifest.xml:2:1-9:12
-INJECTED from /Users/Nikita/Downloads/Travel-App-justine/TravelApp/app/src/main/AndroidManifest.xml:2:1-31:12
-INJECTED from /Users/Nikita/Downloads/Travel-App-justine/TravelApp/app/src/main/AndroidManifest.xml:2:1-31:12
-INJECTED from /Users/Nikita/Downloads/Travel-App-justine/TravelApp/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /Users/Nikita/Downloads/Travel-App-brandon/TravelApp/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /Users/Nikita/Downloads/Travel-App-brandon/TravelApp/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /Users/Nikita/Downloads/Travel-App-brandon/TravelApp/app/src/main/AndroidManifest.xml:2:1-31:12
 	package
-		ADDED from /Users/Nikita/Downloads/Travel-App-justine/TravelApp/app/src/main/AndroidManifest.xml:3:5-45
-		INJECTED from /Users/Nikita/Downloads/Travel-App-justine/TravelApp/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/Nikita/Downloads/Travel-App-justine/TravelApp/app/src/main/AndroidManifest.xml
+		ADDED from /Users/Nikita/Downloads/Travel-App-brandon/TravelApp/app/src/main/AndroidManifest.xml:3:5-45
+		INJECTED from /Users/Nikita/Downloads/Travel-App-brandon/TravelApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Nikita/Downloads/Travel-App-brandon/TravelApp/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/Nikita/Downloads/Travel-App-justine/TravelApp/app/src/main/AndroidManifest.xml
-		ADDED from /Users/Nikita/Downloads/Travel-App-justine/TravelApp/app/src/main/AndroidManifest.xml:2:1-31:12
-		INJECTED from /Users/Nikita/Downloads/Travel-App-justine/TravelApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Nikita/Downloads/Travel-App-brandon/TravelApp/app/src/main/AndroidManifest.xml
+		ADDED from /Users/Nikita/Downloads/Travel-App-brandon/TravelApp/app/src/main/AndroidManifest.xml:2:1-31:12
+		INJECTED from /Users/Nikita/Downloads/Travel-App-brandon/TravelApp/app/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /Users/Nikita/Downloads/Travel-App-justine/TravelApp/app/src/main/AndroidManifest.xml
-		ADDED from /Users/Nikita/Downloads/Travel-App-justine/TravelApp/app/src/main/AndroidManifest.xml:2:1-31:12
-		INJECTED from /Users/Nikita/Downloads/Travel-App-justine/TravelApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Nikita/Downloads/Travel-App-brandon/TravelApp/app/src/main/AndroidManifest.xml
+		ADDED from /Users/Nikita/Downloads/Travel-App-brandon/TravelApp/app/src/main/AndroidManifest.xml:2:1-31:12
+		INJECTED from /Users/Nikita/Downloads/Travel-App-brandon/TravelApp/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/Nikita/Downloads/Travel-App-justine/TravelApp/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /Users/Nikita/Downloads/Travel-App-brandon/TravelApp/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from /Users/Nikita/Downloads/Travel-App-justine/TravelApp/app/src/main/AndroidManifest.xml:4:5-81
+ADDED from /Users/Nikita/Downloads/Travel-App-brandon/TravelApp/app/src/main/AndroidManifest.xml:4:5-81
 	android:name
-		ADDED from /Users/Nikita/Downloads/Travel-App-justine/TravelApp/app/src/main/AndroidManifest.xml:4:22-78
+		ADDED from /Users/Nikita/Downloads/Travel-App-brandon/TravelApp/app/src/main/AndroidManifest.xml:4:22-78
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from /Users/Nikita/Downloads/Travel-App-justine/TravelApp/app/src/main/AndroidManifest.xml:5:5-79
+ADDED from /Users/Nikita/Downloads/Travel-App-brandon/TravelApp/app/src/main/AndroidManifest.xml:5:5-79
 	android:name
-		ADDED from /Users/Nikita/Downloads/Travel-App-justine/TravelApp/app/src/main/AndroidManifest.xml:5:22-76
+		ADDED from /Users/Nikita/Downloads/Travel-App-brandon/TravelApp/app/src/main/AndroidManifest.xml:5:22-76
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /Users/Nikita/Downloads/Travel-App-justine/TravelApp/app/src/main/AndroidManifest.xml:6:5-81
+ADDED from /Users/Nikita/Downloads/Travel-App-brandon/TravelApp/app/src/main/AndroidManifest.xml:6:5-81
 	android:name
-		ADDED from /Users/Nikita/Downloads/Travel-App-justine/TravelApp/app/src/main/AndroidManifest.xml:6:22-78
+		ADDED from /Users/Nikita/Downloads/Travel-App-brandon/TravelApp/app/src/main/AndroidManifest.xml:6:22-78
 application
-ADDED from /Users/Nikita/Downloads/Travel-App-justine/TravelApp/app/src/main/AndroidManifest.xml:8:5-25:19
+ADDED from /Users/Nikita/Downloads/Travel-App-brandon/TravelApp/app/src/main/AndroidManifest.xml:8:5-25:19
 MERGED from [com.google.android.material:material:1.0.0] /Users/Nikita/.gradle/caches/transforms-2/files-2.1/caa4663cc6d423fc1336631f18513a63/material-1.0.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.0.0] /Users/Nikita/.gradle/caches/transforms-2/files-2.1/caa4663cc6d423fc1336631f18513a63/material-1.0.0/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/Nikita/.gradle/caches/transforms-2/files-2.1/5325511ec95fd63481fa7795ccc3ee26/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
@@ -146,49 +148,49 @@ MERGED from [com.google.android.gms:play-services-measurement-base:16.0.3] /User
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.1.0] /Users/Nikita/.gradle/caches/transforms-2/files-2.1/45ad85c46df4b70f083f5acde98f35fc/core-1.1.0/AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from /Users/Nikita/Downloads/Travel-App-justine/TravelApp/app/src/main/AndroidManifest.xml:13:9-35
+		ADDED from /Users/Nikita/Downloads/Travel-App-brandon/TravelApp/app/src/main/AndroidManifest.xml:13:9-35
 	android:label
-		ADDED from /Users/Nikita/Downloads/Travel-App-justine/TravelApp/app/src/main/AndroidManifest.xml:11:9-41
+		ADDED from /Users/Nikita/Downloads/Travel-App-brandon/TravelApp/app/src/main/AndroidManifest.xml:11:9-41
 	android:roundIcon
-		ADDED from /Users/Nikita/Downloads/Travel-App-justine/TravelApp/app/src/main/AndroidManifest.xml:12:9-54
+		ADDED from /Users/Nikita/Downloads/Travel-App-brandon/TravelApp/app/src/main/AndroidManifest.xml:12:9-54
 	android:icon
-		ADDED from /Users/Nikita/Downloads/Travel-App-justine/TravelApp/app/src/main/AndroidManifest.xml:10:9-43
+		ADDED from /Users/Nikita/Downloads/Travel-App-brandon/TravelApp/app/src/main/AndroidManifest.xml:10:9-43
 	android:allowBackup
-		ADDED from /Users/Nikita/Downloads/Travel-App-justine/TravelApp/app/src/main/AndroidManifest.xml:9:9-35
+		ADDED from /Users/Nikita/Downloads/Travel-App-brandon/TravelApp/app/src/main/AndroidManifest.xml:9:9-35
 	android:theme
-		ADDED from /Users/Nikita/Downloads/Travel-App-justine/TravelApp/app/src/main/AndroidManifest.xml:14:9-40
+		ADDED from /Users/Nikita/Downloads/Travel-App-brandon/TravelApp/app/src/main/AndroidManifest.xml:14:9-40
 activity#jwest.android_class.travel_app.MainActivity
-ADDED from /Users/Nikita/Downloads/Travel-App-justine/TravelApp/app/src/main/AndroidManifest.xml:15:9-21:20
+ADDED from /Users/Nikita/Downloads/Travel-App-brandon/TravelApp/app/src/main/AndroidManifest.xml:15:9-21:20
 	android:name
-		ADDED from /Users/Nikita/Downloads/Travel-App-justine/TravelApp/app/src/main/AndroidManifest.xml:15:19-47
+		ADDED from /Users/Nikita/Downloads/Travel-App-brandon/TravelApp/app/src/main/AndroidManifest.xml:15:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/Nikita/Downloads/Travel-App-justine/TravelApp/app/src/main/AndroidManifest.xml:16:13-20:29
+ADDED from /Users/Nikita/Downloads/Travel-App-brandon/TravelApp/app/src/main/AndroidManifest.xml:16:13-20:29
 action#android.intent.action.MAIN
-ADDED from /Users/Nikita/Downloads/Travel-App-justine/TravelApp/app/src/main/AndroidManifest.xml:17:17-69
+ADDED from /Users/Nikita/Downloads/Travel-App-brandon/TravelApp/app/src/main/AndroidManifest.xml:17:17-69
 	android:name
-		ADDED from /Users/Nikita/Downloads/Travel-App-justine/TravelApp/app/src/main/AndroidManifest.xml:17:25-66
+		ADDED from /Users/Nikita/Downloads/Travel-App-brandon/TravelApp/app/src/main/AndroidManifest.xml:17:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/Nikita/Downloads/Travel-App-justine/TravelApp/app/src/main/AndroidManifest.xml:19:17-77
+ADDED from /Users/Nikita/Downloads/Travel-App-brandon/TravelApp/app/src/main/AndroidManifest.xml:19:17-77
 	android:name
-		ADDED from /Users/Nikita/Downloads/Travel-App-justine/TravelApp/app/src/main/AndroidManifest.xml:19:27-74
+		ADDED from /Users/Nikita/Downloads/Travel-App-brandon/TravelApp/app/src/main/AndroidManifest.xml:19:27-74
 meta-data#com.google.android.geo.API_KEY
-ADDED from /Users/Nikita/Downloads/Travel-App-justine/TravelApp/app/src/main/AndroidManifest.xml:22:9-24:55
+ADDED from /Users/Nikita/Downloads/Travel-App-brandon/TravelApp/app/src/main/AndroidManifest.xml:22:9-24:55
 	android:value
-		ADDED from /Users/Nikita/Downloads/Travel-App-justine/TravelApp/app/src/main/AndroidManifest.xml:24:13-52
+		ADDED from /Users/Nikita/Downloads/Travel-App-brandon/TravelApp/app/src/main/AndroidManifest.xml:24:13-52
 	android:name
-		ADDED from /Users/Nikita/Downloads/Travel-App-justine/TravelApp/app/src/main/AndroidManifest.xml:23:13-58
+		ADDED from /Users/Nikita/Downloads/Travel-App-brandon/TravelApp/app/src/main/AndroidManifest.xml:23:13-58
 uses-feature#0x00020000
-ADDED from /Users/Nikita/Downloads/Travel-App-justine/TravelApp/app/src/main/AndroidManifest.xml:27:5-30:11
+ADDED from /Users/Nikita/Downloads/Travel-App-brandon/TravelApp/app/src/main/AndroidManifest.xml:27:5-30:11
 MERGED from [com.google.android.gms:play-services-maps:16.1.0] /Users/Nikita/.gradle/caches/transforms-2/files-2.1/fe8347d364caf030b3b732fcf6c1e590/jetified-play-services-maps-16.1.0/AndroidManifest.xml:26:5-28:35
 MERGED from [com.google.android.gms:play-services-maps:16.1.0] /Users/Nikita/.gradle/caches/transforms-2/files-2.1/fe8347d364caf030b3b732fcf6c1e590/jetified-play-services-maps-16.1.0/AndroidManifest.xml:26:5-28:35
 	android:glEsVersion
-		ADDED from /Users/Nikita/Downloads/Travel-App-justine/TravelApp/app/src/main/AndroidManifest.xml:28:9-41
+		ADDED from /Users/Nikita/Downloads/Travel-App-brandon/TravelApp/app/src/main/AndroidManifest.xml:28:9-41
 	android:required
-		ADDED from /Users/Nikita/Downloads/Travel-App-justine/TravelApp/app/src/main/AndroidManifest.xml:29:9-32
+		ADDED from /Users/Nikita/Downloads/Travel-App-brandon/TravelApp/app/src/main/AndroidManifest.xml:29:9-32
 uses-sdk
-INJECTED from /Users/Nikita/Downloads/Travel-App-justine/TravelApp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/Nikita/Downloads/Travel-App-justine/TravelApp/app/src/main/AndroidManifest.xml
-INJECTED from /Users/Nikita/Downloads/Travel-App-justine/TravelApp/app/src/main/AndroidManifest.xml
+INJECTED from /Users/Nikita/Downloads/Travel-App-brandon/TravelApp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/Nikita/Downloads/Travel-App-brandon/TravelApp/app/src/main/AndroidManifest.xml
+INJECTED from /Users/Nikita/Downloads/Travel-App-brandon/TravelApp/app/src/main/AndroidManifest.xml
 MERGED from [androidx.databinding:databinding-adapters:3.5.0] /Users/Nikita/.gradle/caches/transforms-2/files-2.1/f73545341c8a0fdcf45f48875a0504ea/databinding-adapters-3.5.0/AndroidManifest.xml:22:5-44
 MERGED from [androidx.databinding:databinding-adapters:3.5.0] /Users/Nikita/.gradle/caches/transforms-2/files-2.1/f73545341c8a0fdcf45f48875a0504ea/databinding-adapters-3.5.0/AndroidManifest.xml:22:5-44
 MERGED from [androidx.databinding:databinding-runtime:3.5.0] /Users/Nikita/.gradle/caches/transforms-2/files-2.1/7c2eed087fbb23d614b1fa5935b2d31c/databinding-runtime-3.5.0/AndroidManifest.xml:22:5-44
@@ -243,6 +245,8 @@ MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/Nikita/.gradle/cach
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/Nikita/.gradle/caches/transforms-2/files-2.1/8fb6c815ce30989b72ab89d8f9ce526d/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.navigation:navigation-fragment-ktx:2.1.0] /Users/Nikita/.gradle/caches/transforms-2/files-2.1/9b9cfeb39897342d6efdc6304ecf477a/navigation-fragment-ktx-2.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.navigation:navigation-fragment-ktx:2.1.0] /Users/Nikita/.gradle/caches/transforms-2/files-2.1/9b9cfeb39897342d6efdc6304ecf477a/navigation-fragment-ktx-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [pl.droidsonroids.gif:android-gif-drawable:1.2.19] /Users/Nikita/.gradle/caches/transforms-2/files-2.1/45ac75b201d7835726de289db763d52a/jetified-android-gif-drawable-1.2.19/AndroidManifest.xml:5:5-7:41
+MERGED from [pl.droidsonroids.gif:android-gif-drawable:1.2.19] /Users/Nikita/.gradle/caches/transforms-2/files-2.1/45ac75b201d7835726de289db763d52a/jetified-android-gif-drawable-1.2.19/AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.navigation:navigation-fragment:2.1.0] /Users/Nikita/.gradle/caches/transforms-2/files-2.1/97561fd4e3b69b34f397b37002c54fbf/navigation-fragment-2.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.navigation:navigation-fragment:2.1.0] /Users/Nikita/.gradle/caches/transforms-2/files-2.1/97561fd4e3b69b34f397b37002c54fbf/navigation-fragment-2.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment-ktx:1.1.0] /Users/Nikita/.gradle/caches/transforms-2/files-2.1/352ad1c0c1b903fb47382457c813fe4d/fragment-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
@@ -323,18 +327,20 @@ MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/Nikita/.gr
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/Nikita/.gradle/caches/transforms-2/files-2.1/2e2e81006a11eb4f46c99ec3662629a6/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/Nikita/.gradle/caches/transforms-2/files-2.1/99820f5455c8845efa7ec16a9454576c/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/Nikita/.gradle/caches/transforms-2/files-2.1/99820f5455c8845efa7ec16a9454576c/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [pl.droidsonroids:relinker:1.3.1] /Users/Nikita/.gradle/caches/transforms-2/files-2.1/35b7a3a5896bdecc9e7c591d598b9025/relinker-1.3.1/AndroidManifest.xml:5:5-43
+MERGED from [pl.droidsonroids:relinker:1.3.1] /Users/Nikita/.gradle/caches/transforms-2/files-2.1/35b7a3a5896bdecc9e7c591d598b9025/relinker-1.3.1/AndroidManifest.xml:5:5-43
 MERGED from [com.google.android.gms:play-services-measurement-base:16.0.3] /Users/Nikita/.gradle/caches/transforms-2/files-2.1/87f98c7e8e2e9e4bafc084b6f4ced16c/play-services-measurement-base-16.0.3/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-measurement-base:16.0.3] /Users/Nikita/.gradle/caches/transforms-2/files-2.1/87f98c7e8e2e9e4bafc084b6f4ced16c/play-services-measurement-base-16.0.3/AndroidManifest.xml:5:5-44
-INJECTED from /Users/Nikita/Downloads/Travel-App-justine/TravelApp/app/src/main/AndroidManifest.xml
-INJECTED from /Users/Nikita/Downloads/Travel-App-justine/TravelApp/app/src/main/AndroidManifest.xml
+INJECTED from /Users/Nikita/Downloads/Travel-App-brandon/TravelApp/app/src/main/AndroidManifest.xml
+INJECTED from /Users/Nikita/Downloads/Travel-App-brandon/TravelApp/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /Users/Nikita/Downloads/Travel-App-justine/TravelApp/app/src/main/AndroidManifest.xml
-		ADDED from /Users/Nikita/Downloads/Travel-App-justine/TravelApp/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/Nikita/Downloads/Travel-App-justine/TravelApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Nikita/Downloads/Travel-App-brandon/TravelApp/app/src/main/AndroidManifest.xml
+		ADDED from /Users/Nikita/Downloads/Travel-App-brandon/TravelApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Nikita/Downloads/Travel-App-brandon/TravelApp/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/Nikita/Downloads/Travel-App-justine/TravelApp/app/src/main/AndroidManifest.xml
-		ADDED from /Users/Nikita/Downloads/Travel-App-justine/TravelApp/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/Nikita/Downloads/Travel-App-justine/TravelApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Nikita/Downloads/Travel-App-brandon/TravelApp/app/src/main/AndroidManifest.xml
+		ADDED from /Users/Nikita/Downloads/Travel-App-brandon/TravelApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Nikita/Downloads/Travel-App-brandon/TravelApp/app/src/main/AndroidManifest.xml
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [com.google.android.gms:play-services-maps:16.1.0] /Users/Nikita/.gradle/caches/transforms-2/files-2.1/fe8347d364caf030b3b732fcf6c1e590/jetified-play-services-maps-16.1.0/AndroidManifest.xml:23:5-79
 MERGED from [com.google.firebase:firebase-database:16.0.4] /Users/Nikita/.gradle/caches/transforms-2/files-2.1/62b49a54ba6a644b3e4d7ed19adbbf99/jetified-firebase-database-16.0.4/AndroidManifest.xml:22:5-79

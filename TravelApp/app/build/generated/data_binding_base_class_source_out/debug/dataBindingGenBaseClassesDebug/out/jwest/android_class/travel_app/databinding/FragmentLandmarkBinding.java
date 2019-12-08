@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.RatingBar;
 import android.widget.ScrollView;
 import android.widget.TextView;
@@ -24,7 +25,13 @@ public abstract class FragmentLandmarkBinding extends ViewDataBinding {
   public final ConstraintLayout frameLayout;
 
   @NonNull
+  public final ImageButton landmarkDeleteButton;
+
+  @NonNull
   public final TextView landmarkDescriptionText;
+
+  @NonNull
+  public final ImageButton landmarkEditButton;
 
   @NonNull
   public final RatingBar landmarkRatingInput;
@@ -45,12 +52,15 @@ public abstract class FragmentLandmarkBinding extends ViewDataBinding {
   protected LandmarkFragment mLandmarkFragment;
 
   protected FragmentLandmarkBinding(Object _bindingComponent, View _root, int _localFieldCount,
-      ConstraintLayout frameLayout, TextView landmarkDescriptionText, RatingBar landmarkRatingInput,
-      TextView landmarkTitleText, ConstraintLayout linearLayout, Button rateButton,
-      ScrollView scrollView2) {
+      ConstraintLayout frameLayout, ImageButton landmarkDeleteButton,
+      TextView landmarkDescriptionText, ImageButton landmarkEditButton,
+      RatingBar landmarkRatingInput, TextView landmarkTitleText, ConstraintLayout linearLayout,
+      Button rateButton, ScrollView scrollView2) {
     super(_bindingComponent, _root, _localFieldCount);
     this.frameLayout = frameLayout;
+    this.landmarkDeleteButton = landmarkDeleteButton;
     this.landmarkDescriptionText = landmarkDescriptionText;
+    this.landmarkEditButton = landmarkEditButton;
     this.landmarkRatingInput = landmarkRatingInput;
     this.landmarkTitleText = landmarkTitleText;
     this.linearLayout = linearLayout;

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/Nikita/Downloads/Travel-App-justine/TravelApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml",
+            "outputFile": "/Users/Nikita/Downloads/Travel-App-brandon/TravelApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml",
             "map": [
                 {
                     "source": "/Users/Nikita/.gradle/caches/transforms-2/files-2.1/42096e253e03b00d8a85e5127902a010/appcompat-1.1.0/res/values-hdpi-v4/values-hdpi-v4.xml",

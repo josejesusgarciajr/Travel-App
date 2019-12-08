@@ -26,8 +26,7 @@ class AddLandmarkFragment : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-        ): View? {
-
+    ): View? {
         binding = DataBindingUtil.inflate<FragmentAddLandmarkBinding>(inflater,
             R.layout.fragment_add_landmark, container,false)
         // Bind this fragment class to the layout
@@ -89,7 +88,6 @@ class AddLandmarkFragment : Fragment() {
         ref.child(landmarkId).setValue(newLandmark).addOnCompleteListener {
             Log.d("added successfully! ", newLandmark.title)
             view?.findNavController()?.navigate(R.id.action_addLandmarkFragment_to_mapFragment)
-
         }
 
     }
