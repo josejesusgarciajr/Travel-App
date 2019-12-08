@@ -50,6 +50,11 @@ class Log_In : Fragment() {
             validateUser()
         }
 
+        // SET ONCLICKLISTENER FOR Registration Button
+        binding.registrationBtn.setOnClickListener{view: View? ->
+            view!!.findNavController().navigate(R.id.logIn_To_Registration)
+        }
+
         return binding.root
     }
 

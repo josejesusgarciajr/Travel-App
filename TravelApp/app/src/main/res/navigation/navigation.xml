@@ -1,23 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/navigation"
     android:label="My Travel Buddy :)"
     app:startDestination="@id/titleFragment">
 
+    <!-- TITLE FRAGMENT -->
     <fragment
         android:id="@+id/titleFragment"
         android:name="jwest.android_class.travel_app.TitleFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         >
-<!--        <action-->
-<!--            android:id="@+id/action_titleFragment_to_map"-->
-<!--            app:destination="@+id/map" />-->
+        <!--        <action-->
+        <!--            android:id="@+id/action_titleFragment_to_map"-->
+        <!--            app:destination="@+id/map" />-->
         <action
             android:id="@+id/action_titleFragment_to_mapFragment"
             app:destination="@id/mapFragment" />
+        <action
+            android:id="@+id/action_titleFragment_to_reviewFragment"
+            app:destination="@id/reviewFragment" />
+        <action
+            android:id="@+id/action_titleFragment_to_landmarkFragment"
+            app:destination="@id/landmarkFragment" />
     </fragment>
 
     <!-- GOOGLE MAPS FRAGMENT -->
@@ -27,7 +35,44 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         >
+        <action
+            android:id="@+id/action_mapFragment_to_addLandmarkFragment"
+            app:destination="@id/addLandmarkFragment" />
     </fragment>
+
+    <!-- LAND MARK FRAGEMTN -->
+    <fragment
+        android:id="@+id/landmarkFragment"
+        android:name="jwest.android_class.travel_app.LandmarkFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+    </fragment>
+
+    <!-- ADD LAND MARK FRAGMENT -->
+    <fragment
+        android:id="@+id/addLandmarkFragment"
+        android:name="jwest.android_class.travel_app.AddLandmarkFragment"
+        android:label="Add a landmark!"
+        tools:layout="@layout/fragment_add_landmark" >
+        <argument
+            android:name="latitude"
+            app:argType="float" />
+        <argument
+            android:name="longitude"
+            app:argType="float" />
+        <action
+            android:id="@+id/action_addLandmarkFragment_to_mapFragment"
+            app:destination="@id/mapFragment" />
+    </fragment>
+
+    <!-- REVIEW FRAGMENT -->
+    <fragment
+        android:id="@+id/reviewFragment"
+        android:name="jwest.android_class.travel_app.reviewFragment"
+        android:label="fragment_review"
+        tools:layout="@layout/fragment_review" />
+
 
     <!-- LOG IN FRAGMENT -->
     <fragment
@@ -40,6 +85,17 @@
         <action
             android:id="@+id/logIn_To_Google_Maps"
             app:destination="@+id/mapFragment" />
+        <action
+            android:id="@+id/logIn_To_Registration"
+            app:destination="@+id/registrationFragment"/>
+    </fragment>
+
+    <!-- REGISTRATION FRAGMENT -->
+    <fragment
+        android:id="@+id/registrationFragment"
+        android:name="jwest.android_class.travel_app.RegistrationFragment"
+        android:label="fragment_registration"
+        tools:layout="@layout/fragment_registration" >
     </fragment>
 
 </navigation>

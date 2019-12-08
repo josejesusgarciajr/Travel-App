@@ -38,16 +38,16 @@ class MainActivity : AppCompatActivity() {
         Log.d("here", " main activity")
 
 
-        // GET A CONNECTION TO FIREBASE
-        ref = FirebaseDatabase.getInstance().getReference("members")
-
-        // ADDING
-//        val memberID : String = ref.push().key!!
-//        val c : Coordinates = Coordinates(52.36674, 4.8945)
+        // THIS IS SUPPOSE TO GET A CONNECTION TO FIREBASE
+        ref = FirebaseDatabase.getInstance().getReference("landmarks")
+//        Log.d("firebase ", ref.database.reference.toString())
+//        // ADDING
+//        val landmarkId : String = ref.push().key!!
+//        val c : Coordinates = Coordinates(34.187042, -118.381256)
 //
-//        val member : Member = Member(memberID, "Adrian", "Valenzuela", 19, c, "adrian", "drinksAlot")
+//        val landmark : Landmark = Landmark(landmarkId, null, c, "Hollywood", "Hope this works", 5)
 //
-//        ref.child(memberID).setValue(member).addOnCompleteListener {
+//        ref.child(landmarkId).setValue(landmark).addOnCompleteListener {
 //            Toast.makeText(applicationContext, "ADDED MEMBER SUCCESSFULLY!", Toast.LENGTH_LONG).show()
 //        }
 
@@ -60,4 +60,3 @@ class MainActivity : AppCompatActivity() {
         return NavigationUI.navigateUp(navController, drawerLayout)
     }
 }
-

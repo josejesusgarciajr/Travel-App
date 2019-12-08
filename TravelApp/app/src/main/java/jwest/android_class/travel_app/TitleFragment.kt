@@ -28,6 +28,14 @@ class TitleFragment : Fragment() {
         binding.titleToMapButton.setOnClickListener { view : View ->
             view.findNavController().navigate(R.id.action_titleFragment_to_mapFragment)
         }
+
+        binding.titleToReviewButton.setOnClickListener { view : View ->
+            view.findNavController().navigate(R.id.action_titleFragment_to_reviewFragment)
+        }
+
+        binding.titleToLandmarkButton.setOnClickListener { view : View ->
+            view.findNavController().navigate(R.id.action_titleFragment_to_landmarkFragment)
+        }
         return binding.root
     }
 }

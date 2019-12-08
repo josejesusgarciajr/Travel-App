@@ -9,5 +9,4 @@
         android:title="@string/map_name" />
     <item android:id="@+id/log_In"
         android:title="@string/LogInTitle"/>
-
 </menu>
