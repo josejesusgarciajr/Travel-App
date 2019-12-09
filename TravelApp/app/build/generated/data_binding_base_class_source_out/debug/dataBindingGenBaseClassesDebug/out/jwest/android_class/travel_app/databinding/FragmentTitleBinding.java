@@ -21,25 +21,16 @@ public abstract class FragmentTitleBinding extends ViewDataBinding {
   public final ConstraintLayout back;
 
   @NonNull
-  public final Button titleToLandmarkButton;
-
-  @NonNull
-  public final Button titleToMapButton;
-
-  @NonNull
-  public final Button titleToReviewButton;
+  public final Button titleFragmentToLogInButton;
 
   @Bindable
   protected TitleFragment mTitleFragment;
 
   protected FragmentTitleBinding(Object _bindingComponent, View _root, int _localFieldCount,
-      ConstraintLayout back, Button titleToLandmarkButton, Button titleToMapButton,
-      Button titleToReviewButton) {
+      ConstraintLayout back, Button titleFragmentToLogInButton) {
     super(_bindingComponent, _root, _localFieldCount);
     this.back = back;
-    this.titleToLandmarkButton = titleToLandmarkButton;
-    this.titleToMapButton = titleToMapButton;
-    this.titleToReviewButton = titleToReviewButton;
+    this.titleFragmentToLogInButton = titleFragmentToLogInButton;
   }
 
   public abstract void setTitleFragment(@Nullable TitleFragment titleFragment);

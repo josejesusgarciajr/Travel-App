@@ -1232,6 +1232,7 @@ id action_mode_bar_stub
 id action_mode_close_button
 id action_text
 id action_titleFragment_to_landmarkFragment
+id action_titleFragment_to_log_In
 id action_titleFragment_to_mapFragment
 id action_titleFragment_to_reviewFragment
 id actions
@@ -1464,10 +1465,9 @@ id time
 id title
 id titleDividerNoCustom
 id titleFragment
+id titleFragment_to_log_In_button
 id title_template
-id title_to_landmark_button
 id title_to_map_button
-id title_to_review_button
 id top
 id topPanel
 id total

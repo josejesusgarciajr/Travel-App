@@ -16,22 +16,28 @@ public class MapFragmentDirections {
 
   @NonNull
   public static ActionMapFragmentToAddLandmarkFragment actionMapFragmentToAddLandmarkFragment(float latitude,
-      float longitude) {
-    return new ActionMapFragmentToAddLandmarkFragment(latitude, longitude);
+      float longitude, @NonNull String loggedInUserId) {
+    return new ActionMapFragmentToAddLandmarkFragment(latitude, longitude, loggedInUserId);
   }
 
   @NonNull
   public static ActionMapFragmentToLandmarkFragment actionMapFragmentToLandmarkFragment(@NonNull String landmarkTitle,
-      @NonNull String landmarkDescription, float landmarkRating, @NonNull String landmarkId) {
-    return new ActionMapFragmentToLandmarkFragment(landmarkTitle, landmarkDescription, landmarkRating, landmarkId);
+      @NonNull String landmarkDescription, float landmarkRating, @NonNull String landmarkId,
+      @NonNull String landmarkAuthorId, @NonNull String landmarkLoggedInUserId) {
+    return new ActionMapFragmentToLandmarkFragment(landmarkTitle, landmarkDescription, landmarkRating, landmarkId, landmarkAuthorId, landmarkLoggedInUserId);
   }
 
   public static class ActionMapFragmentToAddLandmarkFragment implements NavDirections {
     private final HashMap arguments = new HashMap();
 
-    private ActionMapFragmentToAddLandmarkFragment(float latitude, float longitude) {
+    private ActionMapFragmentToAddLandmarkFragment(float latitude, float longitude,
+        @NonNull String loggedInUserId) {
       this.arguments.put("latitude", latitude);
       this.arguments.put("longitude", longitude);
+      if (loggedInUserId == null) {
+        throw new IllegalArgumentException("Argument \"loggedInUserId\" is marked as non-null but was passed a null value.");
+      }
+      this.arguments.put("loggedInUserId", loggedInUserId);
     }
 
     @NonNull
@@ -43,6 +49,15 @@ public class MapFragmentDirections {
     @NonNull
     public ActionMapFragmentToAddLandmarkFragment setLongitude(float longitude) {
       this.arguments.put("longitude", longitude);
+      return this;
+    }
+
+    @NonNull
+    public ActionMapFragmentToAddLandmarkFragment setLoggedInUserId(@NonNull String loggedInUserId) {
+      if (loggedInUserId == null) {
+        throw new IllegalArgumentException("Argument \"loggedInUserId\" is marked as non-null but was passed a null value.");
+      }
+      this.arguments.put("loggedInUserId", loggedInUserId);
       return this;
     }
 
@@ -58,6 +73,10 @@ public class MapFragmentDirections {
       if (arguments.containsKey("longitude")) {
         float longitude = (float) arguments.get("longitude");
         __result.putFloat("longitude", longitude);
+      }
+      if (arguments.containsKey("loggedInUserId")) {
+        String loggedInUserId = (String) arguments.get("loggedInUserId");
+        __result.putString("loggedInUserId", loggedInUserId);
       }
       return __result;
     }
@@ -75,6 +94,12 @@ public class MapFragmentDirections {
     @SuppressWarnings("unchecked")
     public float getLongitude() {
       return (float) arguments.get("longitude");
+    }
+
+    @SuppressWarnings("unchecked")
+    @NonNull
+    public String getLoggedInUserId() {
+      return (String) arguments.get("loggedInUserId");
     }
 
     @Override
@@ -98,6 +123,12 @@ public class MapFragmentDirections {
       if (Float.compare(that.getLongitude(), getLongitude()) != 0) {
         return false;
       }
+      if (arguments.containsKey("loggedInUserId") != that.arguments.containsKey("loggedInUserId")) {
+        return false;
+      }
+      if (getLoggedInUserId() != null ? !getLoggedInUserId().equals(that.getLoggedInUserId()) : that.getLoggedInUserId() != null) {
+        return false;
+      }
       if (getActionId() != that.getActionId()) {
         return false;
       }
@@ -109,6 +140,7 @@ public class MapFragmentDirections {
       int result = 1;
       result = 31 * result + Float.floatToIntBits(getLatitude());
       result = 31 * result + Float.floatToIntBits(getLongitude());
+      result = 31 * result + (getLoggedInUserId() != null ? getLoggedInUserId().hashCode() : 0);
       result = 31 * result + getActionId();
       return result;
     }
@@ -118,6 +150,7 @@ public class MapFragmentDirections {
       return "ActionMapFragmentToAddLandmarkFragment(actionId=" + getActionId() + "){"
           + "latitude=" + getLatitude()
           + ", longitude=" + getLongitude()
+          + ", loggedInUserId=" + getLoggedInUserId()
           + "}";
     }
   }
@@ -126,7 +159,8 @@ public class MapFragmentDirections {
     private final HashMap arguments = new HashMap();
 
     private ActionMapFragmentToLandmarkFragment(@NonNull String landmarkTitle,
-        @NonNull String landmarkDescription, float landmarkRating, @NonNull String landmarkId) {
+        @NonNull String landmarkDescription, float landmarkRating, @NonNull String landmarkId,
+        @NonNull String landmarkAuthorId, @NonNull String landmarkLoggedInUserId) {
       if (landmarkTitle == null) {
         throw new IllegalArgumentException("Argument \"landmarkTitle\" is marked as non-null but was passed a null value.");
       }
@@ -140,6 +174,14 @@ public class MapFragmentDirections {
         throw new IllegalArgumentException("Argument \"landmarkId\" is marked as non-null but was passed a null value.");
       }
       this.arguments.put("landmarkId", landmarkId);
+      if (landmarkAuthorId == null) {
+        throw new IllegalArgumentException("Argument \"landmarkAuthorId\" is marked as non-null but was passed a null value.");
+      }
+      this.arguments.put("landmarkAuthorId", landmarkAuthorId);
+      if (landmarkLoggedInUserId == null) {
+        throw new IllegalArgumentException("Argument \"landmarkLoggedInUserId\" is marked as non-null but was passed a null value.");
+      }
+      this.arguments.put("landmarkLoggedInUserId", landmarkLoggedInUserId);
     }
 
     @NonNull
@@ -175,6 +217,24 @@ public class MapFragmentDirections {
       return this;
     }
 
+    @NonNull
+    public ActionMapFragmentToLandmarkFragment setLandmarkAuthorId(@NonNull String landmarkAuthorId) {
+      if (landmarkAuthorId == null) {
+        throw new IllegalArgumentException("Argument \"landmarkAuthorId\" is marked as non-null but was passed a null value.");
+      }
+      this.arguments.put("landmarkAuthorId", landmarkAuthorId);
+      return this;
+    }
+
+    @NonNull
+    public ActionMapFragmentToLandmarkFragment setLandmarkLoggedInUserId(@NonNull String landmarkLoggedInUserId) {
+      if (landmarkLoggedInUserId == null) {
+        throw new IllegalArgumentException("Argument \"landmarkLoggedInUserId\" is marked as non-null but was passed a null value.");
+      }
+      this.arguments.put("landmarkLoggedInUserId", landmarkLoggedInUserId);
+      return this;
+    }
+
     @Override
     @SuppressWarnings("unchecked")
     @NonNull
@@ -195,6 +255,14 @@ public class MapFragmentDirections {
       if (arguments.containsKey("landmarkId")) {
         String landmarkId = (String) arguments.get("landmarkId");
         __result.putString("landmarkId", landmarkId);
+      }
+      if (arguments.containsKey("landmarkAuthorId")) {
+        String landmarkAuthorId = (String) arguments.get("landmarkAuthorId");
+        __result.putString("landmarkAuthorId", landmarkAuthorId);
+      }
+      if (arguments.containsKey("landmarkLoggedInUserId")) {
+        String landmarkLoggedInUserId = (String) arguments.get("landmarkLoggedInUserId");
+        __result.putString("landmarkLoggedInUserId", landmarkLoggedInUserId);
       }
       return __result;
     }
@@ -225,6 +293,18 @@ public class MapFragmentDirections {
     @NonNull
     public String getLandmarkId() {
       return (String) arguments.get("landmarkId");
+    }
+
+    @SuppressWarnings("unchecked")
+    @NonNull
+    public String getLandmarkAuthorId() {
+      return (String) arguments.get("landmarkAuthorId");
+    }
+
+    @SuppressWarnings("unchecked")
+    @NonNull
+    public String getLandmarkLoggedInUserId() {
+      return (String) arguments.get("landmarkLoggedInUserId");
     }
 
     @Override
@@ -260,6 +340,18 @@ public class MapFragmentDirections {
       if (getLandmarkId() != null ? !getLandmarkId().equals(that.getLandmarkId()) : that.getLandmarkId() != null) {
         return false;
       }
+      if (arguments.containsKey("landmarkAuthorId") != that.arguments.containsKey("landmarkAuthorId")) {
+        return false;
+      }
+      if (getLandmarkAuthorId() != null ? !getLandmarkAuthorId().equals(that.getLandmarkAuthorId()) : that.getLandmarkAuthorId() != null) {
+        return false;
+      }
+      if (arguments.containsKey("landmarkLoggedInUserId") != that.arguments.containsKey("landmarkLoggedInUserId")) {
+        return false;
+      }
+      if (getLandmarkLoggedInUserId() != null ? !getLandmarkLoggedInUserId().equals(that.getLandmarkLoggedInUserId()) : that.getLandmarkLoggedInUserId() != null) {
+        return false;
+      }
       if (getActionId() != that.getActionId()) {
         return false;
       }
@@ -273,6 +365,8 @@ public class MapFragmentDirections {
       result = 31 * result + (getLandmarkDescription() != null ? getLandmarkDescription().hashCode() : 0);
       result = 31 * result + Float.floatToIntBits(getLandmarkRating());
       result = 31 * result + (getLandmarkId() != null ? getLandmarkId().hashCode() : 0);
+      result = 31 * result + (getLandmarkAuthorId() != null ? getLandmarkAuthorId().hashCode() : 0);
+      result = 31 * result + (getLandmarkLoggedInUserId() != null ? getLandmarkLoggedInUserId().hashCode() : 0);
       result = 31 * result + getActionId();
       return result;
     }
@@ -284,6 +378,8 @@ public class MapFragmentDirections {
           + ", landmarkDescription=" + getLandmarkDescription()
           + ", landmarkRating=" + getLandmarkRating()
           + ", landmarkId=" + getLandmarkId()
+          + ", landmarkAuthorId=" + getLandmarkAuthorId()
+          + ", landmarkLoggedInUserId=" + getLandmarkLoggedInUserId()
           + "}";
     }
   }
