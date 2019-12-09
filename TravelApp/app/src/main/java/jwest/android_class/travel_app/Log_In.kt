@@ -41,9 +41,9 @@ class Log_In : Fragment() {
         // GET A REFERENCE TO THE DATABASE
         ref = FirebaseDatabase.getInstance().getReference("members")
 
-        token = binding.root.context.getSharedPreferences("jose", Context.MODE_PRIVATE)
+//        token = binding.root.context.getSharedPreferences("jose", Context.MODE_PRIVATE)
 
-        userAlreadyLoggedIn()
+//        userAlreadyLoggedIn()
 
         // Set the onClickListener for the submitButton
         binding.logInButton.setOnClickListener { view : View ->
@@ -72,9 +72,10 @@ class Log_In : Fragment() {
                         val member : Member? = M.getValue(Member::class.java)
 
                         if(member!!.username == username) {
+                            Log.d("user key ", M.key)
                             // USER IS VALID: LOG THEM IN
                             Log.d("USER LOGG IN!", "USER LOGGED IN")
-                            view!!.findNavController().navigate(R.id.mapFragment)
+                            view!!.findNavController().navigate(Log_InDirections.logInToGoogleMaps(M.key.toString()))
                             break
                         }
                     }
@@ -103,7 +104,7 @@ class Log_In : Fragment() {
 
                     for(M in p0.children) {
                         Log.d("FROM FIREBASE", M.toString())
-                        Log.d("KEY: ", M.key)
+                        Log.d("users key is: ", M.key)
                         Log.d("Value: ", M.getValue().toString())
                         val member : Member? = M.getValue(Member::class.java)
 
@@ -115,9 +116,10 @@ class Log_In : Fragment() {
                             // USER IS VALID: LOG THEM IN
                             userState = true
                             Log.d("USER_STATE", userState.toString())
-                            view!!.findNavController().navigate(R.id.logIn_To_Google_Maps)
+                            view!!.findNavController().navigate(Log_InDirections.logInToGoogleMaps(M.key.toString()))
 
                             // EDITOR
+                            token = binding.root.context.getSharedPreferences("jose", Context.MODE_PRIVATE)
                             var editor = token.edit()
                             editor.putString("loginuser", username)
                             editor.commit()

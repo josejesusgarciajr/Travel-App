@@ -15,6 +15,7 @@ import android.graphics.drawable.LayerDrawable
 import android.graphics.Color
 import android.util.Log
 import android.widget.RatingBar
+import androidx.core.view.isVisible
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
 import kotlinx.android.synthetic.main.dialog_window.view.ratingBar
@@ -44,10 +45,16 @@ class LandmarkFragment : Fragment() {
         val ratingBar = binding.landmarkRatingInput as RatingBar
         ratingBar.rating = args.landmarkRating
 
+        if(args.landmarkAuthorId != args.landmarkLoggedInUserId) {
+            Log.d("Not same", "dont match users")
+            binding.landmarkDeleteButton.isVisible = false
+            binding.landmarkEditButton.isVisible = false
+        }
+
         binding.rateButton.setOnClickListener{userRating(it)}
 
-        binding.landmarkDeleteButton.setOnClickListener{ deleteLandmark(args.landmarkId) }
-        binding.landmarkEditButton.setOnClickListener{ view?.findNavController()?.navigate(LandmarkFragmentDirections.actionLandmarkFragmentToEditLandmarkFragment(args.landmarkId, args.landmarkTitle, args.landmarkDescription, args.landmarkRating)) }
+        binding.landmarkDeleteButton.setOnClickListener{ deleteLandmark(args.landmarkId, args.landmarkAuthorId) }
+        binding.landmarkEditButton.setOnClickListener{ view?.findNavController()?.navigate(LandmarkFragmentDirections.actionLandmarkFragmentToEditLandmarkFragment(args.landmarkId, args.landmarkTitle, args.landmarkDescription, args.landmarkRating, args.landmarkAuthorId, args.landmarkLoggedInUserId)) }
         return binding.root
     }
 
@@ -95,15 +102,11 @@ class LandmarkFragment : Fragment() {
         }
     }
 
-    private fun deleteLandmark(landmarkId : String) {
+    private fun deleteLandmark(landmarkId : String, landmarkAuthorId : String) {
         ref = FirebaseDatabase.getInstance().getReference("landmarks")
         var landmark = ref.child(landmarkId)
         landmark.removeValue()
         Log.d("delete : ", landmarkId)
-        view?.findNavController()?.navigate(R.id.action_landmarkFragment_to_mapFragment)
+        view?.findNavController()?.navigate(LandmarkFragmentDirections.actionLandmarkFragmentToMapFragment(landmarkAuthorId))
     }
-
-//    private fun editLandmark() {
-//        view?.findNavController()?.navigate(LandmarkFragmentDirections.actionLandmarkFragmentToEditLandmarkFragment)
-//    }
 }

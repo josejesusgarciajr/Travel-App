@@ -8,6 +8,7 @@ class Member (id: String, firstName: String, lastName: String, age : Int, coordi
     val username = username
     val password = password
     val age = age
+    val id = id
 
     constructor() : this("", "", "", -1, Coordinates(100.0, 100.0), "", ""){
 

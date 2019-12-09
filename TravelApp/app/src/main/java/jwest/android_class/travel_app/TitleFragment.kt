@@ -24,18 +24,21 @@ class TitleFragment : Fragment() {
         // Bind this fragment class to the layout
         binding.titleFragment = this
 
+        binding.titleFragmentToLogInButton.setOnClickListener { view : View ->
+            view.findNavController().navigate(R.id.action_titleFragment_to_log_In)
+        }
         // Set the onClickListener for the submitButton
-        binding.titleToMapButton.setOnClickListener { view : View ->
-            view.findNavController().navigate(R.id.action_titleFragment_to_mapFragment)
-        }
-
-        binding.titleToReviewButton.setOnClickListener { view : View ->
-            view.findNavController().navigate(R.id.action_titleFragment_to_reviewFragment)
-        }
-
-        binding.titleToLandmarkButton.setOnClickListener { view : View ->
-            view.findNavController().navigate(R.id.action_titleFragment_to_landmarkFragment)
-        }
+//        binding.titleToMapButton.setOnClickListener { view : View ->
+//            view.findNavController().navigate(R.id.action_titleFragment_to_mapFragment)
+//        }
+//
+//        binding.titleToReviewButton.setOnClickListener { view : View ->
+//            view.findNavController().navigate(R.id.action_titleFragment_to_reviewFragment)
+//        }
+//
+//        binding.titleToLandmarkButton.setOnClickListener { view : View ->
+//            view.findNavController().navigate(R.id.action_titleFragment_to_landmarkFragment)
+//        }
         return binding.root
     }
 }

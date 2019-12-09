@@ -21,6 +21,7 @@ import kotlin.math.roundToInt
 class EditLandmarkFragment : Fragment() {
     private lateinit var binding: FragmentEditLandmarkBinding
     private lateinit var ref: DatabaseReference
+
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -31,19 +32,19 @@ class EditLandmarkFragment : Fragment() {
         binding.editLandmarkFragment = this
         // Inflate the layout for this fragment
         val args = EditLandmarkFragmentArgs.fromBundle(arguments!!)
-
         binding.landmarkTitleInput.setText(args.landmarkTitle)
         binding.landmarkDescriptionInput.setText(args.landmarkDescription)
 
-        binding.editLandmarkSubmit.setOnClickListener { editLandmark(args.landmarkId.toString(), args.landmarkRating) }
+        binding.editLandmarkSubmit.setOnClickListener { editLandmark(args.landmarkId.toString(), args.landmarkRating, args.loggedInUserId, args.landmarkAuthorId) }
         return binding.root
     }
 
-    private fun editLandmark(landmarkId : String, landmarkRating : Float) {
+    private fun editLandmark(landmarkId : String, landmarkRating : Float, loggedInUserId : String, landmarkAuthorId : String) {
         ref = FirebaseDatabase.getInstance().getReference("landmarks")
         var landmark = ref.child(landmarkId)
+        Log.d("landmark edit ", landmark.key)
         landmark.child("title").setValue(binding.landmarkTitleInput.text.toString())
         landmark.child("description").setValue(binding.landmarkDescriptionInput.text.toString())
-        view?.findNavController()?.navigate(EditLandmarkFragmentDirections.actionEditLandmarkFragmentToLandmarkFragment(binding.landmarkTitleInput.text.toString(), binding.landmarkDescriptionInput.text.toString(), landmarkRating, landmarkId))
+        view?.findNavController()?.navigate(EditLandmarkFragmentDirections.actionEditLandmarkFragmentToLandmarkFragment(binding.landmarkTitleInput.text.toString(), binding.landmarkDescriptionInput.text.toString(), landmarkRating, landmarkId, loggedInUserId, landmarkAuthorId))
     }
 }

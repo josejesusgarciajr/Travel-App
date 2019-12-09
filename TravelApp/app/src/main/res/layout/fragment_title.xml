@@ -18,36 +18,47 @@
         tools:context=".MainActivity">
 
         <Button
-            android:id="@+id/title_to_map_button"
+            android:id="@+id/titleFragment_to_log_In_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="304dp"
-            android:text="Map"
+            android:text="Login"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.498"
-            app:layout_constraintStart_toStartOf="parent" />
+            app:layout_constraintStart_toStartOf="parent"/>
 
-        <Button
-            android:id="@+id/title_to_review_button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="32dp"
-            android:text="review"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.501"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/title_to_map_button" />
+        <!--        <Button-->
+<!--            android:id="@+id/title_to_map_button"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginBottom="304dp"-->
+<!--            android:text="Map"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintHorizontal_bias="0.498"-->
+<!--            app:layout_constraintStart_toStartOf="parent" />-->
 
-        <Button
-            android:id="@+id/title_to_landmark_button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="112dp"
-            android:text="Landmark Test"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/title_to_map_button" />
+<!--        <Button-->
+<!--            android:id="@+id/title_to_review_button"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="32dp"-->
+<!--            android:text="review"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintHorizontal_bias="0.501"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/title_to_map_button" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/title_to_landmark_button"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="112dp"-->
+<!--            android:text="Landmark Test"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/title_to_map_button" />-->
 
 
         <pl.droidsonroids.gif.GifImageView

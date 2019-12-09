@@ -29,7 +29,7 @@ class MapFragment : Fragment(), OnMapReadyCallback, GoogleMap.OnInfoWindowClickL
     private lateinit var gGroup: Group
     private lateinit var landmarksReference: DatabaseReference
     private lateinit var token : SharedPreferences
-
+    private lateinit var userId : String
 
     //private val ref = FirebaseDatabase
     var mapFragment : SupportMapFragment? = null
@@ -58,6 +58,10 @@ class MapFragment : Fragment(), OnMapReadyCallback, GoogleMap.OnInfoWindowClickL
         binding.mapFragment = this
 
         token = binding.root.context.getSharedPreferences("jose", Context.MODE_PRIVATE)
+
+        var args = MapFragmentArgs.fromBundle(arguments!!)
+
+        userId = args.loggedInUserId
 
         Log.d("GMAPS", "IDK WHAT IS GOING ON...")
         // SET ON CLICK LISTENER FOR LOG OUT BTN
@@ -97,7 +101,7 @@ class MapFragment : Fragment(), OnMapReadyCallback, GoogleMap.OnInfoWindowClickL
         map.setOnMapLongClickListener { latlong ->
             var latitude : Float = latlong.latitude.toFloat()
             var longitude : Float = latlong.longitude.toFloat()
-            view?.findNavController()?.navigate(MapFragmentDirections.actionMapFragmentToAddLandmarkFragment(latitude, longitude))
+            view?.findNavController()?.navigate(MapFragmentDirections.actionMapFragmentToAddLandmarkFragment(latitude, longitude, userId))
             //            var place = Place("Dropped Pin", Coordinates(latlong.latitude, latlong.longitude),
 //                5, "Best Place Ever")
 //
@@ -154,7 +158,7 @@ class MapFragment : Fragment(), OnMapReadyCallback, GoogleMap.OnInfoWindowClickL
         Log.d("marker clicked!", p0?.title + " is the landmark info")
         Log.d("the object ", p0?.tag.toString())
         var landmark = p0?.tag as? Landmark
-        view?.findNavController()?.navigate(MapFragmentDirections.actionMapFragmentToLandmarkFragment(landmark!!.title, landmark!!.description, landmark!!.rating, landmark!!.id))
+        view?.findNavController()?.navigate(MapFragmentDirections.actionMapFragmentToLandmarkFragment(landmark!!.title, landmark!!.description, landmark!!.rating, landmark!!.id, landmark!!.authorId.toString(), userId))
     }
 
     private fun logout() {

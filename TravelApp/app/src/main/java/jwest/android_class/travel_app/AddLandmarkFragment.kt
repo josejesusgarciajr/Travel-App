@@ -68,7 +68,7 @@ class AddLandmarkFragment : Fragment() {
                     val args = AddLandmarkFragmentArgs.fromBundle(arguments!!)
 
                     // Store landmark input in Firebase
-                    createLandmark(args.latitude, args.longitude, binding.landmarkTitleInput.text.toString(), binding.landmarkDescriptionInput.text.toString(), dialogView.ratingBar.rating )
+                    createLandmark(args.loggedInUserId, args.latitude, args.longitude, binding.landmarkTitleInput.text.toString(), binding.landmarkDescriptionInput.text.toString(), dialogView.ratingBar.rating )
                 }
                 .setNegativeButton("Cancel")
                 { dialog, which ->
@@ -79,15 +79,15 @@ class AddLandmarkFragment : Fragment() {
         }
     }
 
-    private fun createLandmark(latitude : Float, longitude : Float, title : String, description : String, rating : Float){
+    private fun createLandmark(loggedInUserId : String, latitude : Float, longitude : Float, title : String, description : String, rating : Float){
         ref = FirebaseDatabase.getInstance().getReference("landmarks")
         val landmarkId : String = ref.push().key!!
 
-        val newLandmark = Landmark(landmarkId, null, Coordinates(latitude.toDouble(), longitude.toDouble()), title, description, rating )
+        val newLandmark = Landmark(landmarkId, loggedInUserId, Coordinates(latitude.toDouble(), longitude.toDouble()), title, description, rating )
 
         ref.child(landmarkId).setValue(newLandmark).addOnCompleteListener {
             Log.d("added successfully! ", newLandmark.title)
-            view?.findNavController()?.navigate(R.id.action_addLandmarkFragment_to_mapFragment)
+            view?.findNavController()?.navigate(AddLandmarkFragmentDirections.actionAddLandmarkFragmentToMapFragment(loggedInUserId))
         }
 
     }
