@@ -38,7 +38,7 @@ class MainActivity : AppCompatActivity() {
         Log.d("here", " main activity")
 
 
-        // THIS IS SUPPOSE TO GET A CONNECTION TO FIREBASE
+        // GET A CONNECTION TO FIREBASE
         ref = FirebaseDatabase.getInstance().getReference("landmarks")
 //        Log.d("firebase ", ref.database.reference.toString())
 //        // ADDING

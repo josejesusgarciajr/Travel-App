@@ -106,6 +106,13 @@
         android:id="@+id/registrationPartTwoFragment"
         android:name="jwest.android_class.travel_app.RegistrationPartTwoFragment"
         android:label="fragment_registration_part_two"
-        tools:layout="@layout/fragment_registration_part_two" />
+        tools:layout="@layout/fragment_registration_part_two" >
+        <argument
+            android:name="argsUsername"
+            app:argType="string"/>
+        <argument
+            android:name="argsPassword"
+            app:argType="string"/>
+    </fragment>
 
 </navigation>

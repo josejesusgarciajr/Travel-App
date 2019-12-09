@@ -40,9 +40,15 @@ class RegistrationFragment : Fragment() {
         // Bind this fragment class to the layout
         binding.registrationFragment = this
 
+        var rfpt: RegistrationPartTwoFragment =  RegistrationPartTwoFragment()
+
+
+
         binding.registrationBtnToUserInfo.setOnClickListener { view: View? ->
 //            var user : CharSequence = binding.registrationUserName.text
 //            listener!!.onInputASent(user)
+            //rfpt.newInstance(binding.registrationUserName.toString(), binding.password.toString())
+            //Log.d("FP1_SETARGUMENT_F_FP2", rfpt.getArguments().toString())
             view!!.findNavController().navigate(R.id.registration_To_RegistrationPartTwo)
         }
 
