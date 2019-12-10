@@ -71,7 +71,8 @@
         <argument
             android:name="landmarkAuthorId"
             app:argType="string" />
-        <argument android:name="landmarkAuthorName" />
+        <argument android:name="landmarkAuthorName"
+            app:argType="string" />
     </fragment>
     <fragment
         android:id="@+id/addLandmarkFragment"
@@ -115,6 +116,9 @@
         <argument
             android:name="landmarkRating"
             app:argType="float" />
+        <argument
+            android:name="landmarkAuthorName"
+            app:argType="string" />
     </fragment>
 
 

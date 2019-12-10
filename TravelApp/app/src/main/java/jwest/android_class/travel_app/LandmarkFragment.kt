@@ -42,7 +42,7 @@ class LandmarkFragment : Fragment() {
         binding.landmarkFragment = this
 
         val args = LandmarkFragmentArgs.fromBundle(arguments!!)
-        binding.landmarkAuthorText.text = args.landmarkAuthorName
+        binding.landmarkAuthorText.text = "By: " + args.landmarkAuthorName
         binding.landmarkTitleText.text = args.landmarkTitle
         binding.landmarkDescriptionText.text = args.landmarkDescription
 
@@ -61,7 +61,7 @@ class LandmarkFragment : Fragment() {
         binding.rateButton.setOnClickListener{userRating(it)}
 
         binding.landmarkDeleteButton.setOnClickListener{ deleteLandmark(args.landmarkId) }
-        binding.landmarkEditButton.setOnClickListener{ view?.findNavController()?.navigate(LandmarkFragmentDirections.actionLandmarkFragmentToEditLandmarkFragment(args.landmarkId, args.landmarkTitle, args.landmarkDescription, args.landmarkRating)) }
+        binding.landmarkEditButton.setOnClickListener{ view?.findNavController()?.navigate(LandmarkFragmentDirections.actionLandmarkFragmentToEditLandmarkFragment(args.landmarkId, args.landmarkTitle, args.landmarkDescription, args.landmarkRating, args.landmarkAuthorName)) }
         return binding.root
     }
 

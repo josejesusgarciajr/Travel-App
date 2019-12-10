@@ -43,11 +43,11 @@ class EditLandmarkFragment : Fragment() {
 
         token = binding.root.context.getSharedPreferences("user", Context.MODE_PRIVATE)
 
-        binding.editLandmarkSubmit.setOnClickListener { editLandmark(args.landmarkId.toString(), args.landmarkRating) }
+        binding.editLandmarkSubmit.setOnClickListener { editLandmark(args.landmarkId.toString(), args.landmarkRating, args.landmarkAuthorName) }
         return binding.root
     }
 
-    private fun editLandmark(landmarkId : String, landmarkRating : Float) {
+    private fun editLandmark(landmarkId : String, landmarkRating : Float, landmarkAuthorName : String) {
         ref = FirebaseDatabase.getInstance().getReference("landmarks")
         var landmark = ref.child(landmarkId)
         landmark.child("title").setValue(binding.landmarkTitleInput.text.toString())
@@ -55,9 +55,9 @@ class EditLandmarkFragment : Fragment() {
 
         var loggedInUserId =  token.all["userID"].toString()
 
-        memberReference = FirebaseDatabase.getInstance().getReference("members")
-        var landmarkAuthor = memberReference.child(landmark.child("authorId").toString())
+//        memberReference = FirebaseDatabase.getInstance().getReference("members")
+//        var landmarkAuthor = memberReference.child(landmark.child("authorId").toString())
 
-        view?.findNavController()?.navigate(EditLandmarkFragmentDirections.actionEditLandmarkFragmentToLandmarkFragment(binding.landmarkTitleInput.text.toString(), binding.landmarkDescriptionInput.text.toString(), landmarkRating, landmarkId, loggedInUserId,landmarkAuthor.toString()))
+        view?.findNavController()?.navigate(EditLandmarkFragmentDirections.actionEditLandmarkFragmentToLandmarkFragment(binding.landmarkTitleInput.text.toString(), binding.landmarkDescriptionInput.text.toString(), landmarkRating, landmarkId, loggedInUserId,landmarkAuthorName))
     }
 }

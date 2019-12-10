@@ -138,15 +138,26 @@ class MapFragment : Fragment(), OnMapReadyCallback, GoogleMap.OnInfoWindowClickL
         Log.d("the object ", p0?.tag.toString())
         var landmark = p0?.tag as? Landmark
 
-        memberReference = FirebaseDatabase.getInstance().getReference("members")
-        var key = landmark!!.authorId
-        var authorName = memberReference.child(key.toString())
-        Log.d("AuthorName", authorName.key)
+        memberReference = FirebaseDatabase.getInstance().getReference("members").child(landmark!!.authorId.toString())
+
+        memberReference.addValueEventListener(object : ValueEventListener {
+            override fun onCancelled(p0: DatabaseError) {
+                TODO("not implemented") // THIS METHOD RUNS ONLY IF DATA READ FAILED
+            }
+
+            override fun onDataChange(p0: DataSnapshot) {
+                // THIS METHOD RUNS ONLY IF DATA IS READ SUCCESSFULLY
+
+                if(p0!!.exists()) {
+                    val member : Member? = p0.getValue(Member::class.java)
+                    Log.d("IDKKK", member!!.firstName)
+                    view?.findNavController()?.navigate(MapFragmentDirections.actionMapFragmentToLandmarkFragment(landmark!!.title, landmark!!.description, landmark!!.rating, landmark!!.id, landmark!!.authorId.toString(), member.firstName))
+                }
+            }
+
+        })
 
 
-        Log.d("link ", authorName.toString())
-
-        view?.findNavController()?.navigate(MapFragmentDirections.actionMapFragmentToLandmarkFragment(landmark!!.title, landmark!!.description, landmark!!.rating, landmark!!.id, landmark!!.authorId.toString(), authorName.toString()))
     }
 
     private fun logout() {
