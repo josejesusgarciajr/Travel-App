@@ -146,6 +146,7 @@ class MapFragment : Fragment(), OnMapReadyCallback, GoogleMap.OnInfoWindowClickL
 
         Log.d("link ", authorName.toString())
 
+
         view?.findNavController()?.navigate(MapFragmentDirections.actionMapFragmentToLandmarkFragment(landmark!!.title, landmark!!.description, landmark!!.rating, landmark!!.id, landmark!!.authorId.toString(), authorName.toString()))
     }
 
