@@ -6,169 +6,169 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="19"
-8-->/Users/jginvincible/git/Travel-App/TravelApp/app/src/main/AndroidManifest.xml
+8-->C:\Users\justi.JUSTINE-SURFACE\Desktop\Travel-App\TravelApp\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="29" />
-9-->/Users/jginvincible/git/Travel-App/TravelApp/app/src/main/AndroidManifest.xml
+9-->C:\Users\justi.JUSTINE-SURFACE\Desktop\Travel-App\TravelApp\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-11-->/Users/jginvincible/git/Travel-App/TravelApp/app/src/main/AndroidManifest.xml:4:5-81
-11-->/Users/jginvincible/git/Travel-App/TravelApp/app/src/main/AndroidManifest.xml:4:22-78
+11-->C:\Users\justi.JUSTINE-SURFACE\Desktop\Travel-App\TravelApp\app\src\main\AndroidManifest.xml:4:5-81
+11-->C:\Users\justi.JUSTINE-SURFACE\Desktop\Travel-App\TravelApp\app\src\main\AndroidManifest.xml:4:22-78
 12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-12-->/Users/jginvincible/git/Travel-App/TravelApp/app/src/main/AndroidManifest.xml:5:5-79
-12-->/Users/jginvincible/git/Travel-App/TravelApp/app/src/main/AndroidManifest.xml:5:22-76
+12-->C:\Users\justi.JUSTINE-SURFACE\Desktop\Travel-App\TravelApp\app\src\main\AndroidManifest.xml:5:5-79
+12-->C:\Users\justi.JUSTINE-SURFACE\Desktop\Travel-App\TravelApp\app\src\main\AndroidManifest.xml:5:22-76
 13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-13-->/Users/jginvincible/git/Travel-App/TravelApp/app/src/main/AndroidManifest.xml:6:5-81
-13-->/Users/jginvincible/git/Travel-App/TravelApp/app/src/main/AndroidManifest.xml:6:22-78
+13-->C:\Users\justi.JUSTINE-SURFACE\Desktop\Travel-App\TravelApp\app\src\main\AndroidManifest.xml:6:5-81
+13-->C:\Users\justi.JUSTINE-SURFACE\Desktop\Travel-App\TravelApp\app\src\main\AndroidManifest.xml:6:22-78
 14
 15    <uses-feature
-15-->/Users/jginvincible/git/Travel-App/TravelApp/app/src/main/AndroidManifest.xml:27:5-30:11
+15-->C:\Users\justi.JUSTINE-SURFACE\Desktop\Travel-App\TravelApp\app\src\main\AndroidManifest.xml:27:5-30:11
 16        android:glEsVersion="0x00020000"
-16-->/Users/jginvincible/git/Travel-App/TravelApp/app/src/main/AndroidManifest.xml:28:9-41
+16-->C:\Users\justi.JUSTINE-SURFACE\Desktop\Travel-App\TravelApp\app\src\main\AndroidManifest.xml:28:9-41
 17        android:required="true" />
-17-->/Users/jginvincible/git/Travel-App/TravelApp/app/src/main/AndroidManifest.xml:29:9-32
+17-->C:\Users\justi.JUSTINE-SURFACE\Desktop\Travel-App\TravelApp\app\src\main\AndroidManifest.xml:29:9-32
 18    <!-- Include required permissions for Google Maps API to run. -->
 19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-19-->[com.google.android.gms:play-services-maps:16.1.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/895860155a33e246626ac0465d5fb69a/jetified-play-services-maps-16.1.0/AndroidManifest.xml:23:5-79
-19-->[com.google.android.gms:play-services-maps:16.1.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/895860155a33e246626ac0465d5fb69a/jetified-play-services-maps-16.1.0/AndroidManifest.xml:23:22-76
+19-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\justi.JUSTINE-SURFACE\.gradle\caches\transforms-2\files-2.1\5aa2300b825106912cb3be6700189eea\jetified-play-services-maps-16.1.0\AndroidManifest.xml:23:5-79
+19-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\justi.JUSTINE-SURFACE\.gradle\caches\transforms-2\files-2.1\5aa2300b825106912cb3be6700189eea\jetified-play-services-maps-16.1.0\AndroidManifest.xml:23:22-76
 20    <uses-permission android:name="android.permission.INTERNET" />
-20-->[com.google.android.gms:play-services-maps:16.1.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/895860155a33e246626ac0465d5fb69a/jetified-play-services-maps-16.1.0/AndroidManifest.xml:24:5-67
-20-->[com.google.android.gms:play-services-maps:16.1.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/895860155a33e246626ac0465d5fb69a/jetified-play-services-maps-16.1.0/AndroidManifest.xml:24:22-64
+20-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\justi.JUSTINE-SURFACE\.gradle\caches\transforms-2\files-2.1\5aa2300b825106912cb3be6700189eea\jetified-play-services-maps-16.1.0\AndroidManifest.xml:24:5-67
+20-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\justi.JUSTINE-SURFACE\.gradle\caches\transforms-2\files-2.1\5aa2300b825106912cb3be6700189eea\jetified-play-services-maps-16.1.0\AndroidManifest.xml:24:22-64
 21    <uses-permission android:name="android.permission.WAKE_LOCK" />
-21-->[com.google.firebase:firebase-measurement-connector-impl:17.0.2] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/a527e43d49cea9161be88a426bfcbb82/jetified-firebase-measurement-connector-impl-17.0.2/AndroidManifest.xml:24:5-68
-21-->[com.google.firebase:firebase-measurement-connector-impl:17.0.2] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/a527e43d49cea9161be88a426bfcbb82/jetified-firebase-measurement-connector-impl-17.0.2/AndroidManifest.xml:24:22-65
+21-->[com.google.firebase:firebase-measurement-connector-impl:17.0.2] C:\Users\justi.JUSTINE-SURFACE\.gradle\caches\transforms-2\files-2.1\08c43c813cb715a9b94cb7a892db4309\jetified-firebase-measurement-connector-impl-17.0.2\AndroidManifest.xml:24:5-68
+21-->[com.google.firebase:firebase-measurement-connector-impl:17.0.2] C:\Users\justi.JUSTINE-SURFACE\.gradle\caches\transforms-2\files-2.1\08c43c813cb715a9b94cb7a892db4309\jetified-firebase-measurement-connector-impl-17.0.2\AndroidManifest.xml:24:22-65
 22    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
-22-->[com.google.firebase:firebase-analytics:16.0.4] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/aca9b95f2f0a6b1a860a3bae1282d626/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:26:5-110
-22-->[com.google.firebase:firebase-analytics:16.0.4] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/aca9b95f2f0a6b1a860a3bae1282d626/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:26:22-107
+22-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\justi.JUSTINE-SURFACE\.gradle\caches\transforms-2\files-2.1\bcd65934a73453b8c50c28532a64d810\jetified-firebase-analytics-16.0.4\AndroidManifest.xml:26:5-110
+22-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\justi.JUSTINE-SURFACE\.gradle\caches\transforms-2\files-2.1\bcd65934a73453b8c50c28532a64d810\jetified-firebase-analytics-16.0.4\AndroidManifest.xml:26:22-107
 23    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
-23-->[com.google.firebase:firebase-iid:17.0.3] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/a85f04007d3c55a0d767f9a6a9a8c69f/jetified-firebase-iid-17.0.3/AndroidManifest.xml:26:5-82
-23-->[com.google.firebase:firebase-iid:17.0.3] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/a85f04007d3c55a0d767f9a6a9a8c69f/jetified-firebase-iid-17.0.3/AndroidManifest.xml:26:22-79
+23-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\justi.JUSTINE-SURFACE\.gradle\caches\transforms-2\files-2.1\149f7ff3cace6773134373214d6a415c\jetified-firebase-iid-17.0.3\AndroidManifest.xml:26:5-82
+23-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\justi.JUSTINE-SURFACE\.gradle\caches\transforms-2\files-2.1\149f7ff3cace6773134373214d6a415c\jetified-firebase-iid-17.0.3\AndroidManifest.xml:26:22-79
 24
 25    <application
-25-->/Users/jginvincible/git/Travel-App/TravelApp/app/src/main/AndroidManifest.xml:8:5-25:19
+25-->C:\Users\justi.JUSTINE-SURFACE\Desktop\Travel-App\TravelApp\app\src\main\AndroidManifest.xml:8:5-25:19
 26        android:allowBackup="true"
-26-->/Users/jginvincible/git/Travel-App/TravelApp/app/src/main/AndroidManifest.xml:9:9-35
+26-->C:\Users\justi.JUSTINE-SURFACE\Desktop\Travel-App\TravelApp\app\src\main\AndroidManifest.xml:9:9-35
 27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-27-->[androidx.core:core:1.1.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/45ad85c46df4b70f083f5acde98f35fc/core-1.1.0/AndroidManifest.xml:24:18-86
+27-->[androidx.core:core:1.1.0] C:\Users\justi.JUSTINE-SURFACE\.gradle\caches\transforms-2\files-2.1\45ad85c46df4b70f083f5acde98f35fc\core-1.1.0\AndroidManifest.xml:24:18-86
 28        android:debuggable="true"
 29        android:icon="@mipmap/ic_launcher"
-29-->/Users/jginvincible/git/Travel-App/TravelApp/app/src/main/AndroidManifest.xml:10:9-43
+29-->C:\Users\justi.JUSTINE-SURFACE\Desktop\Travel-App\TravelApp\app\src\main\AndroidManifest.xml:10:9-43
 30        android:label="@string/app_name"
-30-->/Users/jginvincible/git/Travel-App/TravelApp/app/src/main/AndroidManifest.xml:11:9-41
+30-->C:\Users\justi.JUSTINE-SURFACE\Desktop\Travel-App\TravelApp\app\src\main\AndroidManifest.xml:11:9-41
 31        android:roundIcon="@mipmap/ic_launcher_round"
-31-->/Users/jginvincible/git/Travel-App/TravelApp/app/src/main/AndroidManifest.xml:12:9-54
+31-->C:\Users\justi.JUSTINE-SURFACE\Desktop\Travel-App\TravelApp\app\src\main\AndroidManifest.xml:12:9-54
 32        android:supportsRtl="true"
-32-->/Users/jginvincible/git/Travel-App/TravelApp/app/src/main/AndroidManifest.xml:13:9-35
+32-->C:\Users\justi.JUSTINE-SURFACE\Desktop\Travel-App\TravelApp\app\src\main\AndroidManifest.xml:13:9-35
 33        android:testOnly="true"
 34        android:theme="@style/AppTheme" >
-34-->/Users/jginvincible/git/Travel-App/TravelApp/app/src/main/AndroidManifest.xml:14:9-40
+34-->C:\Users\justi.JUSTINE-SURFACE\Desktop\Travel-App\TravelApp\app\src\main\AndroidManifest.xml:14:9-40
 35        <activity android:name="jwest.android_class.travel_app.MainActivity" >
-35-->/Users/jginvincible/git/Travel-App/TravelApp/app/src/main/AndroidManifest.xml:15:9-21:20
-35-->/Users/jginvincible/git/Travel-App/TravelApp/app/src/main/AndroidManifest.xml:15:19-47
+35-->C:\Users\justi.JUSTINE-SURFACE\Desktop\Travel-App\TravelApp\app\src\main\AndroidManifest.xml:15:9-21:20
+35-->C:\Users\justi.JUSTINE-SURFACE\Desktop\Travel-App\TravelApp\app\src\main\AndroidManifest.xml:15:19-47
 36            <intent-filter>
-36-->/Users/jginvincible/git/Travel-App/TravelApp/app/src/main/AndroidManifest.xml:16:13-20:29
+36-->C:\Users\justi.JUSTINE-SURFACE\Desktop\Travel-App\TravelApp\app\src\main\AndroidManifest.xml:16:13-20:29
 37                <action android:name="android.intent.action.MAIN" />
-37-->/Users/jginvincible/git/Travel-App/TravelApp/app/src/main/AndroidManifest.xml:17:17-69
-37-->/Users/jginvincible/git/Travel-App/TravelApp/app/src/main/AndroidManifest.xml:17:25-66
+37-->C:\Users\justi.JUSTINE-SURFACE\Desktop\Travel-App\TravelApp\app\src\main\AndroidManifest.xml:17:17-69
+37-->C:\Users\justi.JUSTINE-SURFACE\Desktop\Travel-App\TravelApp\app\src\main\AndroidManifest.xml:17:25-66
 38
 39                <category android:name="android.intent.category.LAUNCHER" />
-39-->/Users/jginvincible/git/Travel-App/TravelApp/app/src/main/AndroidManifest.xml:19:17-77
-39-->/Users/jginvincible/git/Travel-App/TravelApp/app/src/main/AndroidManifest.xml:19:27-74
+39-->C:\Users\justi.JUSTINE-SURFACE\Desktop\Travel-App\TravelApp\app\src\main\AndroidManifest.xml:19:17-77
+39-->C:\Users\justi.JUSTINE-SURFACE\Desktop\Travel-App\TravelApp\app\src\main\AndroidManifest.xml:19:27-74
 40            </intent-filter>
 41        </activity>
 42
 43        <meta-data
-43-->/Users/jginvincible/git/Travel-App/TravelApp/app/src/main/AndroidManifest.xml:22:9-24:55
+43-->C:\Users\justi.JUSTINE-SURFACE\Desktop\Travel-App\TravelApp\app\src\main\AndroidManifest.xml:22:9-24:55
 44            android:name="com.google.android.geo.API_KEY"
-44-->/Users/jginvincible/git/Travel-App/TravelApp/app/src/main/AndroidManifest.xml:23:13-58
+44-->C:\Users\justi.JUSTINE-SURFACE\Desktop\Travel-App\TravelApp\app\src\main\AndroidManifest.xml:23:13-58
 45            android:value="@string/google_maps_key" />
-45-->/Users/jginvincible/git/Travel-App/TravelApp/app/src/main/AndroidManifest.xml:24:13-52
+45-->C:\Users\justi.JUSTINE-SURFACE\Desktop\Travel-App\TravelApp\app\src\main\AndroidManifest.xml:24:13-52
 46        <!-- Needs to be explicitly declared on P+ -->
 47        <uses-library
-47-->[com.google.android.gms:play-services-maps:16.1.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/895860155a33e246626ac0465d5fb69a/jetified-play-services-maps-16.1.0/AndroidManifest.xml:33:9-35:40
+47-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\justi.JUSTINE-SURFACE\.gradle\caches\transforms-2\files-2.1\5aa2300b825106912cb3be6700189eea\jetified-play-services-maps-16.1.0\AndroidManifest.xml:33:9-35:40
 48            android:name="org.apache.http.legacy"
-48-->[com.google.android.gms:play-services-maps:16.1.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/895860155a33e246626ac0465d5fb69a/jetified-play-services-maps-16.1.0/AndroidManifest.xml:34:13-50
+48-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\justi.JUSTINE-SURFACE\.gradle\caches\transforms-2\files-2.1\5aa2300b825106912cb3be6700189eea\jetified-play-services-maps-16.1.0\AndroidManifest.xml:34:13-50
 49            android:required="false" />
-49-->[com.google.android.gms:play-services-maps:16.1.0] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/895860155a33e246626ac0465d5fb69a/jetified-play-services-maps-16.1.0/AndroidManifest.xml:35:13-37
+49-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\justi.JUSTINE-SURFACE\.gradle\caches\transforms-2\files-2.1\5aa2300b825106912cb3be6700189eea\jetified-play-services-maps-16.1.0\AndroidManifest.xml:35:13-37
 50
 51        <service
-51-->[com.google.firebase:firebase-measurement-connector-impl:17.0.2] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/a527e43d49cea9161be88a426bfcbb82/jetified-firebase-measurement-connector-impl-17.0.2/AndroidManifest.xml:27:9-31:19
+51-->[com.google.firebase:firebase-measurement-connector-impl:17.0.2] C:\Users\justi.JUSTINE-SURFACE\.gradle\caches\transforms-2\files-2.1\08c43c813cb715a9b94cb7a892db4309\jetified-firebase-measurement-connector-impl-17.0.2\AndroidManifest.xml:27:9-31:19
 52            android:name="com.google.firebase.components.ComponentDiscoveryService"
-52-->[com.google.firebase:firebase-measurement-connector-impl:17.0.2] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/a527e43d49cea9161be88a426bfcbb82/jetified-firebase-measurement-connector-impl-17.0.2/AndroidManifest.xml:27:18-89
+52-->[com.google.firebase:firebase-measurement-connector-impl:17.0.2] C:\Users\justi.JUSTINE-SURFACE\.gradle\caches\transforms-2\files-2.1\08c43c813cb715a9b94cb7a892db4309\jetified-firebase-measurement-connector-impl-17.0.2\AndroidManifest.xml:27:18-89
 53            android:exported="false" >
-53-->[com.google.firebase:firebase-iid:17.0.3] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/a85f04007d3c55a0d767f9a6a9a8c69f/jetified-firebase-iid-17.0.3/AndroidManifest.xml:31:13-37
+53-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\justi.JUSTINE-SURFACE\.gradle\caches\transforms-2\files-2.1\149f7ff3cace6773134373214d6a415c\jetified-firebase-iid-17.0.3\AndroidManifest.xml:31:13-37
 54            <meta-data
-54-->[com.google.firebase:firebase-measurement-connector-impl:17.0.2] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/a527e43d49cea9161be88a426bfcbb82/jetified-firebase-measurement-connector-impl-17.0.2/AndroidManifest.xml:28:13-30:85
+54-->[com.google.firebase:firebase-measurement-connector-impl:17.0.2] C:\Users\justi.JUSTINE-SURFACE\.gradle\caches\transforms-2\files-2.1\08c43c813cb715a9b94cb7a892db4309\jetified-firebase-measurement-connector-impl-17.0.2\AndroidManifest.xml:28:13-30:85
 55                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
-55-->[com.google.firebase:firebase-measurement-connector-impl:17.0.2] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/a527e43d49cea9161be88a426bfcbb82/jetified-firebase-measurement-connector-impl-17.0.2/AndroidManifest.xml:29:17-139
+55-->[com.google.firebase:firebase-measurement-connector-impl:17.0.2] C:\Users\justi.JUSTINE-SURFACE\.gradle\caches\transforms-2\files-2.1\08c43c813cb715a9b94cb7a892db4309\jetified-firebase-measurement-connector-impl-17.0.2\AndroidManifest.xml:29:17-139
 56                android:value="com.google.firebase.components.ComponentRegistrar" />
-56-->[com.google.firebase:firebase-measurement-connector-impl:17.0.2] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/a527e43d49cea9161be88a426bfcbb82/jetified-firebase-measurement-connector-impl-17.0.2/AndroidManifest.xml:30:17-82
+56-->[com.google.firebase:firebase-measurement-connector-impl:17.0.2] C:\Users\justi.JUSTINE-SURFACE\.gradle\caches\transforms-2\files-2.1\08c43c813cb715a9b94cb7a892db4309\jetified-firebase-measurement-connector-impl-17.0.2\AndroidManifest.xml:30:17-82
 57            <meta-data
-57-->[com.google.firebase:firebase-iid:17.0.3] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/a85f04007d3c55a0d767f9a6a9a8c69f/jetified-firebase-iid-17.0.3/AndroidManifest.xml:32:13-34:85
+57-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\justi.JUSTINE-SURFACE\.gradle\caches\transforms-2\files-2.1\149f7ff3cace6773134373214d6a415c\jetified-firebase-iid-17.0.3\AndroidManifest.xml:32:13-34:85
 58                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
-58-->[com.google.firebase:firebase-iid:17.0.3] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/a85f04007d3c55a0d767f9a6a9a8c69f/jetified-firebase-iid-17.0.3/AndroidManifest.xml:33:17-96
+58-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\justi.JUSTINE-SURFACE\.gradle\caches\transforms-2\files-2.1\149f7ff3cace6773134373214d6a415c\jetified-firebase-iid-17.0.3\AndroidManifest.xml:33:17-96
 59                android:value="com.google.firebase.components.ComponentRegistrar" />
-59-->[com.google.firebase:firebase-iid:17.0.3] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/a85f04007d3c55a0d767f9a6a9a8c69f/jetified-firebase-iid-17.0.3/AndroidManifest.xml:34:17-82
+59-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\justi.JUSTINE-SURFACE\.gradle\caches\transforms-2\files-2.1\149f7ff3cace6773134373214d6a415c\jetified-firebase-iid-17.0.3\AndroidManifest.xml:34:17-82
 60        </service>
 61
 62        <receiver
-62-->[com.google.firebase:firebase-analytics:16.0.4] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/aca9b95f2f0a6b1a860a3bae1282d626/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:29:9-33:20
+62-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\justi.JUSTINE-SURFACE\.gradle\caches\transforms-2\files-2.1\bcd65934a73453b8c50c28532a64d810\jetified-firebase-analytics-16.0.4\AndroidManifest.xml:29:9-33:20
 63            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
-63-->[com.google.firebase:firebase-analytics:16.0.4] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/aca9b95f2f0a6b1a860a3bae1282d626/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:30:13-85
+63-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\justi.JUSTINE-SURFACE\.gradle\caches\transforms-2\files-2.1\bcd65934a73453b8c50c28532a64d810\jetified-firebase-analytics-16.0.4\AndroidManifest.xml:30:13-85
 64            android:enabled="true"
-64-->[com.google.firebase:firebase-analytics:16.0.4] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/aca9b95f2f0a6b1a860a3bae1282d626/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:31:13-35
+64-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\justi.JUSTINE-SURFACE\.gradle\caches\transforms-2\files-2.1\bcd65934a73453b8c50c28532a64d810\jetified-firebase-analytics-16.0.4\AndroidManifest.xml:31:13-35
 65            android:exported="false" >
-65-->[com.google.firebase:firebase-analytics:16.0.4] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/aca9b95f2f0a6b1a860a3bae1282d626/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:32:13-37
+65-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\justi.JUSTINE-SURFACE\.gradle\caches\transforms-2\files-2.1\bcd65934a73453b8c50c28532a64d810\jetified-firebase-analytics-16.0.4\AndroidManifest.xml:32:13-37
 66        </receiver>
 67        <receiver
-67-->[com.google.firebase:firebase-analytics:16.0.4] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/aca9b95f2f0a6b1a860a3bae1282d626/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:34:9-42:20
+67-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\justi.JUSTINE-SURFACE\.gradle\caches\transforms-2\files-2.1\bcd65934a73453b8c50c28532a64d810\jetified-firebase-analytics-16.0.4\AndroidManifest.xml:34:9-42:20
 68            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
-68-->[com.google.firebase:firebase-analytics:16.0.4] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/aca9b95f2f0a6b1a860a3bae1282d626/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:35:13-100
+68-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\justi.JUSTINE-SURFACE\.gradle\caches\transforms-2\files-2.1\bcd65934a73453b8c50c28532a64d810\jetified-firebase-analytics-16.0.4\AndroidManifest.xml:35:13-100
 69            android:enabled="true"
-69-->[com.google.firebase:firebase-analytics:16.0.4] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/aca9b95f2f0a6b1a860a3bae1282d626/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:36:13-35
+69-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\justi.JUSTINE-SURFACE\.gradle\caches\transforms-2\files-2.1\bcd65934a73453b8c50c28532a64d810\jetified-firebase-analytics-16.0.4\AndroidManifest.xml:36:13-35
 70            android:exported="true"
-70-->[com.google.firebase:firebase-analytics:16.0.4] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/aca9b95f2f0a6b1a860a3bae1282d626/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:37:13-36
+70-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\justi.JUSTINE-SURFACE\.gradle\caches\transforms-2\files-2.1\bcd65934a73453b8c50c28532a64d810\jetified-firebase-analytics-16.0.4\AndroidManifest.xml:37:13-36
 71            android:permission="android.permission.INSTALL_PACKAGES" >
-71-->[com.google.firebase:firebase-analytics:16.0.4] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/aca9b95f2f0a6b1a860a3bae1282d626/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:38:13-69
+71-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\justi.JUSTINE-SURFACE\.gradle\caches\transforms-2\files-2.1\bcd65934a73453b8c50c28532a64d810\jetified-firebase-analytics-16.0.4\AndroidManifest.xml:38:13-69
 72            <intent-filter>
-72-->[com.google.firebase:firebase-analytics:16.0.4] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/aca9b95f2f0a6b1a860a3bae1282d626/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:39:13-41:29
+72-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\justi.JUSTINE-SURFACE\.gradle\caches\transforms-2\files-2.1\bcd65934a73453b8c50c28532a64d810\jetified-firebase-analytics-16.0.4\AndroidManifest.xml:39:13-41:29
 73                <action android:name="com.android.vending.INSTALL_REFERRER" />
-73-->[com.google.firebase:firebase-analytics:16.0.4] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/aca9b95f2f0a6b1a860a3bae1282d626/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:40:17-79
-73-->[com.google.firebase:firebase-analytics:16.0.4] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/aca9b95f2f0a6b1a860a3bae1282d626/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:40:25-76
+73-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\justi.JUSTINE-SURFACE\.gradle\caches\transforms-2\files-2.1\bcd65934a73453b8c50c28532a64d810\jetified-firebase-analytics-16.0.4\AndroidManifest.xml:40:17-79
+73-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\justi.JUSTINE-SURFACE\.gradle\caches\transforms-2\files-2.1\bcd65934a73453b8c50c28532a64d810\jetified-firebase-analytics-16.0.4\AndroidManifest.xml:40:25-76
 74            </intent-filter>
 75        </receiver>
 76
 77        <service
-77-->[com.google.firebase:firebase-analytics:16.0.4] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/aca9b95f2f0a6b1a860a3bae1282d626/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:44:9-47:40
+77-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\justi.JUSTINE-SURFACE\.gradle\caches\transforms-2\files-2.1\bcd65934a73453b8c50c28532a64d810\jetified-firebase-analytics-16.0.4\AndroidManifest.xml:44:9-47:40
 78            android:name="com.google.android.gms.measurement.AppMeasurementService"
-78-->[com.google.firebase:firebase-analytics:16.0.4] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/aca9b95f2f0a6b1a860a3bae1282d626/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:45:13-84
+78-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\justi.JUSTINE-SURFACE\.gradle\caches\transforms-2\files-2.1\bcd65934a73453b8c50c28532a64d810\jetified-firebase-analytics-16.0.4\AndroidManifest.xml:45:13-84
 79            android:enabled="true"
-79-->[com.google.firebase:firebase-analytics:16.0.4] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/aca9b95f2f0a6b1a860a3bae1282d626/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:46:13-35
+79-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\justi.JUSTINE-SURFACE\.gradle\caches\transforms-2\files-2.1\bcd65934a73453b8c50c28532a64d810\jetified-firebase-analytics-16.0.4\AndroidManifest.xml:46:13-35
 80            android:exported="false" />
-80-->[com.google.firebase:firebase-analytics:16.0.4] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/aca9b95f2f0a6b1a860a3bae1282d626/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:47:13-37
+80-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\justi.JUSTINE-SURFACE\.gradle\caches\transforms-2\files-2.1\bcd65934a73453b8c50c28532a64d810\jetified-firebase-analytics-16.0.4\AndroidManifest.xml:47:13-37
 81        <service
-81-->[com.google.firebase:firebase-analytics:16.0.4] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/aca9b95f2f0a6b1a860a3bae1282d626/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:48:9-52:72
+81-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\justi.JUSTINE-SURFACE\.gradle\caches\transforms-2\files-2.1\bcd65934a73453b8c50c28532a64d810\jetified-firebase-analytics-16.0.4\AndroidManifest.xml:48:9-52:72
 82            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
-82-->[com.google.firebase:firebase-analytics:16.0.4] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/aca9b95f2f0a6b1a860a3bae1282d626/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:49:13-87
+82-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\justi.JUSTINE-SURFACE\.gradle\caches\transforms-2\files-2.1\bcd65934a73453b8c50c28532a64d810\jetified-firebase-analytics-16.0.4\AndroidManifest.xml:49:13-87
 83            android:enabled="true"
-83-->[com.google.firebase:firebase-analytics:16.0.4] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/aca9b95f2f0a6b1a860a3bae1282d626/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:50:13-35
+83-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\justi.JUSTINE-SURFACE\.gradle\caches\transforms-2\files-2.1\bcd65934a73453b8c50c28532a64d810\jetified-firebase-analytics-16.0.4\AndroidManifest.xml:50:13-35
 84            android:exported="false"
-84-->[com.google.firebase:firebase-analytics:16.0.4] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/aca9b95f2f0a6b1a860a3bae1282d626/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:51:13-37
+84-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\justi.JUSTINE-SURFACE\.gradle\caches\transforms-2\files-2.1\bcd65934a73453b8c50c28532a64d810\jetified-firebase-analytics-16.0.4\AndroidManifest.xml:51:13-37
 85            android:permission="android.permission.BIND_JOB_SERVICE" />
-85-->[com.google.firebase:firebase-analytics:16.0.4] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/aca9b95f2f0a6b1a860a3bae1282d626/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:52:13-69
+85-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\justi.JUSTINE-SURFACE\.gradle\caches\transforms-2\files-2.1\bcd65934a73453b8c50c28532a64d810\jetified-firebase-analytics-16.0.4\AndroidManifest.xml:52:13-69
 86
 87        <receiver
-87-->[com.google.firebase:firebase-iid:17.0.3] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/a85f04007d3c55a0d767f9a6a9a8c69f/jetified-firebase-iid-17.0.3/AndroidManifest.xml:37:9-44:20
+87-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\justi.JUSTINE-SURFACE\.gradle\caches\transforms-2\files-2.1\149f7ff3cace6773134373214d6a415c\jetified-firebase-iid-17.0.3\AndroidManifest.xml:37:9-44:20
 88            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
-88-->[com.google.firebase:firebase-iid:17.0.3] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/a85f04007d3c55a0d767f9a6a9a8c69f/jetified-firebase-iid-17.0.3/AndroidManifest.xml:38:13-78
+88-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\justi.JUSTINE-SURFACE\.gradle\caches\transforms-2\files-2.1\149f7ff3cace6773134373214d6a415c\jetified-firebase-iid-17.0.3\AndroidManifest.xml:38:13-78
 89            android:exported="true"
-89-->[com.google.firebase:firebase-iid:17.0.3] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/a85f04007d3c55a0d767f9a6a9a8c69f/jetified-firebase-iid-17.0.3/AndroidManifest.xml:39:13-36
+89-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\justi.JUSTINE-SURFACE\.gradle\caches\transforms-2\files-2.1\149f7ff3cace6773134373214d6a415c\jetified-firebase-iid-17.0.3\AndroidManifest.xml:39:13-36
 90            android:permission="com.google.android.c2dm.permission.SEND" >
-90-->[com.google.firebase:firebase-iid:17.0.3] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/a85f04007d3c55a0d767f9a6a9a8c69f/jetified-firebase-iid-17.0.3/AndroidManifest.xml:40:13-73
+90-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\justi.JUSTINE-SURFACE\.gradle\caches\transforms-2\files-2.1\149f7ff3cace6773134373214d6a415c\jetified-firebase-iid-17.0.3\AndroidManifest.xml:40:13-73
 91            <intent-filter>
-91-->[com.google.firebase:firebase-iid:17.0.3] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/a85f04007d3c55a0d767f9a6a9a8c69f/jetified-firebase-iid-17.0.3/AndroidManifest.xml:41:13-43:29
+91-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\justi.JUSTINE-SURFACE\.gradle\caches\transforms-2\files-2.1\149f7ff3cace6773134373214d6a415c\jetified-firebase-iid-17.0.3\AndroidManifest.xml:41:13-43:29
 92                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-92-->[com.google.firebase:firebase-iid:17.0.3] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/a85f04007d3c55a0d767f9a6a9a8c69f/jetified-firebase-iid-17.0.3/AndroidManifest.xml:42:17-81
-92-->[com.google.firebase:firebase-iid:17.0.3] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/a85f04007d3c55a0d767f9a6a9a8c69f/jetified-firebase-iid-17.0.3/AndroidManifest.xml:42:25-78
+92-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\justi.JUSTINE-SURFACE\.gradle\caches\transforms-2\files-2.1\149f7ff3cace6773134373214d6a415c\jetified-firebase-iid-17.0.3\AndroidManifest.xml:42:17-81
+92-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\justi.JUSTINE-SURFACE\.gradle\caches\transforms-2\files-2.1\149f7ff3cace6773134373214d6a415c\jetified-firebase-iid-17.0.3\AndroidManifest.xml:42:25-78
 93            </intent-filter>
 94        </receiver>
 95        <!--
@@ -176,46 +176,46 @@
 97             no need for explicit permissions despite exported="true"
 98        -->
 99        <service
-99-->[com.google.firebase:firebase-iid:17.0.3] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/a85f04007d3c55a0d767f9a6a9a8c69f/jetified-firebase-iid-17.0.3/AndroidManifest.xml:50:9-56:19
+99-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\justi.JUSTINE-SURFACE\.gradle\caches\transforms-2\files-2.1\149f7ff3cace6773134373214d6a415c\jetified-firebase-iid-17.0.3\AndroidManifest.xml:50:9-56:19
 100            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
-100-->[com.google.firebase:firebase-iid:17.0.3] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/a85f04007d3c55a0d767f9a6a9a8c69f/jetified-firebase-iid-17.0.3/AndroidManifest.xml:51:13-77
+100-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\justi.JUSTINE-SURFACE\.gradle\caches\transforms-2\files-2.1\149f7ff3cace6773134373214d6a415c\jetified-firebase-iid-17.0.3\AndroidManifest.xml:51:13-77
 101            android:exported="true" >
-101-->[com.google.firebase:firebase-iid:17.0.3] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/a85f04007d3c55a0d767f9a6a9a8c69f/jetified-firebase-iid-17.0.3/AndroidManifest.xml:52:13-36
+101-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\justi.JUSTINE-SURFACE\.gradle\caches\transforms-2\files-2.1\149f7ff3cace6773134373214d6a415c\jetified-firebase-iid-17.0.3\AndroidManifest.xml:52:13-36
 102            <intent-filter android:priority="-500" >
-102-->[com.google.firebase:firebase-iid:17.0.3] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/a85f04007d3c55a0d767f9a6a9a8c69f/jetified-firebase-iid-17.0.3/AndroidManifest.xml:53:13-55:29
-102-->[com.google.firebase:firebase-iid:17.0.3] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/a85f04007d3c55a0d767f9a6a9a8c69f/jetified-firebase-iid-17.0.3/AndroidManifest.xml:53:28-51
+102-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\justi.JUSTINE-SURFACE\.gradle\caches\transforms-2\files-2.1\149f7ff3cace6773134373214d6a415c\jetified-firebase-iid-17.0.3\AndroidManifest.xml:53:13-55:29
+102-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\justi.JUSTINE-SURFACE\.gradle\caches\transforms-2\files-2.1\149f7ff3cace6773134373214d6a415c\jetified-firebase-iid-17.0.3\AndroidManifest.xml:53:28-51
 103                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
-103-->[com.google.firebase:firebase-iid:17.0.3] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/a85f04007d3c55a0d767f9a6a9a8c69f/jetified-firebase-iid-17.0.3/AndroidManifest.xml:54:17-80
-103-->[com.google.firebase:firebase-iid:17.0.3] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/a85f04007d3c55a0d767f9a6a9a8c69f/jetified-firebase-iid-17.0.3/AndroidManifest.xml:54:25-77
+103-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\justi.JUSTINE-SURFACE\.gradle\caches\transforms-2\files-2.1\149f7ff3cace6773134373214d6a415c\jetified-firebase-iid-17.0.3\AndroidManifest.xml:54:17-80
+103-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\justi.JUSTINE-SURFACE\.gradle\caches\transforms-2\files-2.1\149f7ff3cace6773134373214d6a415c\jetified-firebase-iid-17.0.3\AndroidManifest.xml:54:25-77
 104            </intent-filter>
 105        </service>
 106
 107        <activity
-107-->[com.google.android.gms:play-services-base:16.0.1] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/e09022f8c1bd20d41aa14311f17b1218/jetified-play-services-base-16.0.1/AndroidManifest.xml:23:9-26:75
+107-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\justi.JUSTINE-SURFACE\.gradle\caches\transforms-2\files-2.1\0a803b013889876c30f25f6e1b7ac82b\jetified-play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
 108            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-108-->[com.google.android.gms:play-services-base:16.0.1] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/e09022f8c1bd20d41aa14311f17b1218/jetified-play-services-base-16.0.1/AndroidManifest.xml:24:13-79
+108-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\justi.JUSTINE-SURFACE\.gradle\caches\transforms-2\files-2.1\0a803b013889876c30f25f6e1b7ac82b\jetified-play-services-base-16.0.1\AndroidManifest.xml:24:13-79
 109            android:exported="false"
-109-->[com.google.android.gms:play-services-base:16.0.1] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/e09022f8c1bd20d41aa14311f17b1218/jetified-play-services-base-16.0.1/AndroidManifest.xml:25:13-37
+109-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\justi.JUSTINE-SURFACE\.gradle\caches\transforms-2\files-2.1\0a803b013889876c30f25f6e1b7ac82b\jetified-play-services-base-16.0.1\AndroidManifest.xml:25:13-37
 110            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-110-->[com.google.android.gms:play-services-base:16.0.1] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/e09022f8c1bd20d41aa14311f17b1218/jetified-play-services-base-16.0.1/AndroidManifest.xml:26:13-72
+110-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\justi.JUSTINE-SURFACE\.gradle\caches\transforms-2\files-2.1\0a803b013889876c30f25f6e1b7ac82b\jetified-play-services-base-16.0.1\AndroidManifest.xml:26:13-72
 111
 112        <provider
-112-->[com.google.firebase:firebase-common:16.0.3] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/7148f434577ae8300f8587525acdd808/jetified-firebase-common-16.0.3/AndroidManifest.xml:10:9-14:39
+112-->[com.google.firebase:firebase-common:16.0.3] C:\Users\justi.JUSTINE-SURFACE\.gradle\caches\transforms-2\files-2.1\bb0b18d2c4c82d56e59ad1a66a97b1d5\jetified-firebase-common-16.0.3\AndroidManifest.xml:10:9-14:39
 113            android:name="com.google.firebase.provider.FirebaseInitProvider"
-113-->[com.google.firebase:firebase-common:16.0.3] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/7148f434577ae8300f8587525acdd808/jetified-firebase-common-16.0.3/AndroidManifest.xml:11:13-77
+113-->[com.google.firebase:firebase-common:16.0.3] C:\Users\justi.JUSTINE-SURFACE\.gradle\caches\transforms-2\files-2.1\bb0b18d2c4c82d56e59ad1a66a97b1d5\jetified-firebase-common-16.0.3\AndroidManifest.xml:11:13-77
 114            android:authorities="jwest.android_class.travel_app.firebaseinitprovider"
-114-->[com.google.firebase:firebase-common:16.0.3] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/7148f434577ae8300f8587525acdd808/jetified-firebase-common-16.0.3/AndroidManifest.xml:12:13-72
+114-->[com.google.firebase:firebase-common:16.0.3] C:\Users\justi.JUSTINE-SURFACE\.gradle\caches\transforms-2\files-2.1\bb0b18d2c4c82d56e59ad1a66a97b1d5\jetified-firebase-common-16.0.3\AndroidManifest.xml:12:13-72
 115            android:exported="false"
-115-->[com.google.firebase:firebase-common:16.0.3] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/7148f434577ae8300f8587525acdd808/jetified-firebase-common-16.0.3/AndroidManifest.xml:13:13-37
+115-->[com.google.firebase:firebase-common:16.0.3] C:\Users\justi.JUSTINE-SURFACE\.gradle\caches\transforms-2\files-2.1\bb0b18d2c4c82d56e59ad1a66a97b1d5\jetified-firebase-common-16.0.3\AndroidManifest.xml:13:13-37
 116            android:initOrder="100" />
-116-->[com.google.firebase:firebase-common:16.0.3] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/7148f434577ae8300f8587525acdd808/jetified-firebase-common-16.0.3/AndroidManifest.xml:14:13-36
+116-->[com.google.firebase:firebase-common:16.0.3] C:\Users\justi.JUSTINE-SURFACE\.gradle\caches\transforms-2\files-2.1\bb0b18d2c4c82d56e59ad1a66a97b1d5\jetified-firebase-common-16.0.3\AndroidManifest.xml:14:13-36
 117
 118        <meta-data
-118-->[com.google.android.gms:play-services-basement:16.0.1] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/48d57caaf958e364aa243a290bdbe70d/jetified-play-services-basement-16.0.1/AndroidManifest.xml:23:9-25:69
+118-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\justi.JUSTINE-SURFACE\.gradle\caches\transforms-2\files-2.1\37ef4debe5f57108059f3165a25fea74\jetified-play-services-basement-16.0.1\AndroidManifest.xml:23:9-25:69
 119            android:name="com.google.android.gms.version"
-119-->[com.google.android.gms:play-services-basement:16.0.1] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/48d57caaf958e364aa243a290bdbe70d/jetified-play-services-basement-16.0.1/AndroidManifest.xml:24:13-58
+119-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\justi.JUSTINE-SURFACE\.gradle\caches\transforms-2\files-2.1\37ef4debe5f57108059f3165a25fea74\jetified-play-services-basement-16.0.1\AndroidManifest.xml:24:13-58
 120            android:value="@integer/google_play_services_version" />
-120-->[com.google.android.gms:play-services-basement:16.0.1] /Users/jginvincible/.gradle/caches/transforms-2/files-2.1/48d57caaf958e364aa243a290bdbe70d/jetified-play-services-basement-16.0.1/AndroidManifest.xml:25:13-66
+120-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\justi.JUSTINE-SURFACE\.gradle\caches\transforms-2\files-2.1\37ef4debe5f57108059f3165a25fea74\jetified-play-services-basement-16.0.1\AndroidManifest.xml:25:13-66
 121    </application>
 122
 123</manifest>

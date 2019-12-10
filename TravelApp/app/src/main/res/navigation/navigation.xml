@@ -18,7 +18,8 @@
         <!--            app:destination="@+id/map" />-->
         <action
             android:id="@+id/action_titleFragment_to_mapFragment"
-            app:destination="@id/mapFragment" />
+            app:destination="@id/mapFragment"
+            app:popUpTo="@+id/titleFragment" />
         <action
             android:id="@+id/action_titleFragment_to_reviewFragment"
             app:destination="@id/reviewFragment" />
@@ -134,10 +135,14 @@
         tools:layout="@layout/fragment_log__in">
         <action
             android:id="@+id/logIn_To_Google_Maps"
-            app:destination="@+id/mapFragment" />
+            app:destination="@+id/mapFragment"
+            app:popUpTo="@+id/log_In"
+            app:popUpToInclusive="true" />
         <action
             android:id="@+id/logIn_To_Registration"
-            app:destination="@+id/registrationFragment"/>
+            app:destination="@+id/registrationFragment"
+            app:popUpTo="@+id/log_In"
+            app:popUpToInclusive="true" />
     </fragment>
 
     <!-- REGISTRATION FRAGMENT -->

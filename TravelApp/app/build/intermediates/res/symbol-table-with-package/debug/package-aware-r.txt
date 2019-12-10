@@ -1357,6 +1357,7 @@ id log_In
 id login_button
 id mapFragment
 id mapView
+id map_button
 id masked
 id media_actions
 id message

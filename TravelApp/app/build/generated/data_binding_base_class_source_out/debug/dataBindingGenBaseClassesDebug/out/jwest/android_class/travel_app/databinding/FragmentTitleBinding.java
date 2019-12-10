@@ -28,17 +28,22 @@ public abstract class FragmentTitleBinding extends ViewDataBinding {
   public final Button loginButton;
 
   @NonNull
+  public final Button mapButton;
+
+  @NonNull
   public final Button registerButton;
 
   @Bindable
   protected TitleFragment mTitleFragment;
 
   protected FragmentTitleBinding(Object _bindingComponent, View _root, int _localFieldCount,
-      ConstraintLayout back, GifImageView gifImageView, Button loginButton, Button registerButton) {
+      ConstraintLayout back, GifImageView gifImageView, Button loginButton, Button mapButton,
+      Button registerButton) {
     super(_bindingComponent, _root, _localFieldCount);
     this.back = back;
     this.gifImageView = gifImageView;
     this.loginButton = loginButton;
+    this.mapButton = mapButton;
     this.registerButton = registerButton;
   }
 

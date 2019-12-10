@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/jginvincible/git/Travel-App/TravelApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-xlarge-v4/values-xlarge-v4.xml",
+            "outputFile": "C:\\Users\\justi.JUSTINE-SURFACE\\Desktop\\Travel-App\\TravelApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-xlarge-v4\\values-xlarge-v4.xml",
             "map": [
                 {
-                    "source": "/Users/jginvincible/.gradle/caches/transforms-2/files-2.1/42096e253e03b00d8a85e5127902a010/appcompat-1.1.0/res/values-xlarge-v4/values-xlarge-v4.xml",
+                    "source": "C:\\Users\\justi.JUSTINE-SURFACE\\.gradle\\caches\\transforms-2\\files-2.1\\42096e253e03b00d8a85e5127902a010\\appcompat-1.1.0\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7",
                         "startColumns": "4,4,4,4,4,4",
