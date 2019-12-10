@@ -113,6 +113,9 @@
         <argument
             android:name="argsPassword"
             app:argType="string"/>
+        <action
+            android:id="@+id/RegPartTwo_TO_GOOGLE_MAPS"
+            app:destination="@+id/mapFragment"/>
     </fragment>
 
 </navigation>

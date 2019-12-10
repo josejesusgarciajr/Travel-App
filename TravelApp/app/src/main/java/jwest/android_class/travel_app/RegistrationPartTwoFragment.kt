@@ -1,6 +1,8 @@
 package jwest.android_class.travel_app
 
 
+import android.content.Context
+import android.content.SharedPreferences
 import android.location.Address
 import android.location.Geocoder
 import android.os.Bundle
@@ -11,6 +13,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
 import androidx.databinding.DataBindingUtil
+import androidx.navigation.findNavController
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
 import jwest.android_class.travel_app.databinding.FragmentRegistrationPartTwoBinding
@@ -30,14 +33,7 @@ class RegistrationPartTwoFragment : Fragment() {
     private lateinit var username: String
     private lateinit var password: String
 
-//    fun  newInstance(user: String, pass: String) : RegistrationPartTwoFragment {
-//        var rfpt : RegistrationPartTwoFragment = RegistrationPartTwoFragment()
-//        var args: Bundle = Bundle()
-//        args.putString(USER, user)
-//        args.putString(PASS, pass)
-//        rfpt.setArguments(args)
-//        return rfpt
-//    }
+    private lateinit var token : SharedPreferences
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -51,17 +47,25 @@ class RegistrationPartTwoFragment : Fragment() {
         // CONNECT TO FIREBASE DATABASE
         ref = FirebaseDatabase.getInstance().getReference("members")
 
+        // GET THE TOKEN
+        token = binding.root.context.getSharedPreferences("user", Context.MODE_PRIVATE)
+
         // GET THE USERNAME & PASSWORD FROM REGISTRATION FRAGMENT
 
-        //val args = RegistrationPartTwoFragmentArgs.fromBundle(arguments!!)
-//        username = args.argsUsername
-//        password = args.argsPassword
+        Log.d("Arguments", getArguments().toString())
+        if(getArguments() != null) {
+            val args = RegistrationPartTwoFragmentArgs.fromBundle(getArguments()!!)
+            username = args.argsUsername
+            password = args.argsPassword
 
-//        Log.d("USERNAME_FROM_FP2", username)
-//        Log.d("PASSWORD_FROM_FP2", password)
+            Log.d("USERNAME_FROM_FP2", username)
+            Log.d("PASSWORD_FROM_FP2", password)
+        }
+
 
         binding.RegTwoBtnSubmit.setOnClickListener { view: View? ->
             registerUser()
+            view!!.findNavController().navigate(R.id.RegPartTwo_TO_GOOGLE_MAPS)
         }
 
         // Inflate the layout for this fragment
@@ -73,6 +77,7 @@ class RegistrationPartTwoFragment : Fragment() {
         var homeTown: String = binding.HomeTown.text.toString()
 
         var a: MutableList<Address>? = geocoder.getFromLocationName(homeTown, 1)
+
         var c: Coordinates = Coordinates(a!!.get(0).latitude, a!!.get(0).longitude)
         return  c
     }
@@ -85,15 +90,20 @@ class RegistrationPartTwoFragment : Fragment() {
         val s : String = "lat: " + c.lat.toString() +  " lng: " + c.lng.toString()
         Log.d("COORDINATES", s)
 
-//        var fName: String = binding.FirstName.text.toString()
-//        var lName: String = binding.LastName.text.toString()
-//        var age: Int = binding.Age.text.toString().toInt()
-//
-//        val member : Member = Member(memberID, fName, lName, age, c, username, password)
+        var fName: String = binding.FirstName.text.toString()
+        var lName: String = binding.LastName.text.toString()
+        var age: Int = binding.Age.text.toString().toInt()
 
-//        ref.child(memberID).setValue(member).addOnCompleteListener {
-//            Toast.makeText(context, "You are now Registerd!", Toast.LENGTH_LONG).show()
-//        }
+        val member : Member = Member(memberID, fName, lName, age, c, username, password)
+
+        var editor = token.edit()
+        editor.putString("loginuser", username)
+        editor.commit()
+        Log.d("REGISTOR USER", editor.commit().toString())
+
+        ref.child(memberID).setValue(member).addOnCompleteListener {
+            Toast.makeText(context, "You are now Registerd!", Toast.LENGTH_LONG).show()
+        }
     }
 
 

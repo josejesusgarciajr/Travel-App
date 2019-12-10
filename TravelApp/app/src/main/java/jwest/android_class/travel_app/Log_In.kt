@@ -41,7 +41,7 @@ class Log_In : Fragment() {
         // GET A REFERENCE TO THE DATABASE
         ref = FirebaseDatabase.getInstance().getReference("members")
 
-        token = binding.root.context.getSharedPreferences("jose", Context.MODE_PRIVATE)
+        token = binding.root.context.getSharedPreferences("user", Context.MODE_PRIVATE)
 
         userAlreadyLoggedIn()
 

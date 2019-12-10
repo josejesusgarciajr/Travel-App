@@ -43,12 +43,7 @@ class MapFragment : Fragment(), OnMapReadyCallback, GoogleMap.OnInfoWindowClickL
         mapView.getMapAsync(this)
     }
     override fun onCreateView(
-//        inflater: LayoutInflater, container: ViewGroup?,
-//        savedInstanceState: Bundle?): View? {
-//        // MIGHT NEED TO IMPLEMENT BINDING
-//        gGroup = Group()
-//
-//        return inflater.inflate(R.layout.fragment_map, container, false)
+
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
@@ -57,7 +52,7 @@ class MapFragment : Fragment(), OnMapReadyCallback, GoogleMap.OnInfoWindowClickL
         // Bind this fragment class to the layout
         binding.mapFragment = this
 
-        token = binding.root.context.getSharedPreferences("jose", Context.MODE_PRIVATE)
+        token = binding.root.context.getSharedPreferences("user", Context.MODE_PRIVATE)
 
         Log.d("GMAPS", "IDK WHAT IS GOING ON...")
         // SET ON CLICK LISTENER FOR LOG OUT BTN

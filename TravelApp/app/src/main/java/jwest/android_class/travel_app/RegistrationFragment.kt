@@ -21,14 +21,6 @@ import kotlinx.android.synthetic.main.fragment_registration.*
  */
 class RegistrationFragment : Fragment() {
 
-    private var listener: RegistrationListener? = null
-
-    public interface RegistrationListener {
-        fun onInputASent(input: CharSequence) {
-
-        }
-    }
-
     private lateinit var binding: FragmentRegistrationBinding
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -40,36 +32,19 @@ class RegistrationFragment : Fragment() {
         // Bind this fragment class to the layout
         binding.registrationFragment = this
 
-        var rfpt: RegistrationPartTwoFragment =  RegistrationPartTwoFragment()
+        binding.registrationBtnToUserInfo.setOnClickListener({ view: View? ->
 
+            var username : String = binding.username.text.toString()
+            var password : String = binding.password.text.toString()
 
+            var action : RegistrationFragmentDirections.RegistrationToRegistrationPartTwo = RegistrationFragmentDirections.registrationToRegistrationPartTwo(username, password)
 
-        binding.registrationBtnToUserInfo.setOnClickListener { view: View? ->
-//            var user : CharSequence = binding.registrationUserName.text
-//            listener!!.onInputASent(user)
-            //rfpt.newInstance(binding.registrationUserName.toString(), binding.password.toString())
-            //Log.d("FP1_SETARGUMENT_F_FP2", rfpt.getArguments().toString())
-            view!!.findNavController().navigate(R.id.registration_To_RegistrationPartTwo)
-        }
+            view!!.findNavController().navigate(action)
+            //view!!.findNavController().navigate(R.id.registration_To_RegistrationPartTwo)
+        })
 
         // Inflate the layout for this fragment
         return binding.root
     }
-
-    override fun onAttach(context: Context) {
-        super.onAttach(context)
-
-        if(context is RegistrationListener) {
-            listener = context
-        } else {
-            Log.d("IMPLEMENT...", "FRAGMENT A LISTENER")
-        }
-    }
-
-    override fun onDetach() {
-        super.onDetach()
-        listener = null
-    }
-
 
 }
