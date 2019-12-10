@@ -28,6 +28,7 @@ class MapFragment : Fragment(), OnMapReadyCallback, GoogleMap.OnInfoWindowClickL
     private lateinit var binding: FragmentMapBinding
     private lateinit var gGroup: Group
     private lateinit var landmarksReference: DatabaseReference
+    private lateinit var memberReference: DatabaseReference
     private lateinit var token : SharedPreferences
 
 
@@ -57,7 +58,7 @@ class MapFragment : Fragment(), OnMapReadyCallback, GoogleMap.OnInfoWindowClickL
         // Bind this fragment class to the layout
         binding.mapFragment = this
 
-        token = binding.root.context.getSharedPreferences("jose", Context.MODE_PRIVATE)
+        token = binding.root.context.getSharedPreferences("user", Context.MODE_PRIVATE)
 
         Log.d("GMAPS", "IDK WHAT IS GOING ON...")
         // SET ON CLICK LISTENER FOR LOG OUT BTN
@@ -98,24 +99,7 @@ class MapFragment : Fragment(), OnMapReadyCallback, GoogleMap.OnInfoWindowClickL
             var latitude : Float = latlong.latitude.toFloat()
             var longitude : Float = latlong.longitude.toFloat()
             view?.findNavController()?.navigate(MapFragmentDirections.actionMapFragmentToAddLandmarkFragment(latitude, longitude))
-            //            var place = Place("Dropped Pin", Coordinates(latlong.latitude, latlong.longitude),
-//                5, "Best Place Ever")
-//
-//            // A Snippet is Additional text that's displayed below the title.
-//            val snippet = String.format(
-//                Locale.getDefault(),
-//                "Lat: %1$.5f, Long: %2$.5f",
-//                latlong.latitude,
-//                latlong.longitude
-//            ) + "\nRating: " + place.rating + "\nDescription: " + place.description
-//
-//            map.addMarker(
-//                MarkerOptions()
-//                    .position(latlong)
-//                    .title(place.name)
-//                    .snippet(snippet)
-//
-//            )
+
         }
     }
     private fun displayLandmarks() {
@@ -141,7 +125,6 @@ class MapFragment : Fragment(), OnMapReadyCallback, GoogleMap.OnInfoWindowClickL
                         val latLng : LatLng = LatLng(landmark!!.coordinates.lat, landmark!!.coordinates.lng)
                         val info = landmark.title + " Lat: " + latLng.latitude + " Lng: " + latLng.longitude
                         Log.d("NameLatLng", info)
-                        //mMap.addMarker(MarkerOptions().position(member.LatLng()).title(member.getFullName()))
                         var marker : Marker = mMap.addMarker(MarkerOptions().position(latLng).title(landmark.title + "\n" + landmark.description))
                         marker.tag = landmark
                         Log.d("GOOGLEMAPS: ", landmark.title)
@@ -154,7 +137,16 @@ class MapFragment : Fragment(), OnMapReadyCallback, GoogleMap.OnInfoWindowClickL
         Log.d("marker clicked!", p0?.title + " is the landmark info")
         Log.d("the object ", p0?.tag.toString())
         var landmark = p0?.tag as? Landmark
-        view?.findNavController()?.navigate(MapFragmentDirections.actionMapFragmentToLandmarkFragment(landmark!!.title, landmark!!.description, landmark!!.rating, landmark!!.id))
+
+        memberReference = FirebaseDatabase.getInstance().getReference("members")
+        var key = landmark!!.authorId
+        var authorName = memberReference.child(key.toString())
+        Log.d("AuthorName", authorName.key)
+
+
+        Log.d("link ", authorName.toString())
+
+        view?.findNavController()?.navigate(MapFragmentDirections.actionMapFragmentToLandmarkFragment(landmark!!.title, landmark!!.description, landmark!!.rating, landmark!!.id, landmark!!.authorId.toString(), authorName.toString()))
     }
 
     private fun logout() {

@@ -25,17 +25,14 @@ class TitleFragment : Fragment() {
         binding.titleFragment = this
 
         // Set the onClickListener for the submitButton
-        binding.titleToMapButton.setOnClickListener { view : View ->
-            view.findNavController().navigate(R.id.action_titleFragment_to_mapFragment)
+        binding.loginButton.setOnClickListener { view : View ->
+            view.findNavController().navigate(R.id.log_In)
         }
 
-        binding.titleToReviewButton.setOnClickListener { view : View ->
-            view.findNavController().navigate(R.id.action_titleFragment_to_reviewFragment)
+        binding.registerButton.setOnClickListener { view : View ->
+            view.findNavController().navigate(R.id.registrationFragment)
         }
 
-        binding.titleToLandmarkButton.setOnClickListener { view : View ->
-            view.findNavController().navigate(R.id.action_titleFragment_to_landmarkFragment)
-        }
         return binding.root
     }
 }

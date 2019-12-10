@@ -68,6 +68,10 @@
             app:destination="@id/editLandmarkFragment"
             app:popUpTo="@+id/landmarkFragment"
             app:popUpToInclusive="true" />
+        <argument
+            android:name="landmarkAuthorId"
+            app:argType="string" />
+        <argument android:name="landmarkAuthorName" />
     </fragment>
     <fragment
         android:id="@+id/addLandmarkFragment"
@@ -115,6 +119,8 @@
 
 
     <!-- LOG IN FRAGMENT -->
+
+    <!-- LOG IN FRAGMENT -->
     <fragment
         android:id="@+id/log_In"
         android:name="jwest.android_class.travel_app.Log_In"
@@ -125,5 +131,36 @@
         <action
             android:id="@+id/logIn_To_Google_Maps"
             app:destination="@+id/mapFragment" />
+        <action
+            android:id="@+id/logIn_To_Registration"
+            app:destination="@+id/registrationFragment"/>
+    </fragment>
+
+    <!-- REGISTRATION FRAGMENT -->
+    <fragment
+        android:id="@+id/registrationFragment"
+        android:name="jwest.android_class.travel_app.RegistrationFragment"
+        android:label="fragment_registration"
+        tools:layout="@layout/fragment_registration" >
+        <action
+            android:id="@+id/registration_To_RegistrationPartTwo"
+            app:destination="@+id/registrationPartTwoFragment"/>
+    </fragment>
+
+    <!-- REGISTRATION PART TWO FRAGMENT -->
+    <fragment
+        android:id="@+id/registrationPartTwoFragment"
+        android:name="jwest.android_class.travel_app.RegistrationPartTwoFragment"
+        android:label="fragment_registration_part_two"
+        tools:layout="@layout/fragment_registration_part_two" >
+        <argument
+            android:name="argsUsername"
+            app:argType="string"/>
+        <argument
+            android:name="argsPassword"
+            app:argType="string"/>
+        <action
+            android:id="@+id/RegPartTwo_TO_GOOGLE_MAPS"
+            app:destination="@+id/mapFragment"/>
     </fragment>
 </navigation>

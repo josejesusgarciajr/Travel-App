@@ -15,31 +15,31 @@ import java.lang.Deprecated;
 import java.lang.Object;
 import jwest.android_class.travel_app.R;
 import jwest.android_class.travel_app.TitleFragment;
+import pl.droidsonroids.gif.GifImageView;
 
 public abstract class FragmentTitleBinding extends ViewDataBinding {
   @NonNull
   public final ConstraintLayout back;
 
   @NonNull
-  public final Button titleToLandmarkButton;
+  public final GifImageView gifImageView;
 
   @NonNull
-  public final Button titleToMapButton;
+  public final Button loginButton;
 
   @NonNull
-  public final Button titleToReviewButton;
+  public final Button registerButton;
 
   @Bindable
   protected TitleFragment mTitleFragment;
 
   protected FragmentTitleBinding(Object _bindingComponent, View _root, int _localFieldCount,
-      ConstraintLayout back, Button titleToLandmarkButton, Button titleToMapButton,
-      Button titleToReviewButton) {
+      ConstraintLayout back, GifImageView gifImageView, Button loginButton, Button registerButton) {
     super(_bindingComponent, _root, _localFieldCount);
     this.back = back;
-    this.titleToLandmarkButton = titleToLandmarkButton;
-    this.titleToMapButton = titleToMapButton;
-    this.titleToReviewButton = titleToReviewButton;
+    this.gifImageView = gifImageView;
+    this.loginButton = loginButton;
+    this.registerButton = registerButton;
   }
 
   public abstract void setTitleFragment(@Nullable TitleFragment titleFragment);

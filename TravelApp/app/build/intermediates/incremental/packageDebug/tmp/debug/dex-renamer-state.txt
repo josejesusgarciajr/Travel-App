@@ -1,4 +1,4 @@
-#Sun Dec 08 14:32:11 PST 2019
-base.0=/Users/Nikita/Downloads/Travel-App-brandon/TravelApp/app/build/intermediates/dex/debug/mergeDexDebug/out/classes.dex
+#Mon Dec 09 19:05:31 PST 2019
+base.0=C\:\\Users\\justi.JUSTINE-SURFACE\\Desktop\\Travel-App\\TravelApp\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

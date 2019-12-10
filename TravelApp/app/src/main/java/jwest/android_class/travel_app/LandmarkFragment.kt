@@ -2,6 +2,8 @@ package jwest.android_class.travel_app
 
 
 import android.app.AlertDialog
+import android.content.Context
+import android.content.SharedPreferences
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -15,6 +17,7 @@ import android.graphics.drawable.LayerDrawable
 import android.graphics.Color
 import android.util.Log
 import android.widget.RatingBar
+import androidx.core.view.isInvisible
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
 import kotlinx.android.synthetic.main.dialog_window.view.ratingBar
@@ -27,6 +30,7 @@ import kotlinx.android.synthetic.main.fragment_edit_landmark.*
 class LandmarkFragment : Fragment() {
     private lateinit var binding: FragmentLandmarkBinding
     private lateinit var ref: DatabaseReference
+    private lateinit var token : SharedPreferences
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -38,11 +42,21 @@ class LandmarkFragment : Fragment() {
         binding.landmarkFragment = this
 
         val args = LandmarkFragmentArgs.fromBundle(arguments!!)
+        binding.landmarkAuthorText.text = args.landmarkAuthorName
         binding.landmarkTitleText.text = args.landmarkTitle
         binding.landmarkDescriptionText.text = args.landmarkDescription
 
         val ratingBar = binding.landmarkRatingInput as RatingBar
         ratingBar.rating = args.landmarkRating
+
+        token = binding.root.context.getSharedPreferences("user", Context.MODE_PRIVATE)
+
+        var loggedInUserId =  token.all["userID"].toString()
+
+        if(args.landmarkAuthorId != loggedInUserId) {
+            binding.landmarkEditButton.isInvisible = true
+            binding.landmarkDeleteButton.isInvisible = true
+        }
 
         binding.rateButton.setOnClickListener{userRating(it)}
 
@@ -53,6 +67,9 @@ class LandmarkFragment : Fragment() {
 
     fun userRating(view: View) {
         binding.apply {
+
+            ref = FirebaseDatabase.getInstance().getReference("landmarks")
+
             val builder = AlertDialog.Builder(view.context)
 
             // Get layout inflater
@@ -79,7 +96,9 @@ class LandmarkFragment : Fragment() {
 
                     var args = LandmarkFragmentArgs.fromBundle(arguments!!)
                     // Take the average and show the new current rating
+                    var landmark = ref.child(args.landmarkId)
                     landmarkRatingInput.rating = (landmarkRatingInput.rating + rating)/2
+                    landmark.child("rating").setValue(landmarkRatingInput.rating)
 
                     // Needs to be implemented
                     //editLandmark()

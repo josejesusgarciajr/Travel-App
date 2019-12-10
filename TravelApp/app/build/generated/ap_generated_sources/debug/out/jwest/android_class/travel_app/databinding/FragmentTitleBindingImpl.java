@@ -14,9 +14,9 @@ public class FragmentTitleBindingImpl extends FragmentTitleBinding  {
     static {
         sIncludes = null;
         sViewsWithIds = new android.util.SparseIntArray();
-        sViewsWithIds.put(R.id.title_to_map_button, 1);
-        sViewsWithIds.put(R.id.title_to_review_button, 2);
-        sViewsWithIds.put(R.id.title_to_landmark_button, 3);
+        sViewsWithIds.put(R.id.login_button, 1);
+        sViewsWithIds.put(R.id.register_button, 2);
+        sViewsWithIds.put(R.id.gifImageView, 3);
     }
     // views
     // variables
@@ -30,7 +30,7 @@ public class FragmentTitleBindingImpl extends FragmentTitleBinding  {
     private FragmentTitleBindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 0
             , (androidx.constraintlayout.widget.ConstraintLayout) bindings[0]
-            , (android.widget.Button) bindings[3]
+            , (pl.droidsonroids.gif.GifImageView) bindings[3]
             , (android.widget.Button) bindings[1]
             , (android.widget.Button) bindings[2]
             );

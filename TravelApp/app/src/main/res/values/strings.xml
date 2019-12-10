@@ -20,5 +20,18 @@
     <string name="LogInButton">Log In!</string>
     <string name="rate_landmark">Rate this Landmark</string>
 
+    <!-- REGISTRATION FRAGMENT -->
+    <string name="regTitle">Registration</string>
+    <string name="username">UserName</string>
+    <string name="regPassword">Password</string>
+
+    <!-- REGISTRATION PART TWO FRAGEMENT -->
+    <string name="regPartTWoTitle">Registration Info</string>
+    <string name="FirstName">First Name</string>
+    <string name="LastName">Last Name</string>
+    <string name="age">Age</string>
+    <string name="HomeTown">Home Town</string>
+    <string name="HomeTownHint">Los Angeles</string>
+    <string name="RegTwoBtn">Submit!</string>
 
 </resources>

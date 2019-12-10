@@ -62,6 +62,26 @@ public class LandmarkFragmentArgs implements NavArgs {
     } else {
       throw new IllegalArgumentException("Required argument \"landmarkId\" is missing and does not have an android:defaultValue");
     }
+    if (bundle.containsKey("landmarkAuthorId")) {
+      String landmarkAuthorId;
+      landmarkAuthorId = bundle.getString("landmarkAuthorId");
+      if (landmarkAuthorId == null) {
+        throw new IllegalArgumentException("Argument \"landmarkAuthorId\" is marked as non-null but was passed a null value.");
+      }
+      __result.arguments.put("landmarkAuthorId", landmarkAuthorId);
+    } else {
+      throw new IllegalArgumentException("Required argument \"landmarkAuthorId\" is missing and does not have an android:defaultValue");
+    }
+    if (bundle.containsKey("landmarkAuthorName")) {
+      String landmarkAuthorName;
+      landmarkAuthorName = bundle.getString("landmarkAuthorName");
+      if (landmarkAuthorName == null) {
+        throw new IllegalArgumentException("Argument \"landmarkAuthorName\" is marked as non-null but was passed a null value.");
+      }
+      __result.arguments.put("landmarkAuthorName", landmarkAuthorName);
+    } else {
+      throw new IllegalArgumentException("Required argument \"landmarkAuthorName\" is missing and does not have an android:defaultValue");
+    }
     return __result;
   }
 
@@ -90,6 +110,18 @@ public class LandmarkFragmentArgs implements NavArgs {
 
   @SuppressWarnings("unchecked")
   @NonNull
+  public String getLandmarkAuthorId() {
+    return (String) arguments.get("landmarkAuthorId");
+  }
+
+  @SuppressWarnings("unchecked")
+  @NonNull
+  public String getLandmarkAuthorName() {
+    return (String) arguments.get("landmarkAuthorName");
+  }
+
+  @SuppressWarnings("unchecked")
+  @NonNull
   public Bundle toBundle() {
     Bundle __result = new Bundle();
     if (arguments.containsKey("landmarkTitle")) {
@@ -107,6 +139,14 @@ public class LandmarkFragmentArgs implements NavArgs {
     if (arguments.containsKey("landmarkId")) {
       String landmarkId = (String) arguments.get("landmarkId");
       __result.putString("landmarkId", landmarkId);
+    }
+    if (arguments.containsKey("landmarkAuthorId")) {
+      String landmarkAuthorId = (String) arguments.get("landmarkAuthorId");
+      __result.putString("landmarkAuthorId", landmarkAuthorId);
+    }
+    if (arguments.containsKey("landmarkAuthorName")) {
+      String landmarkAuthorName = (String) arguments.get("landmarkAuthorName");
+      __result.putString("landmarkAuthorName", landmarkAuthorName);
     }
     return __result;
   }
@@ -144,6 +184,18 @@ public class LandmarkFragmentArgs implements NavArgs {
     if (getLandmarkId() != null ? !getLandmarkId().equals(that.getLandmarkId()) : that.getLandmarkId() != null) {
       return false;
     }
+    if (arguments.containsKey("landmarkAuthorId") != that.arguments.containsKey("landmarkAuthorId")) {
+      return false;
+    }
+    if (getLandmarkAuthorId() != null ? !getLandmarkAuthorId().equals(that.getLandmarkAuthorId()) : that.getLandmarkAuthorId() != null) {
+      return false;
+    }
+    if (arguments.containsKey("landmarkAuthorName") != that.arguments.containsKey("landmarkAuthorName")) {
+      return false;
+    }
+    if (getLandmarkAuthorName() != null ? !getLandmarkAuthorName().equals(that.getLandmarkAuthorName()) : that.getLandmarkAuthorName() != null) {
+      return false;
+    }
     return true;
   }
 
@@ -154,6 +206,8 @@ public class LandmarkFragmentArgs implements NavArgs {
     result = 31 * result + (getLandmarkDescription() != null ? getLandmarkDescription().hashCode() : 0);
     result = 31 * result + Float.floatToIntBits(getLandmarkRating());
     result = 31 * result + (getLandmarkId() != null ? getLandmarkId().hashCode() : 0);
+    result = 31 * result + (getLandmarkAuthorId() != null ? getLandmarkAuthorId().hashCode() : 0);
+    result = 31 * result + (getLandmarkAuthorName() != null ? getLandmarkAuthorName().hashCode() : 0);
     return result;
   }
 
@@ -164,6 +218,8 @@ public class LandmarkFragmentArgs implements NavArgs {
         + ", landmarkDescription=" + getLandmarkDescription()
         + ", landmarkRating=" + getLandmarkRating()
         + ", landmarkId=" + getLandmarkId()
+        + ", landmarkAuthorId=" + getLandmarkAuthorId()
+        + ", landmarkAuthorName=" + getLandmarkAuthorName()
         + "}";
   }
 
@@ -175,7 +231,8 @@ public class LandmarkFragmentArgs implements NavArgs {
     }
 
     public Builder(@NonNull String landmarkTitle, @NonNull String landmarkDescription,
-        float landmarkRating, @NonNull String landmarkId) {
+        float landmarkRating, @NonNull String landmarkId, @NonNull String landmarkAuthorId,
+        @NonNull String landmarkAuthorName) {
       if (landmarkTitle == null) {
         throw new IllegalArgumentException("Argument \"landmarkTitle\" is marked as non-null but was passed a null value.");
       }
@@ -189,6 +246,14 @@ public class LandmarkFragmentArgs implements NavArgs {
         throw new IllegalArgumentException("Argument \"landmarkId\" is marked as non-null but was passed a null value.");
       }
       this.arguments.put("landmarkId", landmarkId);
+      if (landmarkAuthorId == null) {
+        throw new IllegalArgumentException("Argument \"landmarkAuthorId\" is marked as non-null but was passed a null value.");
+      }
+      this.arguments.put("landmarkAuthorId", landmarkAuthorId);
+      if (landmarkAuthorName == null) {
+        throw new IllegalArgumentException("Argument \"landmarkAuthorName\" is marked as non-null but was passed a null value.");
+      }
+      this.arguments.put("landmarkAuthorName", landmarkAuthorName);
     }
 
     @NonNull
@@ -230,6 +295,24 @@ public class LandmarkFragmentArgs implements NavArgs {
       return this;
     }
 
+    @NonNull
+    public Builder setLandmarkAuthorId(@NonNull String landmarkAuthorId) {
+      if (landmarkAuthorId == null) {
+        throw new IllegalArgumentException("Argument \"landmarkAuthorId\" is marked as non-null but was passed a null value.");
+      }
+      this.arguments.put("landmarkAuthorId", landmarkAuthorId);
+      return this;
+    }
+
+    @NonNull
+    public Builder setLandmarkAuthorName(@NonNull String landmarkAuthorName) {
+      if (landmarkAuthorName == null) {
+        throw new IllegalArgumentException("Argument \"landmarkAuthorName\" is marked as non-null but was passed a null value.");
+      }
+      this.arguments.put("landmarkAuthorName", landmarkAuthorName);
+      return this;
+    }
+
     @SuppressWarnings("unchecked")
     @NonNull
     public String getLandmarkTitle() {
@@ -251,6 +334,18 @@ public class LandmarkFragmentArgs implements NavArgs {
     @NonNull
     public String getLandmarkId() {
       return (String) arguments.get("landmarkId");
+    }
+
+    @SuppressWarnings("unchecked")
+    @NonNull
+    public String getLandmarkAuthorId() {
+      return (String) arguments.get("landmarkAuthorId");
+    }
+
+    @SuppressWarnings("unchecked")
+    @NonNull
+    public String getLandmarkAuthorName() {
+      return (String) arguments.get("landmarkAuthorName");
     }
   }
 }

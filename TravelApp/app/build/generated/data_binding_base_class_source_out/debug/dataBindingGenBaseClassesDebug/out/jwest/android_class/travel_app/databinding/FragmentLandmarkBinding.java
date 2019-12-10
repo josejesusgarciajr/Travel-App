@@ -25,6 +25,9 @@ public abstract class FragmentLandmarkBinding extends ViewDataBinding {
   public final ConstraintLayout frameLayout;
 
   @NonNull
+  public final TextView landmarkAuthorText;
+
+  @NonNull
   public final ImageButton landmarkDeleteButton;
 
   @NonNull
@@ -52,12 +55,13 @@ public abstract class FragmentLandmarkBinding extends ViewDataBinding {
   protected LandmarkFragment mLandmarkFragment;
 
   protected FragmentLandmarkBinding(Object _bindingComponent, View _root, int _localFieldCount,
-      ConstraintLayout frameLayout, ImageButton landmarkDeleteButton,
+      ConstraintLayout frameLayout, TextView landmarkAuthorText, ImageButton landmarkDeleteButton,
       TextView landmarkDescriptionText, ImageButton landmarkEditButton,
       RatingBar landmarkRatingInput, TextView landmarkTitleText, ConstraintLayout linearLayout,
       Button rateButton, ScrollView scrollView2) {
     super(_bindingComponent, _root, _localFieldCount);
     this.frameLayout = frameLayout;
+    this.landmarkAuthorText = landmarkAuthorText;
     this.landmarkDeleteButton = landmarkDeleteButton;
     this.landmarkDescriptionText = landmarkDescriptionText;
     this.landmarkEditButton = landmarkEditButton;

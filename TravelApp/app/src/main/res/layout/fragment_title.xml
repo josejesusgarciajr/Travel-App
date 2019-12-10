@@ -18,48 +18,36 @@
         tools:context=".MainActivity">
 
         <Button
-            android:id="@+id/title_to_map_button"
+            android:id="@+id/login_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="304dp"
-            android:text="Map"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.498"
-            app:layout_constraintStart_toStartOf="parent" />
-
-        <Button
-            android:id="@+id/title_to_review_button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="32dp"
-            android:text="review"
+            android:layout_marginTop="230dp"
+            android:text="Login"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.501"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/title_to_map_button" />
+            app:layout_constraintTop_toBottomOf="@+id/gifImageView" />
 
         <Button
-            android:id="@+id/title_to_landmark_button"
+            android:id="@+id/register_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="112dp"
-            android:text="Landmark Test"
+            android:layout_marginTop="32dp"
+            android:text="Register"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/title_to_map_button" />
+            app:layout_constraintTop_toBottomOf="@+id/login_button" />
 
 
         <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/gifImageView"
             android:layout_width="264dp"
             android:layout_height="229dp"
             android:src="@drawable/globetextgrow"
-            app:layout_constraintBottom_toTopOf="@+id/title_to_map_button"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.496"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.7" />
+            app:layout_constraintTop_toTopOf="parent" />
 
         <!--        <ImageView-->
         <!--            android:id="@+id/imageView2"-->

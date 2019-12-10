@@ -41,13 +41,18 @@ class Log_In : Fragment() {
         // GET A REFERENCE TO THE DATABASE
         ref = FirebaseDatabase.getInstance().getReference("members")
 
-        token = binding.root.context.getSharedPreferences("jose", Context.MODE_PRIVATE)
+        token = binding.root.context.getSharedPreferences("user", Context.MODE_PRIVATE)
 
         userAlreadyLoggedIn()
 
         // Set the onClickListener for the submitButton
         binding.logInButton.setOnClickListener { view : View ->
             validateUser()
+        }
+
+        // SET ONCLICKLISTENER FOR Registration Button
+        binding.registrationBtn.setOnClickListener{view: View? ->
+            view!!.findNavController().navigate(R.id.logIn_To_Registration)
         }
 
         return binding.root
@@ -120,6 +125,7 @@ class Log_In : Fragment() {
                             // EDITOR
                             var editor = token.edit()
                             editor.putString("loginuser", username)
+                            editor.putString("userID", M.key)
                             editor.commit()
                             Log.d("EDITOR", editor.commit().toString())
 

@@ -12,4 +12,9 @@ public class Log_InDirections {
   public static NavDirections logInToGoogleMaps() {
     return new ActionOnlyNavDirections(R.id.logIn_To_Google_Maps);
   }
+
+  @NonNull
+  public static NavDirections logInToRegistration() {
+    return new ActionOnlyNavDirections(R.id.logIn_To_Registration);
+  }
 }

@@ -1,5 +1,7 @@
 package jwest.android_class.travel_app
 
+import android.content.Context
+import android.content.SharedPreferences
 import android.os.Bundle
 import android.util.Log
 import androidx.fragment.app.Fragment
@@ -21,6 +23,10 @@ import kotlin.math.roundToInt
 class EditLandmarkFragment : Fragment() {
     private lateinit var binding: FragmentEditLandmarkBinding
     private lateinit var ref: DatabaseReference
+    private lateinit var token : SharedPreferences
+    private lateinit var memberReference: DatabaseReference
+
+
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -35,6 +41,8 @@ class EditLandmarkFragment : Fragment() {
         binding.landmarkTitleInput.setText(args.landmarkTitle)
         binding.landmarkDescriptionInput.setText(args.landmarkDescription)
 
+        token = binding.root.context.getSharedPreferences("user", Context.MODE_PRIVATE)
+
         binding.editLandmarkSubmit.setOnClickListener { editLandmark(args.landmarkId.toString(), args.landmarkRating) }
         return binding.root
     }
@@ -44,6 +52,12 @@ class EditLandmarkFragment : Fragment() {
         var landmark = ref.child(landmarkId)
         landmark.child("title").setValue(binding.landmarkTitleInput.text.toString())
         landmark.child("description").setValue(binding.landmarkDescriptionInput.text.toString())
-        view?.findNavController()?.navigate(EditLandmarkFragmentDirections.actionEditLandmarkFragmentToLandmarkFragment(binding.landmarkTitleInput.text.toString(), binding.landmarkDescriptionInput.text.toString(), landmarkRating, landmarkId))
+
+        var loggedInUserId =  token.all["userID"].toString()
+
+        memberReference = FirebaseDatabase.getInstance().getReference("members")
+        var landmarkAuthor = memberReference.child(landmark.child("authorId").toString())
+
+        view?.findNavController()?.navigate(EditLandmarkFragmentDirections.actionEditLandmarkFragmentToLandmarkFragment(binding.landmarkTitleInput.text.toString(), binding.landmarkDescriptionInput.text.toString(), landmarkRating, landmarkId, loggedInUserId,landmarkAuthor.toString()))
     }
 }

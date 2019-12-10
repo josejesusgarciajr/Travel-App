@@ -32,6 +32,9 @@ public abstract class FragmentLogInBinding extends ViewDataBinding {
   public final TextView passwordTEXTVIEW;
 
   @NonNull
+  public final Button registrationBtn;
+
+  @NonNull
   public final TextView textView2;
 
   @NonNull
@@ -45,12 +48,13 @@ public abstract class FragmentLogInBinding extends ViewDataBinding {
 
   protected FragmentLogInBinding(Object _bindingComponent, View _root, int _localFieldCount,
       ConstraintLayout logIn, Button logInButton, EditText password, TextView passwordTEXTVIEW,
-      TextView textView2, EditText userName, TextView usernameTEXTVIEW) {
+      Button registrationBtn, TextView textView2, EditText userName, TextView usernameTEXTVIEW) {
     super(_bindingComponent, _root, _localFieldCount);
     this.logIn = logIn;
     this.logInButton = logInButton;
     this.password = password;
     this.passwordTEXTVIEW = passwordTEXTVIEW;
+    this.registrationBtn = registrationBtn;
     this.textView2 = textView2;
     this.userName = userName;
     this.usernameTEXTVIEW = usernameTEXTVIEW;
