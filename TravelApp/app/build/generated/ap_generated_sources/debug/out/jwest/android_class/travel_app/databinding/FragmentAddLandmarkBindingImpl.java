@@ -14,9 +14,9 @@ public class FragmentAddLandmarkBindingImpl extends FragmentAddLandmarkBinding  
     static {
         sIncludes = null;
         sViewsWithIds = new android.util.SparseIntArray();
-        sViewsWithIds.put(R.id.landmarkTitleInput, 1);
-        sViewsWithIds.put(R.id.landmarkDescriptionInput, 2);
-        sViewsWithIds.put(R.id.textView6, 3);
+        sViewsWithIds.put(R.id.textView6, 1);
+        sViewsWithIds.put(R.id.landmarkTitleInput, 2);
+        sViewsWithIds.put(R.id.landmarkDescriptionInput, 3);
         sViewsWithIds.put(R.id.textView7, 4);
         sViewsWithIds.put(R.id.addLandmarkSubmitButton, 5);
     }
@@ -33,9 +33,9 @@ public class FragmentAddLandmarkBindingImpl extends FragmentAddLandmarkBinding  
         super(bindingComponent, root, 0
             , (android.widget.Button) bindings[5]
             , (androidx.constraintlayout.widget.ConstraintLayout) bindings[0]
+            , (android.widget.EditText) bindings[3]
             , (android.widget.EditText) bindings[2]
-            , (android.widget.EditText) bindings[1]
-            , (android.widget.TextView) bindings[3]
+            , (android.widget.TextView) bindings[1]
             , (android.widget.TextView) bindings[4]
             );
         this.frameLayout2.setTag(null);

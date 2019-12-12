@@ -48,7 +48,8 @@
             android:inputType="textPersonName"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView4" />
+            app:layout_constraintTop_toBottomOf="@+id/textView4"
+            android:importantForAutofill="no" />
 
         <TextView
             android:id="@+id/lastNameTextView"
@@ -70,7 +71,8 @@
             android:inputType="textPersonName"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/lastNameTextView" />
+            app:layout_constraintTop_toBottomOf="@+id/lastNameTextView"
+            android:importantForAutofill="no" />
 
         <TextView
             android:id="@+id/ageTextView"
@@ -92,7 +94,8 @@
             android:inputType="number"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/ageTextView" />
+            app:layout_constraintTop_toBottomOf="@+id/ageTextView"
+            android:importantForAutofill="no" />
 
         <TextView
             android:id="@+id/homeTownTextView"
@@ -114,7 +117,8 @@
             android:inputType="textPersonName"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/homeTownTextView" />
+            app:layout_constraintTop_toBottomOf="@+id/homeTownTextView"
+            android:importantForAutofill="no" />
 
         <Button
             android:id="@+id/RegTwoBtnSubmit"

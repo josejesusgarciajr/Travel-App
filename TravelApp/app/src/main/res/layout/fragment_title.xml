@@ -17,14 +17,17 @@
         android:background="#CDEBF9"
         tools:context=".MainActivity">
 
+
         <Button
             android:id="@+id/login_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="230dp"
-            android:text="Login"
+            android:layout_marginTop="123dp"
+            android:background="@drawable/custom_button"
+            android:text="@string/login"
+            android:textColor="@color/colorOfButton"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.501"
+            app:layout_constraintHorizontal_bias="0.77"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/gifImageView" />
 
@@ -32,21 +35,25 @@
             android:id="@+id/register_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="32dp"
-            android:text="Register"
+            android:layout_marginTop="123dp"
+            android:background="@drawable/custom_button"
+            android:text="@string/register"
+            android:textColor="@color/colorOfButton"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.226"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/login_button" />
-
+            app:layout_constraintTop_toBottomOf="@+id/gifImageView" />
 
         <Button
             android:id="@+id/map_button"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="200dp"
-            android:text="Map"
+            android:layout_height="48dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/custom_button"
+            android:text="@string/map"
+            android:textColor="@color/colorOfButton"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.501"
+            app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/gifImageView" />
 
@@ -54,6 +61,7 @@
             android:id="@+id/gifImageView"
             android:layout_width="264dp"
             android:layout_height="229dp"
+            android:layout_marginTop="66dp"
             android:src="@drawable/globetextgrow"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.496"

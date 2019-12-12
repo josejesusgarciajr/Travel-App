@@ -9,4 +9,5 @@
     <color name="colorReviewBar">#B5B7B6</color>
     <color name="colorReview">#258940</color>
     <color name="colorReviewBorder">#000000</color>
+    <color name="colorOfButton">#000000</color>
 </resources>

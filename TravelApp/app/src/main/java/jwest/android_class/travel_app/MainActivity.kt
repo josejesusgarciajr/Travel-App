@@ -40,6 +40,7 @@ class MainActivity : AppCompatActivity() {
 
         // THIS IS SUPPOSE TO GET A CONNECTION TO FIREBASE
         ref = FirebaseDatabase.getInstance().getReference("landmarks")
+
 //        Log.d("firebase ", ref.database.reference.toString())
 //        // ADDING
 //        val landmarkId : String = ref.push().key!!
@@ -52,6 +53,7 @@ class MainActivity : AppCompatActivity() {
 //        }
 
         Log.d("FIREBASE_REF", ref.database.getReference().toString())
+
     }
     //override this method to tell Android to call navigateUp() in the navigation controller when
     //up button is pressed

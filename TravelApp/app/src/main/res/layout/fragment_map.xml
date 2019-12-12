@@ -19,7 +19,7 @@
             android:id="@+id/GMapsLogOutBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Log Out" />
+            android:text="@string/log_out" />
 
         <com.google.android.gms.maps.MapView
             android:id="@+id/mapView"

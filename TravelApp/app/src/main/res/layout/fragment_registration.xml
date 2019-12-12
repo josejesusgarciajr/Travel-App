@@ -31,7 +31,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="36dp"
-            android:text="@string/username"
+            android:text="@string/regUsername"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView5" />
@@ -42,11 +42,12 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="36dp"
             android:ems="10"
-            android:hint="@string/username"
+            android:hint="@string/regUsername"
             android:inputType="textPersonName"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/userNameTEXTVIEW" />
+            app:layout_constraintTop_toBottomOf="@+id/userNameTEXTVIEW"
+            android:importantForAutofill="no" />
 
         <TextView
             android:id="@+id/passwordTEXTVIEW"
@@ -64,6 +65,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="36dp"
             android:ems="10"
+            android:hint="@string/password"
+            android:importantForAutofill="no"
             android:inputType="textPassword"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -75,7 +78,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="112dp"
             android:layout_marginTop="52dp"
-            android:text="Next"
+            android:text="@string/next"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.232"
