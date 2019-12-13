@@ -4,7 +4,7 @@
 
 # Travel Buddy
 
-Whether you are traveling nearby or to a foreign country, our application provides users a unique experience of self-discovering unregistered landmarks.
+Whether you are traveling nearby or to a foreign country, our application provides users a unique experience of discovering unregistered landmarks.
 
 
 # Register Page 
