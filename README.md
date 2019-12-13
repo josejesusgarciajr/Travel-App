@@ -95,11 +95,11 @@ When a user clicks a marker pop up window on the map they are taken to that land
 ## Version history
 | Ver. | Date implement | Description |
 | ------ | ------ | ------ |
-| v.1 | 10/27/2019 | first draft. |
+| v.1 | 10/27/2019 | First draft. |
 | v.2 | 11/01/2019 | Display Google maps on MainActivity. |
 | v.3 | 11/17/2019 | Navigation.xml, TitleFragment, MapFragment displaying the map alone. |
-| v.4 | 11/22/2019 | firebase, review fragments, input options testing. |
+| v.4 | 11/22/2019 | Firebase, review fragments, input options testing. |
 | v.5 | 11/26/2019 | LandmarkFragment displaying the landmarks on page.  |
-| v.6 | 11/30/2019 | users can now press and hold to add landmarks and rate the location added. |
-| v.7 | 11/27/2019 | Users can now click on landmarks to adda rating. |
-| v.8 | 12/09/2019 | User login and registration implented for landmark edit/delete function. |
+| v.6 | 11/30/2019 | Users can now press and hold to add landmarks and rate the location added. |
+| v.7 | 11/27/2019 | Users can now click on landmarks to add a rating. |
+| v.8 | 12/09/2019 | User login and registration implemented for landmark edit/delete function. |
