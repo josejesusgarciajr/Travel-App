@@ -1,18 +1,10 @@
 <p align="center">
-  <img src="https://github.com/josejesusgarciajr/Travel-App/blob/master/TravelApp/app/src/main/res/drawable/travelbuddylogo.png" width="200">
+  <img src="https://github.com/josejesusgarciajr/Travel-App/blob/master/TravelApp/app/src/main/res/drawable/globetextgrow.gif" width="200">
 </p>
 
 # Travel Buddy
 
-Whether you're a hiker, trekking, or cardio, spending time walking through nature is relaxing. With our application, one can simply the greatest hiking experience. One can look for a good rating on a landmark and enjoy their afternoon trip.
-
-## Group members
-  - Nikita Aggarwal
-  - Gabriela Alvarado
-  - Brandon Arevalo
-  - Jose Gracia 
-  - Justine West
-  
+Whether you're a hiker, trekking, or cardio, spending time walking through nature is relaxing. With our application, one can simply the greatest hiking experience. One can look for a good rating on a landmark and enjoy their afternoon trip. 
 
 11/17/19 </br>
 There are now 2 fragments - TitleFragment & MapFragment </br>
@@ -44,3 +36,26 @@ Users can now hold down the map at desired point to add landmarks! Once users ch
 <hr>
 12/7/19<br>
 When a user clicks a marker pop up window on the map they are taken to that landmark's page.
+
+## Contributors
+
+| Team Members | GitHub Username |
+| ------ | ------ |
+| Nikita Aggarwal | nikita1369 |
+| Gabriela Alvarado | gaby-a |
+| Brandon Arevalo | ArevaloBrandon115 |
+|Jose Gracia| josejesusgarciajr |
+|Justine West| jwest115 |
+
+
+## Version history
+| Ver. | Date implement | Description |
+| ------ | ------ | ------ |
+| v.1 | 10/27/2019 | first draft. |
+| v.2 | 11/01/2019 | Display Google maps on MainActivity. |
+| v.3 | 11/17/2019 | Navigation.xml, TitleFragment, MapFragment displaying the map alone. |
+| v.4 | 11/22/2019 | firebase, review fragments, input options testing. |
+| v.5 | 11/26/2019 | LandmarkFragment displaying the landmarks on page.  |
+| v.6 | 11/30/2019 | users can now press and hold to add landmarks and rate the location added. |
+| v.7 | 11/27/2019 | Users can now click on landmarks to adda rating. |
+| v.8 | 12/09/2019 | User login and registration implented for landmark edit/delete function. |
