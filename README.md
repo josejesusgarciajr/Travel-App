@@ -9,7 +9,7 @@ Whether you're a hiker, trekking, or cardio, spending time walking through natur
 
 # Register Page 
 ![](images/reg.gif)
-* Users will be register and acount
+* Users will be register and account.
   * username
   * password
   * firstName
@@ -19,15 +19,22 @@ Whether you're a hiker, trekking, or cardio, spending time walking through natur
   
 # Login Page
 ![](images/log.gif)
-* Users will be able to login
-* After login users can stay loged in even after closing the app (token)
-* The user is now able to edit or delete their landmarks
+* Users will be able to login.
+* After login users can stay loged in even after closing the app. (token)
+* The user is now able to edit or delete their landmarks.
 
 # Map Page
-![](images/map.png)
+![](images/map.PNG)
+* Users will be able to click on exsisting landmarks, if they're the author of such landmark they can choose to delete or edit the landmark.
+* Users can also press and hold a location on the map to add a landmark and rating of their own. The user will see the page below when adding a new landmark.
 
+![](images/addLandmark.PNG)
 
+# Edit Page
 
+* If the user is the author they will see this on the top right of the screen
+
+* otherwise the user sees this below image and can add a rating for the landmark
 11/17/19 </br>
 There are now 2 fragments - TitleFragment & MapFragment </br>
 
