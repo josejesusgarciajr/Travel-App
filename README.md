@@ -25,7 +25,7 @@ Whether you're a hiker, trekking, or cardio, spending time walking through natur
 
 # Map Page
 ![](images/map.PNG)
-* Users will be able to click on exsisting landmarks, if they're the author of such landmark they can choose to delete or edit the landmark.
+* Users will be able to click on existing landmarks, if they're the author of such landmark they can choose to delete or edit the landmark.
 * Users can also press and hold a location on the map to add a landmark and rating of their own. The user will see the page below when adding a new landmark.
 
 ![](images/addLandmark.PNG)
@@ -34,7 +34,18 @@ Whether you're a hiker, trekking, or cardio, spending time walking through natur
 
 * If the user is the author they will see this on the top right of the screen
 
+![](images/author.PNG)
+
 * otherwise the user sees this below image and can add a rating for the landmark
+
+# Rating
+* Users can simply decide what is the appropriate star amount to give by sliding their finger across the stars.
+* the current rating is calculated by getting the average.
+
+![](images/user.PNG)
+
+
+
 11/17/19 </br>
 There are now 2 fragments - TitleFragment & MapFragment </br>
 
