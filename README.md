@@ -1,10 +1,32 @@
 <p align="center">
-  <img src="https://github.com/josejesusgarciajr/Travel-App/blob/master/TravelApp/app/src/main/res/drawable/globetextgrow.gif" width="200">
+  <img src="https://github.com/josejesusgarciajr/Travel-App/blob/gabs/TravelApp/app/src/main/res/drawable-v24/newmaingif.gif" width="200">
 </p>
 
 # Travel Buddy
 
 Whether you're a hiker, trekking, or cardio, spending time walking through nature is relaxing. With our application, one can simply the greatest hiking experience. One can look for a good rating on a landmark and enjoy their afternoon trip. 
+
+
+# Register Page 
+![](images/reg.gif)
+* Users will be register and acount
+  * username
+  * password
+  * firstName
+  * LastName
+  * Age
+  * Home Town
+  
+# Login Page
+![](images/log.gif)
+* Users will be able to login
+* After login users can stay loged in even after closing the app (token)
+* The user is now able to edit or delete their landmarks
+
+# Map Page
+![](images/map.png)
+
+
 
 11/17/19 </br>
 There are now 2 fragments - TitleFragment & MapFragment </br>
@@ -36,6 +58,10 @@ Users can now hold down the map at desired point to add landmarks! Once users ch
 <hr>
 12/7/19<br>
 When a user clicks a marker pop up window on the map they are taken to that landmark's page.
+
+<p align="center">
+  <img src="https://github.com/josejesusgarciajr/Travel-App/blob/master/TravelApp/app/src/main/res/drawable/globetextgrow.gif" width="200">
+</p>
 
 ## Contributors
 
