@@ -4,7 +4,7 @@
 
 # Travel Buddy
 
-Whether you're a hiker, trekking, or cardio, spending time walking through nature is relaxing. With our application, one can simply the greatest hiking experience. One can look for a good rating on a landmark and enjoy their afternoon trip.
+Whether you are traveling nearby or to a foreign country, our application will introduce the user to unregistered landmarks. 
 
 
 # Register Page
