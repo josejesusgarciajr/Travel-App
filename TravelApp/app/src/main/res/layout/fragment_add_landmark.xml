@@ -13,6 +13,7 @@
         android:id="@+id/frameLayout2"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="@drawable/gradientblue"
         tools:context=".AddLandmarkFragment">
 
         <!-- TODO: Update blank fragment layout -->
@@ -81,7 +82,9 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.909"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/landmarkDescriptionInput" />
+            app:layout_constraintTop_toBottomOf="@+id/landmarkDescriptionInput"
+            android:background="@android:color/transparent"
+            />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

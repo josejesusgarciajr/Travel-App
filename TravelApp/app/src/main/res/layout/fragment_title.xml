@@ -14,26 +14,33 @@
         android:id="@+id/back"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#CDEBF9"
+        android:background="@drawable/dblueback"
         tools:context=".MainActivity">
 
         <Button
             android:id="@+id/login_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="230dp"
+            android:background="@android:color/transparent"
+            android:fontFamily="@font/baloo"
             android:text="Login"
+            android:textColor="#B4B4B4"
+            android:textSize="40sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.501"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/gifImageView" />
+            tools:layout_editor_absoluteY="459dp" />
 
         <Button
             android:id="@+id/register_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="32dp"
+            android:background="@android:color/transparent"
+            android:fontFamily="@font/baloo"
             android:text="Register"
+            android:textColor="#B4B4B4"
+            android:textSize="40sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/login_button" />
@@ -43,22 +50,25 @@
             android:id="@+id/map_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="200dp"
+            android:background="@android:color/transparent"
+            android:fontFamily="@font/baloo"
             android:text="Map"
+            android:textAlignment="center"
+            android:textColor="#B4B4B4"
+            android:textSize="40sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.501"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/gifImageView" />
+            app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+        />
 
-        <pl.droidsonroids.gif.GifImageView
-            android:id="@+id/gifImageView"
-            android:layout_width="264dp"
-            android:layout_height="229dp"
-            android:src="@drawable/globetextgrow"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.496"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/travelbuddylogo"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="-3dp" />
 
         <!--        <ImageView-->
         <!--            android:id="@+id/imageView2"-->

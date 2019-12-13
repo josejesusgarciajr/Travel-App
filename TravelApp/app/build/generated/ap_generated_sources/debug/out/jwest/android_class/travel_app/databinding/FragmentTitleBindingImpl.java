@@ -17,7 +17,7 @@ public class FragmentTitleBindingImpl extends FragmentTitleBinding  {
         sViewsWithIds.put(R.id.login_button, 1);
         sViewsWithIds.put(R.id.register_button, 2);
         sViewsWithIds.put(R.id.map_button, 3);
-        sViewsWithIds.put(R.id.gifImageView, 4);
+        sViewsWithIds.put(R.id.imageView2, 4);
     }
     // views
     // variables
@@ -31,7 +31,7 @@ public class FragmentTitleBindingImpl extends FragmentTitleBinding  {
     private FragmentTitleBindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 0
             , (androidx.constraintlayout.widget.ConstraintLayout) bindings[0]
-            , (pl.droidsonroids.gif.GifImageView) bindings[4]
+            , (android.widget.ImageView) bindings[4]
             , (android.widget.Button) bindings[1]
             , (android.widget.Button) bindings[3]
             , (android.widget.Button) bindings[2]

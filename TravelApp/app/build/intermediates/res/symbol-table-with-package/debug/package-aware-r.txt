@@ -41,6 +41,10 @@ animator mtrl_fab_hide_motion_spec
 animator mtrl_fab_show_motion_spec
 animator mtrl_fab_transformation_sheet_collapse_spec
 animator mtrl_fab_transformation_sheet_expand_spec
+array com_google_android_gms_fonts_certs
+array com_google_android_gms_fonts_certs_dev
+array com_google_android_gms_fonts_certs_prod
+array preloaded_fonts
 attr action
 attr actionBarDivider
 attr actionBarItemBackground
@@ -1107,6 +1111,9 @@ drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
 drawable background_review
+drawable bbbgrad
+drawable bbluebackgr
+drawable blackbackground
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -1134,6 +1141,7 @@ drawable common_google_signin_btn_text_light
 drawable common_google_signin_btn_text_light_focused
 drawable common_google_signin_btn_text_light_normal
 drawable common_google_signin_btn_text_light_normal_background
+drawable dblueback
 drawable design_bottom_navigation_item_background
 drawable design_fab_background
 drawable design_ic_visibility
@@ -1143,6 +1151,7 @@ drawable design_snackbar_background
 drawable globetextgrow
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
+drawable gradientblue
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable ic_mtrl_chip_checked_black
@@ -1151,6 +1160,7 @@ drawable ic_mtrl_chip_close_circle
 drawable mtrl_snackbar_background
 drawable mtrl_tabs_default_indicator
 drawable navigation_empty_icon
+drawable newmaingif
 drawable notification_action_background
 drawable notification_bg
 drawable notification_bg_low
@@ -1164,9 +1174,13 @@ drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable review_total
+drawable skyback
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable travelbuddylogo
+font actor
+font baloo
+font fjalla_one
 id ALT
 id Age
 id CTRL
@@ -1313,7 +1327,6 @@ id forever
 id frameLayout
 id frameLayout2
 id ghost_view
-id gifImageView
 id gone
 id group_divider
 id groups
@@ -1327,6 +1340,7 @@ id icon_group
 id icon_only
 id ifRoom
 id image
+id imageView2
 id info
 id invisible
 id italic
