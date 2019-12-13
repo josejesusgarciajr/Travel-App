@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">Travel App</string>
+    <string name="map_name">Map</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="dropped_pin">Dropped Pin</string>
+
+    <!-- review fragment-->
+    <string name="inside_title">score/total</string>
+    <string name="score">score</string>
+    <string name="total">total</string>
+    <string name="add">Add</string>
+    <string name="description">description text</string>
+    <string name="reviewtitle">Current Review</string>
+
+    <!--title fragment -->
+    <string name="login">LOGIN</string>
+    <string name="register">REGISTER</string>
+    <string name="map">MAP</string>
+
+    <!--add landmark fragment -->
+    <string name="landmarkTitle">Landmark Title</string>
+    <string name="EnterLandmarkTitleHint">Enter landmark Name</string>
+    <string name="landmarkDescription">Landmark Description</string>
+    <string name="EnterLandmarkDescriptionHint">Enter description</string>
+    <string name="addMarker">Add</string>
+
+    <!-- registration part 1 fragment-->
+    <string name="regTitle">Registration</string>
+    <string name="regUsername">UserName</string>
+    <string name="regPassword">Password</string>
+    <string name="password">Password</string>
+    <string name="next">Next</string>
+    <string name="log_out">Log Out</string>
+
+    <!-- registration part 2 fragment -->
+    <string name="regPartTWoTitle">Registration Info</string>
+    <string name="FirstName">First Name</string>
+    <string name="LastName">Last Name</string>
+    <string name="age">Age</string>
+    <string name="HomeTown">Home Town</string>
+    <string name="HomeTownHint">Los Angeles</string>
+    <string name="RegTwoBtn">Submit!</string>
+
+    <!--fragment landmark-->
+    <string name="titleDisplay">Default Title</string>
+    <string name="add_rating">Add Rating!</string>
+    <string name="descriptionText">Default Description</string>
+    <string name="user">Default user</string>
+    <string name="remove" />
+    <string name="edit" />
+
+    <!-- login fragment -->
+    <string name="LogInTitle">Log In</string>
+    <string name="LogInHint">UserName</string>
+    <string name="LogInPasswordHint">Password</string>
+    <string name="LogInButton">Log In!</string>
+    <string name="rate_landmark">Rate this Landmark</string>
+    <string name="LogInUsername">USERNAME</string>
+    <string name="LogInPassword">Password</string>
+    <string name="LogInRegister">Register</string>
+    <string name="revDescription">description</string>
+
+    <!-- edit landmark fragment -->
+    <string name="editEnterLandmark">Enter Landmark Name</string>
+    <string name="editLandmarkDescription">Enter Description</string>
+    <string name="editLandmarkTitle">Landmark Title</string>
+    <string name="editLandmarkDescriptionTitle">Landmark Description</string>
+    <string name="editSubmit">Submit!</string>
+
+</resources>
