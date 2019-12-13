@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/gabgab/Desktop/Travel-App/Travel-App/TravelApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
+            "outputFile": "C:\\Travel-App\\TravelApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
             "map": [
                 {
-                    "source": "/Users/gabgab/.gradle/caches/transforms-2/files-2.1/ea7af0e8e415da7a32e19d49c1ab9676/cardview-1.0.0/res/values-v23/values-v23.xml",
+                    "source": "C:\\Users\\areva\\.gradle\\caches\\transforms-2\\files-2.1\\ea7af0e8e415da7a32e19d49c1ab9676\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "/Users/gabgab/.gradle/caches/transforms-2/files-2.1/42096e253e03b00d8a85e5127902a010/appcompat-1.1.0/res/values-v23/values-v23.xml",
+                    "source": "C:\\Users\\areva\\.gradle\\caches\\transforms-2\\files-2.1\\42096e253e03b00d8a85e5127902a010\\appcompat-1.1.0\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,20,34,35,36,37,41,42,43,44",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",

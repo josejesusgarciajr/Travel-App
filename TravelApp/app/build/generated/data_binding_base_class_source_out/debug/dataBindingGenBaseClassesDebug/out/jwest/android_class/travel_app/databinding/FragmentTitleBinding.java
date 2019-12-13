@@ -5,7 +5,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.ImageView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -16,13 +15,14 @@ import java.lang.Deprecated;
 import java.lang.Object;
 import jwest.android_class.travel_app.R;
 import jwest.android_class.travel_app.TitleFragment;
+import pl.droidsonroids.gif.GifImageView;
 
 public abstract class FragmentTitleBinding extends ViewDataBinding {
   @NonNull
   public final ConstraintLayout back;
 
   @NonNull
-  public final ImageView imageView2;
+  public final GifImageView imageView2;
 
   @NonNull
   public final Button loginButton;
@@ -37,7 +37,7 @@ public abstract class FragmentTitleBinding extends ViewDataBinding {
   protected TitleFragment mTitleFragment;
 
   protected FragmentTitleBinding(Object _bindingComponent, View _root, int _localFieldCount,
-      ConstraintLayout back, ImageView imageView2, Button loginButton, Button mapButton,
+      ConstraintLayout back, GifImageView imageView2, Button loginButton, Button mapButton,
       Button registerButton) {
     super(_bindingComponent, _root, _localFieldCount);
     this.back = back;

@@ -31,7 +31,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="48dp"
-            android:text="USERNAME"
+            android:text="@string/LogInUsername"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.501"
             app:layout_constraintStart_toStartOf="parent"
@@ -48,7 +48,8 @@
             android:text=""
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/username_TEXTVIEW" />
+            app:layout_constraintTop_toBottomOf="@+id/username_TEXTVIEW"
+            android:importantForAutofill="no" />
 
         <TextView
             android:id="@+id/password_TEXTVIEW"
@@ -56,7 +57,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="48dp"
             android:hint="@string/LogInPasswordHint"
-            android:text="Password"
+            android:text="@string/LogInPassword"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.501"
             app:layout_constraintStart_toStartOf="parent"
@@ -72,7 +73,8 @@
             android:inputType="textPassword"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/password_TEXTVIEW" />
+            app:layout_constraintTop_toBottomOf="@+id/password_TEXTVIEW"
+            android:importantForAutofill="no" />
 
         <Button
             android:id="@+id/logInButton"
@@ -94,7 +96,7 @@
             android:layout_height="wrap_content"
             android:layout_marginEnd="96dp"
             android:background="@android:color/transparent"
-            android:text="Register"
+            android:text="@string/LogInRegister"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/password"

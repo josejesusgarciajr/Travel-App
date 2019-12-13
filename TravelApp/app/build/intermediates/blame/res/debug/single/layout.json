@@ -1,46 +1,46 @@
 [
     {
-        "merged": "/Users/gabgab/Desktop/Travel-App/Travel-App/TravelApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/dialog_window.xml",
-        "source": "/Users/gabgab/Desktop/Travel-App/Travel-App/TravelApp/app/src/main/res/layout/dialog_window.xml"
+        "merged": "C:\\Travel-App\\TravelApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "C:\\Travel-App\\TravelApp\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "/Users/gabgab/Desktop/Travel-App/Travel-App/TravelApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_registration_part_two.xml",
-        "source": "/Users/gabgab/Desktop/Travel-App/Travel-App/TravelApp/app/src/main/res/layout/fragment_registration_part_two.xml"
+        "merged": "C:\\Travel-App\\TravelApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_map.xml",
+        "source": "C:\\Travel-App\\TravelApp\\app\\src\\main\\res\\layout\\fragment_map.xml"
     },
     {
-        "merged": "/Users/gabgab/Desktop/Travel-App/Travel-App/TravelApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_edit_landmark.xml",
-        "source": "/Users/gabgab/Desktop/Travel-App/Travel-App/TravelApp/app/src/main/res/layout/fragment_edit_landmark.xml"
+        "merged": "C:\\Travel-App\\TravelApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_review.xml",
+        "source": "C:\\Travel-App\\TravelApp\\app\\src\\main\\res\\layout\\fragment_review.xml"
     },
     {
-        "merged": "/Users/gabgab/Desktop/Travel-App/Travel-App/TravelApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main.xml",
-        "source": "/Users/gabgab/Desktop/Travel-App/Travel-App/TravelApp/app/src/main/res/layout/activity_main.xml"
+        "merged": "C:\\Travel-App\\TravelApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_landmark.xml",
+        "source": "C:\\Travel-App\\TravelApp\\app\\src\\main\\res\\layout\\fragment_landmark.xml"
     },
     {
-        "merged": "/Users/gabgab/Desktop/Travel-App/Travel-App/TravelApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_map.xml",
-        "source": "/Users/gabgab/Desktop/Travel-App/Travel-App/TravelApp/app/src/main/res/layout/fragment_map.xml"
+        "merged": "C:\\Travel-App\\TravelApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\dialog_window.xml",
+        "source": "C:\\Travel-App\\TravelApp\\app\\src\\main\\res\\layout\\dialog_window.xml"
     },
     {
-        "merged": "/Users/gabgab/Desktop/Travel-App/Travel-App/TravelApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_registration.xml",
-        "source": "/Users/gabgab/Desktop/Travel-App/Travel-App/TravelApp/app/src/main/res/layout/fragment_registration.xml"
+        "merged": "C:\\Travel-App\\TravelApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_edit_landmark.xml",
+        "source": "C:\\Travel-App\\TravelApp\\app\\src\\main\\res\\layout\\fragment_edit_landmark.xml"
     },
     {
-        "merged": "/Users/gabgab/Desktop/Travel-App/Travel-App/TravelApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_log__in.xml",
-        "source": "/Users/gabgab/Desktop/Travel-App/Travel-App/TravelApp/app/src/main/res/layout/fragment_log__in.xml"
+        "merged": "C:\\Travel-App\\TravelApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_title.xml",
+        "source": "C:\\Travel-App\\TravelApp\\app\\src\\main\\res\\layout\\fragment_title.xml"
     },
     {
-        "merged": "/Users/gabgab/Desktop/Travel-App/Travel-App/TravelApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_title.xml",
-        "source": "/Users/gabgab/Desktop/Travel-App/Travel-App/TravelApp/app/src/main/res/layout/fragment_title.xml"
+        "merged": "C:\\Travel-App\\TravelApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_registration_part_two.xml",
+        "source": "C:\\Travel-App\\TravelApp\\app\\src\\main\\res\\layout\\fragment_registration_part_two.xml"
     },
     {
-        "merged": "/Users/gabgab/Desktop/Travel-App/Travel-App/TravelApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_add_landmark.xml",
-        "source": "/Users/gabgab/Desktop/Travel-App/Travel-App/TravelApp/app/src/main/res/layout/fragment_add_landmark.xml"
+        "merged": "C:\\Travel-App\\TravelApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_registration.xml",
+        "source": "C:\\Travel-App\\TravelApp\\app\\src\\main\\res\\layout\\fragment_registration.xml"
     },
     {
-        "merged": "/Users/gabgab/Desktop/Travel-App/Travel-App/TravelApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_review.xml",
-        "source": "/Users/gabgab/Desktop/Travel-App/Travel-App/TravelApp/app/src/main/res/layout/fragment_review.xml"
+        "merged": "C:\\Travel-App\\TravelApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_log__in.xml",
+        "source": "C:\\Travel-App\\TravelApp\\app\\src\\main\\res\\layout\\fragment_log__in.xml"
     },
     {
-        "merged": "/Users/gabgab/Desktop/Travel-App/Travel-App/TravelApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_landmark.xml",
-        "source": "/Users/gabgab/Desktop/Travel-App/Travel-App/TravelApp/app/src/main/res/layout/fragment_landmark.xml"
+        "merged": "C:\\Travel-App\\TravelApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_add_landmark.xml",
+        "source": "C:\\Travel-App\\TravelApp\\app\\src\\main\\res\\layout\\fragment_add_landmark.xml"
     }
 ]

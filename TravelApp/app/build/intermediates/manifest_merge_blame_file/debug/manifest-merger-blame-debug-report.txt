@@ -6,175 +6,175 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="19"
-8-->/Users/gabgab/Desktop/Travel-App/Travel-App/TravelApp/app/src/main/AndroidManifest.xml
+8-->C:\Travel-App\TravelApp\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="29" />
-9-->/Users/gabgab/Desktop/Travel-App/Travel-App/TravelApp/app/src/main/AndroidManifest.xml
+9-->C:\Travel-App\TravelApp\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-11-->/Users/gabgab/Desktop/Travel-App/Travel-App/TravelApp/app/src/main/AndroidManifest.xml:4:5-81
-11-->/Users/gabgab/Desktop/Travel-App/Travel-App/TravelApp/app/src/main/AndroidManifest.xml:4:22-78
+11-->C:\Travel-App\TravelApp\app\src\main\AndroidManifest.xml:4:5-81
+11-->C:\Travel-App\TravelApp\app\src\main\AndroidManifest.xml:4:22-78
 12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-12-->/Users/gabgab/Desktop/Travel-App/Travel-App/TravelApp/app/src/main/AndroidManifest.xml:5:5-79
-12-->/Users/gabgab/Desktop/Travel-App/Travel-App/TravelApp/app/src/main/AndroidManifest.xml:5:22-76
+12-->C:\Travel-App\TravelApp\app\src\main\AndroidManifest.xml:5:5-79
+12-->C:\Travel-App\TravelApp\app\src\main\AndroidManifest.xml:5:22-76
 13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-13-->/Users/gabgab/Desktop/Travel-App/Travel-App/TravelApp/app/src/main/AndroidManifest.xml:6:5-81
-13-->/Users/gabgab/Desktop/Travel-App/Travel-App/TravelApp/app/src/main/AndroidManifest.xml:6:22-78
+13-->C:\Travel-App\TravelApp\app\src\main\AndroidManifest.xml:6:5-81
+13-->C:\Travel-App\TravelApp\app\src\main\AndroidManifest.xml:6:22-78
 14
 15    <uses-feature
-15-->/Users/gabgab/Desktop/Travel-App/Travel-App/TravelApp/app/src/main/AndroidManifest.xml:30:5-33:11
+15-->C:\Travel-App\TravelApp\app\src\main\AndroidManifest.xml:30:5-33:11
 16        android:glEsVersion="0x00020000"
-16-->/Users/gabgab/Desktop/Travel-App/Travel-App/TravelApp/app/src/main/AndroidManifest.xml:31:9-41
+16-->C:\Travel-App\TravelApp\app\src\main\AndroidManifest.xml:31:9-41
 17        android:required="true" />
-17-->/Users/gabgab/Desktop/Travel-App/Travel-App/TravelApp/app/src/main/AndroidManifest.xml:32:9-32
+17-->C:\Travel-App\TravelApp\app\src\main\AndroidManifest.xml:32:9-32
 18    <!-- Include required permissions for Google Maps API to run. -->
 19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-19-->[com.google.android.gms:play-services-maps:16.1.0] /Users/gabgab/.gradle/caches/transforms-2/files-2.1/ba0f558fab20852ed815b8aad8646029/jetified-play-services-maps-16.1.0/AndroidManifest.xml:23:5-79
-19-->[com.google.android.gms:play-services-maps:16.1.0] /Users/gabgab/.gradle/caches/transforms-2/files-2.1/ba0f558fab20852ed815b8aad8646029/jetified-play-services-maps-16.1.0/AndroidManifest.xml:23:22-76
+19-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\areva\.gradle\caches\transforms-2\files-2.1\56abc1c524dc81724183d0251af72eb1\jetified-play-services-maps-16.1.0\AndroidManifest.xml:23:5-79
+19-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\areva\.gradle\caches\transforms-2\files-2.1\56abc1c524dc81724183d0251af72eb1\jetified-play-services-maps-16.1.0\AndroidManifest.xml:23:22-76
 20    <uses-permission android:name="android.permission.INTERNET" />
-20-->[com.google.android.gms:play-services-maps:16.1.0] /Users/gabgab/.gradle/caches/transforms-2/files-2.1/ba0f558fab20852ed815b8aad8646029/jetified-play-services-maps-16.1.0/AndroidManifest.xml:24:5-67
-20-->[com.google.android.gms:play-services-maps:16.1.0] /Users/gabgab/.gradle/caches/transforms-2/files-2.1/ba0f558fab20852ed815b8aad8646029/jetified-play-services-maps-16.1.0/AndroidManifest.xml:24:22-64
+20-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\areva\.gradle\caches\transforms-2\files-2.1\56abc1c524dc81724183d0251af72eb1\jetified-play-services-maps-16.1.0\AndroidManifest.xml:24:5-67
+20-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\areva\.gradle\caches\transforms-2\files-2.1\56abc1c524dc81724183d0251af72eb1\jetified-play-services-maps-16.1.0\AndroidManifest.xml:24:22-64
 21    <uses-permission android:name="android.permission.WAKE_LOCK" />
-21-->[com.google.firebase:firebase-measurement-connector-impl:17.0.2] /Users/gabgab/.gradle/caches/transforms-2/files-2.1/2d1132d0eb4a5aa8f3ac765a875aab49/jetified-firebase-measurement-connector-impl-17.0.2/AndroidManifest.xml:24:5-68
-21-->[com.google.firebase:firebase-measurement-connector-impl:17.0.2] /Users/gabgab/.gradle/caches/transforms-2/files-2.1/2d1132d0eb4a5aa8f3ac765a875aab49/jetified-firebase-measurement-connector-impl-17.0.2/AndroidManifest.xml:24:22-65
+21-->[com.google.firebase:firebase-measurement-connector-impl:17.0.2] C:\Users\areva\.gradle\caches\transforms-2\files-2.1\903c3942f833241311d824ef5aa3688a\jetified-firebase-measurement-connector-impl-17.0.2\AndroidManifest.xml:24:5-68
+21-->[com.google.firebase:firebase-measurement-connector-impl:17.0.2] C:\Users\areva\.gradle\caches\transforms-2\files-2.1\903c3942f833241311d824ef5aa3688a\jetified-firebase-measurement-connector-impl-17.0.2\AndroidManifest.xml:24:22-65
 22    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
-22-->[com.google.firebase:firebase-analytics:16.0.4] /Users/gabgab/.gradle/caches/transforms-2/files-2.1/ef148fa7abf9ced3d999452762abab33/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:26:5-110
-22-->[com.google.firebase:firebase-analytics:16.0.4] /Users/gabgab/.gradle/caches/transforms-2/files-2.1/ef148fa7abf9ced3d999452762abab33/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:26:22-107
+22-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\areva\.gradle\caches\transforms-2\files-2.1\72bee3558a59744cc08bbdc916ce8230\jetified-firebase-analytics-16.0.4\AndroidManifest.xml:26:5-110
+22-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\areva\.gradle\caches\transforms-2\files-2.1\72bee3558a59744cc08bbdc916ce8230\jetified-firebase-analytics-16.0.4\AndroidManifest.xml:26:22-107
 23    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
-23-->[com.google.firebase:firebase-iid:17.0.3] /Users/gabgab/.gradle/caches/transforms-2/files-2.1/74e06ff5ca2d3c1a7f616274b3e7bd45/jetified-firebase-iid-17.0.3/AndroidManifest.xml:26:5-82
-23-->[com.google.firebase:firebase-iid:17.0.3] /Users/gabgab/.gradle/caches/transforms-2/files-2.1/74e06ff5ca2d3c1a7f616274b3e7bd45/jetified-firebase-iid-17.0.3/AndroidManifest.xml:26:22-79
+23-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\areva\.gradle\caches\transforms-2\files-2.1\648b84ea1e0755f1cbf266f1635623a9\jetified-firebase-iid-17.0.3\AndroidManifest.xml:26:5-82
+23-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\areva\.gradle\caches\transforms-2\files-2.1\648b84ea1e0755f1cbf266f1635623a9\jetified-firebase-iid-17.0.3\AndroidManifest.xml:26:22-79
 24
 25    <application
-25-->/Users/gabgab/Desktop/Travel-App/Travel-App/TravelApp/app/src/main/AndroidManifest.xml:8:5-28:19
+25-->C:\Travel-App\TravelApp\app\src\main\AndroidManifest.xml:8:5-28:19
 26        android:allowBackup="true"
-26-->/Users/gabgab/Desktop/Travel-App/Travel-App/TravelApp/app/src/main/AndroidManifest.xml:9:9-35
+26-->C:\Travel-App\TravelApp\app\src\main\AndroidManifest.xml:9:9-35
 27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-27-->[androidx.core:core:1.1.0] /Users/gabgab/.gradle/caches/transforms-2/files-2.1/45ad85c46df4b70f083f5acde98f35fc/core-1.1.0/AndroidManifest.xml:24:18-86
+27-->[androidx.core:core:1.1.0] C:\Users\areva\.gradle\caches\transforms-2\files-2.1\45ad85c46df4b70f083f5acde98f35fc\core-1.1.0\AndroidManifest.xml:24:18-86
 28        android:debuggable="true"
 29        android:icon="@mipmap/ic_launcher"
-29-->/Users/gabgab/Desktop/Travel-App/Travel-App/TravelApp/app/src/main/AndroidManifest.xml:10:9-43
+29-->C:\Travel-App\TravelApp\app\src\main\AndroidManifest.xml:10:9-43
 30        android:label="@string/app_name"
-30-->/Users/gabgab/Desktop/Travel-App/Travel-App/TravelApp/app/src/main/AndroidManifest.xml:11:9-41
+30-->C:\Travel-App\TravelApp\app\src\main\AndroidManifest.xml:11:9-41
 31        android:roundIcon="@mipmap/ic_launcher_round"
-31-->/Users/gabgab/Desktop/Travel-App/Travel-App/TravelApp/app/src/main/AndroidManifest.xml:12:9-54
+31-->C:\Travel-App\TravelApp\app\src\main\AndroidManifest.xml:12:9-54
 32        android:supportsRtl="true"
-32-->/Users/gabgab/Desktop/Travel-App/Travel-App/TravelApp/app/src/main/AndroidManifest.xml:13:9-35
+32-->C:\Travel-App\TravelApp\app\src\main\AndroidManifest.xml:13:9-35
 33        android:testOnly="true"
 34        android:theme="@style/AppTheme" >
-34-->/Users/gabgab/Desktop/Travel-App/Travel-App/TravelApp/app/src/main/AndroidManifest.xml:14:9-40
+34-->C:\Travel-App\TravelApp\app\src\main\AndroidManifest.xml:14:9-40
 35        <activity android:name="jwest.android_class.travel_app.MainActivity" >
-35-->/Users/gabgab/Desktop/Travel-App/Travel-App/TravelApp/app/src/main/AndroidManifest.xml:15:9-21:20
-35-->/Users/gabgab/Desktop/Travel-App/Travel-App/TravelApp/app/src/main/AndroidManifest.xml:15:19-47
+35-->C:\Travel-App\TravelApp\app\src\main\AndroidManifest.xml:15:9-21:20
+35-->C:\Travel-App\TravelApp\app\src\main\AndroidManifest.xml:15:19-47
 36            <intent-filter>
-36-->/Users/gabgab/Desktop/Travel-App/Travel-App/TravelApp/app/src/main/AndroidManifest.xml:16:13-20:29
+36-->C:\Travel-App\TravelApp\app\src\main\AndroidManifest.xml:16:13-20:29
 37                <action android:name="android.intent.action.MAIN" />
-37-->/Users/gabgab/Desktop/Travel-App/Travel-App/TravelApp/app/src/main/AndroidManifest.xml:17:17-69
-37-->/Users/gabgab/Desktop/Travel-App/Travel-App/TravelApp/app/src/main/AndroidManifest.xml:17:25-66
+37-->C:\Travel-App\TravelApp\app\src\main\AndroidManifest.xml:17:17-69
+37-->C:\Travel-App\TravelApp\app\src\main\AndroidManifest.xml:17:25-66
 38
 39                <category android:name="android.intent.category.LAUNCHER" />
-39-->/Users/gabgab/Desktop/Travel-App/Travel-App/TravelApp/app/src/main/AndroidManifest.xml:19:17-77
-39-->/Users/gabgab/Desktop/Travel-App/Travel-App/TravelApp/app/src/main/AndroidManifest.xml:19:27-74
+39-->C:\Travel-App\TravelApp\app\src\main\AndroidManifest.xml:19:17-77
+39-->C:\Travel-App\TravelApp\app\src\main\AndroidManifest.xml:19:27-74
 40            </intent-filter>
 41        </activity>
 42
 43        <meta-data
-43-->/Users/gabgab/Desktop/Travel-App/Travel-App/TravelApp/app/src/main/AndroidManifest.xml:22:9-24:55
+43-->C:\Travel-App\TravelApp\app\src\main\AndroidManifest.xml:22:9-24:55
 44            android:name="com.google.android.geo.API_KEY"
-44-->/Users/gabgab/Desktop/Travel-App/Travel-App/TravelApp/app/src/main/AndroidManifest.xml:23:13-58
+44-->C:\Travel-App\TravelApp\app\src\main\AndroidManifest.xml:23:13-58
 45            android:value="@string/google_maps_key" />
-45-->/Users/gabgab/Desktop/Travel-App/Travel-App/TravelApp/app/src/main/AndroidManifest.xml:24:13-52
+45-->C:\Travel-App\TravelApp\app\src\main\AndroidManifest.xml:24:13-52
 46        <meta-data
-46-->/Users/gabgab/Desktop/Travel-App/Travel-App/TravelApp/app/src/main/AndroidManifest.xml:25:9-27:57
+46-->C:\Travel-App\TravelApp\app\src\main\AndroidManifest.xml:25:9-27:57
 47            android:name="preloaded_fonts"
-47-->/Users/gabgab/Desktop/Travel-App/Travel-App/TravelApp/app/src/main/AndroidManifest.xml:26:13-43
+47-->C:\Travel-App\TravelApp\app\src\main\AndroidManifest.xml:26:13-43
 48            android:resource="@array/preloaded_fonts" />
-48-->/Users/gabgab/Desktop/Travel-App/Travel-App/TravelApp/app/src/main/AndroidManifest.xml:27:13-54
+48-->C:\Travel-App\TravelApp\app\src\main\AndroidManifest.xml:27:13-54
 49        <!-- Needs to be explicitly declared on P+ -->
 50        <uses-library
-50-->[com.google.android.gms:play-services-maps:16.1.0] /Users/gabgab/.gradle/caches/transforms-2/files-2.1/ba0f558fab20852ed815b8aad8646029/jetified-play-services-maps-16.1.0/AndroidManifest.xml:33:9-35:40
+50-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\areva\.gradle\caches\transforms-2\files-2.1\56abc1c524dc81724183d0251af72eb1\jetified-play-services-maps-16.1.0\AndroidManifest.xml:33:9-35:40
 51            android:name="org.apache.http.legacy"
-51-->[com.google.android.gms:play-services-maps:16.1.0] /Users/gabgab/.gradle/caches/transforms-2/files-2.1/ba0f558fab20852ed815b8aad8646029/jetified-play-services-maps-16.1.0/AndroidManifest.xml:34:13-50
+51-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\areva\.gradle\caches\transforms-2\files-2.1\56abc1c524dc81724183d0251af72eb1\jetified-play-services-maps-16.1.0\AndroidManifest.xml:34:13-50
 52            android:required="false" />
-52-->[com.google.android.gms:play-services-maps:16.1.0] /Users/gabgab/.gradle/caches/transforms-2/files-2.1/ba0f558fab20852ed815b8aad8646029/jetified-play-services-maps-16.1.0/AndroidManifest.xml:35:13-37
+52-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\areva\.gradle\caches\transforms-2\files-2.1\56abc1c524dc81724183d0251af72eb1\jetified-play-services-maps-16.1.0\AndroidManifest.xml:35:13-37
 53
 54        <service
-54-->[com.google.firebase:firebase-measurement-connector-impl:17.0.2] /Users/gabgab/.gradle/caches/transforms-2/files-2.1/2d1132d0eb4a5aa8f3ac765a875aab49/jetified-firebase-measurement-connector-impl-17.0.2/AndroidManifest.xml:27:9-31:19
+54-->[com.google.firebase:firebase-measurement-connector-impl:17.0.2] C:\Users\areva\.gradle\caches\transforms-2\files-2.1\903c3942f833241311d824ef5aa3688a\jetified-firebase-measurement-connector-impl-17.0.2\AndroidManifest.xml:27:9-31:19
 55            android:name="com.google.firebase.components.ComponentDiscoveryService"
-55-->[com.google.firebase:firebase-measurement-connector-impl:17.0.2] /Users/gabgab/.gradle/caches/transforms-2/files-2.1/2d1132d0eb4a5aa8f3ac765a875aab49/jetified-firebase-measurement-connector-impl-17.0.2/AndroidManifest.xml:27:18-89
+55-->[com.google.firebase:firebase-measurement-connector-impl:17.0.2] C:\Users\areva\.gradle\caches\transforms-2\files-2.1\903c3942f833241311d824ef5aa3688a\jetified-firebase-measurement-connector-impl-17.0.2\AndroidManifest.xml:27:18-89
 56            android:exported="false" >
-56-->[com.google.firebase:firebase-iid:17.0.3] /Users/gabgab/.gradle/caches/transforms-2/files-2.1/74e06ff5ca2d3c1a7f616274b3e7bd45/jetified-firebase-iid-17.0.3/AndroidManifest.xml:31:13-37
+56-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\areva\.gradle\caches\transforms-2\files-2.1\648b84ea1e0755f1cbf266f1635623a9\jetified-firebase-iid-17.0.3\AndroidManifest.xml:31:13-37
 57            <meta-data
-57-->[com.google.firebase:firebase-measurement-connector-impl:17.0.2] /Users/gabgab/.gradle/caches/transforms-2/files-2.1/2d1132d0eb4a5aa8f3ac765a875aab49/jetified-firebase-measurement-connector-impl-17.0.2/AndroidManifest.xml:28:13-30:85
+57-->[com.google.firebase:firebase-measurement-connector-impl:17.0.2] C:\Users\areva\.gradle\caches\transforms-2\files-2.1\903c3942f833241311d824ef5aa3688a\jetified-firebase-measurement-connector-impl-17.0.2\AndroidManifest.xml:28:13-30:85
 58                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
-58-->[com.google.firebase:firebase-measurement-connector-impl:17.0.2] /Users/gabgab/.gradle/caches/transforms-2/files-2.1/2d1132d0eb4a5aa8f3ac765a875aab49/jetified-firebase-measurement-connector-impl-17.0.2/AndroidManifest.xml:29:17-139
+58-->[com.google.firebase:firebase-measurement-connector-impl:17.0.2] C:\Users\areva\.gradle\caches\transforms-2\files-2.1\903c3942f833241311d824ef5aa3688a\jetified-firebase-measurement-connector-impl-17.0.2\AndroidManifest.xml:29:17-139
 59                android:value="com.google.firebase.components.ComponentRegistrar" />
-59-->[com.google.firebase:firebase-measurement-connector-impl:17.0.2] /Users/gabgab/.gradle/caches/transforms-2/files-2.1/2d1132d0eb4a5aa8f3ac765a875aab49/jetified-firebase-measurement-connector-impl-17.0.2/AndroidManifest.xml:30:17-82
+59-->[com.google.firebase:firebase-measurement-connector-impl:17.0.2] C:\Users\areva\.gradle\caches\transforms-2\files-2.1\903c3942f833241311d824ef5aa3688a\jetified-firebase-measurement-connector-impl-17.0.2\AndroidManifest.xml:30:17-82
 60            <meta-data
-60-->[com.google.firebase:firebase-iid:17.0.3] /Users/gabgab/.gradle/caches/transforms-2/files-2.1/74e06ff5ca2d3c1a7f616274b3e7bd45/jetified-firebase-iid-17.0.3/AndroidManifest.xml:32:13-34:85
+60-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\areva\.gradle\caches\transforms-2\files-2.1\648b84ea1e0755f1cbf266f1635623a9\jetified-firebase-iid-17.0.3\AndroidManifest.xml:32:13-34:85
 61                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
-61-->[com.google.firebase:firebase-iid:17.0.3] /Users/gabgab/.gradle/caches/transforms-2/files-2.1/74e06ff5ca2d3c1a7f616274b3e7bd45/jetified-firebase-iid-17.0.3/AndroidManifest.xml:33:17-96
+61-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\areva\.gradle\caches\transforms-2\files-2.1\648b84ea1e0755f1cbf266f1635623a9\jetified-firebase-iid-17.0.3\AndroidManifest.xml:33:17-96
 62                android:value="com.google.firebase.components.ComponentRegistrar" />
-62-->[com.google.firebase:firebase-iid:17.0.3] /Users/gabgab/.gradle/caches/transforms-2/files-2.1/74e06ff5ca2d3c1a7f616274b3e7bd45/jetified-firebase-iid-17.0.3/AndroidManifest.xml:34:17-82
+62-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\areva\.gradle\caches\transforms-2\files-2.1\648b84ea1e0755f1cbf266f1635623a9\jetified-firebase-iid-17.0.3\AndroidManifest.xml:34:17-82
 63        </service>
 64
 65        <receiver
-65-->[com.google.firebase:firebase-analytics:16.0.4] /Users/gabgab/.gradle/caches/transforms-2/files-2.1/ef148fa7abf9ced3d999452762abab33/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:29:9-33:20
+65-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\areva\.gradle\caches\transforms-2\files-2.1\72bee3558a59744cc08bbdc916ce8230\jetified-firebase-analytics-16.0.4\AndroidManifest.xml:29:9-33:20
 66            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
-66-->[com.google.firebase:firebase-analytics:16.0.4] /Users/gabgab/.gradle/caches/transforms-2/files-2.1/ef148fa7abf9ced3d999452762abab33/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:30:13-85
+66-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\areva\.gradle\caches\transforms-2\files-2.1\72bee3558a59744cc08bbdc916ce8230\jetified-firebase-analytics-16.0.4\AndroidManifest.xml:30:13-85
 67            android:enabled="true"
-67-->[com.google.firebase:firebase-analytics:16.0.4] /Users/gabgab/.gradle/caches/transforms-2/files-2.1/ef148fa7abf9ced3d999452762abab33/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:31:13-35
+67-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\areva\.gradle\caches\transforms-2\files-2.1\72bee3558a59744cc08bbdc916ce8230\jetified-firebase-analytics-16.0.4\AndroidManifest.xml:31:13-35
 68            android:exported="false" >
-68-->[com.google.firebase:firebase-analytics:16.0.4] /Users/gabgab/.gradle/caches/transforms-2/files-2.1/ef148fa7abf9ced3d999452762abab33/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:32:13-37
+68-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\areva\.gradle\caches\transforms-2\files-2.1\72bee3558a59744cc08bbdc916ce8230\jetified-firebase-analytics-16.0.4\AndroidManifest.xml:32:13-37
 69        </receiver>
 70        <receiver
-70-->[com.google.firebase:firebase-analytics:16.0.4] /Users/gabgab/.gradle/caches/transforms-2/files-2.1/ef148fa7abf9ced3d999452762abab33/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:34:9-42:20
+70-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\areva\.gradle\caches\transforms-2\files-2.1\72bee3558a59744cc08bbdc916ce8230\jetified-firebase-analytics-16.0.4\AndroidManifest.xml:34:9-42:20
 71            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
-71-->[com.google.firebase:firebase-analytics:16.0.4] /Users/gabgab/.gradle/caches/transforms-2/files-2.1/ef148fa7abf9ced3d999452762abab33/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:35:13-100
+71-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\areva\.gradle\caches\transforms-2\files-2.1\72bee3558a59744cc08bbdc916ce8230\jetified-firebase-analytics-16.0.4\AndroidManifest.xml:35:13-100
 72            android:enabled="true"
-72-->[com.google.firebase:firebase-analytics:16.0.4] /Users/gabgab/.gradle/caches/transforms-2/files-2.1/ef148fa7abf9ced3d999452762abab33/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:36:13-35
+72-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\areva\.gradle\caches\transforms-2\files-2.1\72bee3558a59744cc08bbdc916ce8230\jetified-firebase-analytics-16.0.4\AndroidManifest.xml:36:13-35
 73            android:exported="true"
-73-->[com.google.firebase:firebase-analytics:16.0.4] /Users/gabgab/.gradle/caches/transforms-2/files-2.1/ef148fa7abf9ced3d999452762abab33/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:37:13-36
+73-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\areva\.gradle\caches\transforms-2\files-2.1\72bee3558a59744cc08bbdc916ce8230\jetified-firebase-analytics-16.0.4\AndroidManifest.xml:37:13-36
 74            android:permission="android.permission.INSTALL_PACKAGES" >
-74-->[com.google.firebase:firebase-analytics:16.0.4] /Users/gabgab/.gradle/caches/transforms-2/files-2.1/ef148fa7abf9ced3d999452762abab33/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:38:13-69
+74-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\areva\.gradle\caches\transforms-2\files-2.1\72bee3558a59744cc08bbdc916ce8230\jetified-firebase-analytics-16.0.4\AndroidManifest.xml:38:13-69
 75            <intent-filter>
-75-->[com.google.firebase:firebase-analytics:16.0.4] /Users/gabgab/.gradle/caches/transforms-2/files-2.1/ef148fa7abf9ced3d999452762abab33/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:39:13-41:29
+75-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\areva\.gradle\caches\transforms-2\files-2.1\72bee3558a59744cc08bbdc916ce8230\jetified-firebase-analytics-16.0.4\AndroidManifest.xml:39:13-41:29
 76                <action android:name="com.android.vending.INSTALL_REFERRER" />
-76-->[com.google.firebase:firebase-analytics:16.0.4] /Users/gabgab/.gradle/caches/transforms-2/files-2.1/ef148fa7abf9ced3d999452762abab33/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:40:17-79
-76-->[com.google.firebase:firebase-analytics:16.0.4] /Users/gabgab/.gradle/caches/transforms-2/files-2.1/ef148fa7abf9ced3d999452762abab33/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:40:25-76
+76-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\areva\.gradle\caches\transforms-2\files-2.1\72bee3558a59744cc08bbdc916ce8230\jetified-firebase-analytics-16.0.4\AndroidManifest.xml:40:17-79
+76-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\areva\.gradle\caches\transforms-2\files-2.1\72bee3558a59744cc08bbdc916ce8230\jetified-firebase-analytics-16.0.4\AndroidManifest.xml:40:25-76
 77            </intent-filter>
 78        </receiver>
 79
 80        <service
-80-->[com.google.firebase:firebase-analytics:16.0.4] /Users/gabgab/.gradle/caches/transforms-2/files-2.1/ef148fa7abf9ced3d999452762abab33/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:44:9-47:40
+80-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\areva\.gradle\caches\transforms-2\files-2.1\72bee3558a59744cc08bbdc916ce8230\jetified-firebase-analytics-16.0.4\AndroidManifest.xml:44:9-47:40
 81            android:name="com.google.android.gms.measurement.AppMeasurementService"
-81-->[com.google.firebase:firebase-analytics:16.0.4] /Users/gabgab/.gradle/caches/transforms-2/files-2.1/ef148fa7abf9ced3d999452762abab33/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:45:13-84
+81-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\areva\.gradle\caches\transforms-2\files-2.1\72bee3558a59744cc08bbdc916ce8230\jetified-firebase-analytics-16.0.4\AndroidManifest.xml:45:13-84
 82            android:enabled="true"
-82-->[com.google.firebase:firebase-analytics:16.0.4] /Users/gabgab/.gradle/caches/transforms-2/files-2.1/ef148fa7abf9ced3d999452762abab33/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:46:13-35
+82-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\areva\.gradle\caches\transforms-2\files-2.1\72bee3558a59744cc08bbdc916ce8230\jetified-firebase-analytics-16.0.4\AndroidManifest.xml:46:13-35
 83            android:exported="false" />
-83-->[com.google.firebase:firebase-analytics:16.0.4] /Users/gabgab/.gradle/caches/transforms-2/files-2.1/ef148fa7abf9ced3d999452762abab33/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:47:13-37
+83-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\areva\.gradle\caches\transforms-2\files-2.1\72bee3558a59744cc08bbdc916ce8230\jetified-firebase-analytics-16.0.4\AndroidManifest.xml:47:13-37
 84        <service
-84-->[com.google.firebase:firebase-analytics:16.0.4] /Users/gabgab/.gradle/caches/transforms-2/files-2.1/ef148fa7abf9ced3d999452762abab33/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:48:9-52:72
+84-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\areva\.gradle\caches\transforms-2\files-2.1\72bee3558a59744cc08bbdc916ce8230\jetified-firebase-analytics-16.0.4\AndroidManifest.xml:48:9-52:72
 85            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
-85-->[com.google.firebase:firebase-analytics:16.0.4] /Users/gabgab/.gradle/caches/transforms-2/files-2.1/ef148fa7abf9ced3d999452762abab33/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:49:13-87
+85-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\areva\.gradle\caches\transforms-2\files-2.1\72bee3558a59744cc08bbdc916ce8230\jetified-firebase-analytics-16.0.4\AndroidManifest.xml:49:13-87
 86            android:enabled="true"
-86-->[com.google.firebase:firebase-analytics:16.0.4] /Users/gabgab/.gradle/caches/transforms-2/files-2.1/ef148fa7abf9ced3d999452762abab33/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:50:13-35
+86-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\areva\.gradle\caches\transforms-2\files-2.1\72bee3558a59744cc08bbdc916ce8230\jetified-firebase-analytics-16.0.4\AndroidManifest.xml:50:13-35
 87            android:exported="false"
-87-->[com.google.firebase:firebase-analytics:16.0.4] /Users/gabgab/.gradle/caches/transforms-2/files-2.1/ef148fa7abf9ced3d999452762abab33/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:51:13-37
+87-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\areva\.gradle\caches\transforms-2\files-2.1\72bee3558a59744cc08bbdc916ce8230\jetified-firebase-analytics-16.0.4\AndroidManifest.xml:51:13-37
 88            android:permission="android.permission.BIND_JOB_SERVICE" />
-88-->[com.google.firebase:firebase-analytics:16.0.4] /Users/gabgab/.gradle/caches/transforms-2/files-2.1/ef148fa7abf9ced3d999452762abab33/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:52:13-69
+88-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\areva\.gradle\caches\transforms-2\files-2.1\72bee3558a59744cc08bbdc916ce8230\jetified-firebase-analytics-16.0.4\AndroidManifest.xml:52:13-69
 89
 90        <receiver
-90-->[com.google.firebase:firebase-iid:17.0.3] /Users/gabgab/.gradle/caches/transforms-2/files-2.1/74e06ff5ca2d3c1a7f616274b3e7bd45/jetified-firebase-iid-17.0.3/AndroidManifest.xml:37:9-44:20
+90-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\areva\.gradle\caches\transforms-2\files-2.1\648b84ea1e0755f1cbf266f1635623a9\jetified-firebase-iid-17.0.3\AndroidManifest.xml:37:9-44:20
 91            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
-91-->[com.google.firebase:firebase-iid:17.0.3] /Users/gabgab/.gradle/caches/transforms-2/files-2.1/74e06ff5ca2d3c1a7f616274b3e7bd45/jetified-firebase-iid-17.0.3/AndroidManifest.xml:38:13-78
+91-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\areva\.gradle\caches\transforms-2\files-2.1\648b84ea1e0755f1cbf266f1635623a9\jetified-firebase-iid-17.0.3\AndroidManifest.xml:38:13-78
 92            android:exported="true"
-92-->[com.google.firebase:firebase-iid:17.0.3] /Users/gabgab/.gradle/caches/transforms-2/files-2.1/74e06ff5ca2d3c1a7f616274b3e7bd45/jetified-firebase-iid-17.0.3/AndroidManifest.xml:39:13-36
+92-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\areva\.gradle\caches\transforms-2\files-2.1\648b84ea1e0755f1cbf266f1635623a9\jetified-firebase-iid-17.0.3\AndroidManifest.xml:39:13-36
 93            android:permission="com.google.android.c2dm.permission.SEND" >
-93-->[com.google.firebase:firebase-iid:17.0.3] /Users/gabgab/.gradle/caches/transforms-2/files-2.1/74e06ff5ca2d3c1a7f616274b3e7bd45/jetified-firebase-iid-17.0.3/AndroidManifest.xml:40:13-73
+93-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\areva\.gradle\caches\transforms-2\files-2.1\648b84ea1e0755f1cbf266f1635623a9\jetified-firebase-iid-17.0.3\AndroidManifest.xml:40:13-73
 94            <intent-filter>
-94-->[com.google.firebase:firebase-iid:17.0.3] /Users/gabgab/.gradle/caches/transforms-2/files-2.1/74e06ff5ca2d3c1a7f616274b3e7bd45/jetified-firebase-iid-17.0.3/AndroidManifest.xml:41:13-43:29
+94-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\areva\.gradle\caches\transforms-2\files-2.1\648b84ea1e0755f1cbf266f1635623a9\jetified-firebase-iid-17.0.3\AndroidManifest.xml:41:13-43:29
 95                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-95-->[com.google.firebase:firebase-iid:17.0.3] /Users/gabgab/.gradle/caches/transforms-2/files-2.1/74e06ff5ca2d3c1a7f616274b3e7bd45/jetified-firebase-iid-17.0.3/AndroidManifest.xml:42:17-81
-95-->[com.google.firebase:firebase-iid:17.0.3] /Users/gabgab/.gradle/caches/transforms-2/files-2.1/74e06ff5ca2d3c1a7f616274b3e7bd45/jetified-firebase-iid-17.0.3/AndroidManifest.xml:42:25-78
+95-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\areva\.gradle\caches\transforms-2\files-2.1\648b84ea1e0755f1cbf266f1635623a9\jetified-firebase-iid-17.0.3\AndroidManifest.xml:42:17-81
+95-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\areva\.gradle\caches\transforms-2\files-2.1\648b84ea1e0755f1cbf266f1635623a9\jetified-firebase-iid-17.0.3\AndroidManifest.xml:42:25-78
 96            </intent-filter>
 97        </receiver>
 98        <!--
@@ -182,46 +182,46 @@
 100             no need for explicit permissions despite exported="true"
 101        -->
 102        <service
-102-->[com.google.firebase:firebase-iid:17.0.3] /Users/gabgab/.gradle/caches/transforms-2/files-2.1/74e06ff5ca2d3c1a7f616274b3e7bd45/jetified-firebase-iid-17.0.3/AndroidManifest.xml:50:9-56:19
+102-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\areva\.gradle\caches\transforms-2\files-2.1\648b84ea1e0755f1cbf266f1635623a9\jetified-firebase-iid-17.0.3\AndroidManifest.xml:50:9-56:19
 103            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
-103-->[com.google.firebase:firebase-iid:17.0.3] /Users/gabgab/.gradle/caches/transforms-2/files-2.1/74e06ff5ca2d3c1a7f616274b3e7bd45/jetified-firebase-iid-17.0.3/AndroidManifest.xml:51:13-77
+103-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\areva\.gradle\caches\transforms-2\files-2.1\648b84ea1e0755f1cbf266f1635623a9\jetified-firebase-iid-17.0.3\AndroidManifest.xml:51:13-77
 104            android:exported="true" >
-104-->[com.google.firebase:firebase-iid:17.0.3] /Users/gabgab/.gradle/caches/transforms-2/files-2.1/74e06ff5ca2d3c1a7f616274b3e7bd45/jetified-firebase-iid-17.0.3/AndroidManifest.xml:52:13-36
+104-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\areva\.gradle\caches\transforms-2\files-2.1\648b84ea1e0755f1cbf266f1635623a9\jetified-firebase-iid-17.0.3\AndroidManifest.xml:52:13-36
 105            <intent-filter android:priority="-500" >
-105-->[com.google.firebase:firebase-iid:17.0.3] /Users/gabgab/.gradle/caches/transforms-2/files-2.1/74e06ff5ca2d3c1a7f616274b3e7bd45/jetified-firebase-iid-17.0.3/AndroidManifest.xml:53:13-55:29
-105-->[com.google.firebase:firebase-iid:17.0.3] /Users/gabgab/.gradle/caches/transforms-2/files-2.1/74e06ff5ca2d3c1a7f616274b3e7bd45/jetified-firebase-iid-17.0.3/AndroidManifest.xml:53:28-51
+105-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\areva\.gradle\caches\transforms-2\files-2.1\648b84ea1e0755f1cbf266f1635623a9\jetified-firebase-iid-17.0.3\AndroidManifest.xml:53:13-55:29
+105-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\areva\.gradle\caches\transforms-2\files-2.1\648b84ea1e0755f1cbf266f1635623a9\jetified-firebase-iid-17.0.3\AndroidManifest.xml:53:28-51
 106                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
-106-->[com.google.firebase:firebase-iid:17.0.3] /Users/gabgab/.gradle/caches/transforms-2/files-2.1/74e06ff5ca2d3c1a7f616274b3e7bd45/jetified-firebase-iid-17.0.3/AndroidManifest.xml:54:17-80
-106-->[com.google.firebase:firebase-iid:17.0.3] /Users/gabgab/.gradle/caches/transforms-2/files-2.1/74e06ff5ca2d3c1a7f616274b3e7bd45/jetified-firebase-iid-17.0.3/AndroidManifest.xml:54:25-77
+106-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\areva\.gradle\caches\transforms-2\files-2.1\648b84ea1e0755f1cbf266f1635623a9\jetified-firebase-iid-17.0.3\AndroidManifest.xml:54:17-80
+106-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\areva\.gradle\caches\transforms-2\files-2.1\648b84ea1e0755f1cbf266f1635623a9\jetified-firebase-iid-17.0.3\AndroidManifest.xml:54:25-77
 107            </intent-filter>
 108        </service>
 109
 110        <activity
-110-->[com.google.android.gms:play-services-base:16.0.1] /Users/gabgab/.gradle/caches/transforms-2/files-2.1/68b2dfa8e13ce4e9e1407ce73d43e7f5/jetified-play-services-base-16.0.1/AndroidManifest.xml:23:9-26:75
+110-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\areva\.gradle\caches\transforms-2\files-2.1\22a4dcf23dd1c87bb45867e812c9eed6\jetified-play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
 111            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-111-->[com.google.android.gms:play-services-base:16.0.1] /Users/gabgab/.gradle/caches/transforms-2/files-2.1/68b2dfa8e13ce4e9e1407ce73d43e7f5/jetified-play-services-base-16.0.1/AndroidManifest.xml:24:13-79
+111-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\areva\.gradle\caches\transforms-2\files-2.1\22a4dcf23dd1c87bb45867e812c9eed6\jetified-play-services-base-16.0.1\AndroidManifest.xml:24:13-79
 112            android:exported="false"
-112-->[com.google.android.gms:play-services-base:16.0.1] /Users/gabgab/.gradle/caches/transforms-2/files-2.1/68b2dfa8e13ce4e9e1407ce73d43e7f5/jetified-play-services-base-16.0.1/AndroidManifest.xml:25:13-37
+112-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\areva\.gradle\caches\transforms-2\files-2.1\22a4dcf23dd1c87bb45867e812c9eed6\jetified-play-services-base-16.0.1\AndroidManifest.xml:25:13-37
 113            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-113-->[com.google.android.gms:play-services-base:16.0.1] /Users/gabgab/.gradle/caches/transforms-2/files-2.1/68b2dfa8e13ce4e9e1407ce73d43e7f5/jetified-play-services-base-16.0.1/AndroidManifest.xml:26:13-72
+113-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\areva\.gradle\caches\transforms-2\files-2.1\22a4dcf23dd1c87bb45867e812c9eed6\jetified-play-services-base-16.0.1\AndroidManifest.xml:26:13-72
 114
 115        <provider
-115-->[com.google.firebase:firebase-common:16.0.3] /Users/gabgab/.gradle/caches/transforms-2/files-2.1/9c58ee97ef6b340b939c72f269ae7e1f/jetified-firebase-common-16.0.3/AndroidManifest.xml:10:9-14:39
+115-->[com.google.firebase:firebase-common:16.0.3] C:\Users\areva\.gradle\caches\transforms-2\files-2.1\6057fe04d4abe4a488476ef1fe663392\jetified-firebase-common-16.0.3\AndroidManifest.xml:10:9-14:39
 116            android:name="com.google.firebase.provider.FirebaseInitProvider"
-116-->[com.google.firebase:firebase-common:16.0.3] /Users/gabgab/.gradle/caches/transforms-2/files-2.1/9c58ee97ef6b340b939c72f269ae7e1f/jetified-firebase-common-16.0.3/AndroidManifest.xml:11:13-77
+116-->[com.google.firebase:firebase-common:16.0.3] C:\Users\areva\.gradle\caches\transforms-2\files-2.1\6057fe04d4abe4a488476ef1fe663392\jetified-firebase-common-16.0.3\AndroidManifest.xml:11:13-77
 117            android:authorities="jwest.android_class.travel_app.firebaseinitprovider"
-117-->[com.google.firebase:firebase-common:16.0.3] /Users/gabgab/.gradle/caches/transforms-2/files-2.1/9c58ee97ef6b340b939c72f269ae7e1f/jetified-firebase-common-16.0.3/AndroidManifest.xml:12:13-72
+117-->[com.google.firebase:firebase-common:16.0.3] C:\Users\areva\.gradle\caches\transforms-2\files-2.1\6057fe04d4abe4a488476ef1fe663392\jetified-firebase-common-16.0.3\AndroidManifest.xml:12:13-72
 118            android:exported="false"
-118-->[com.google.firebase:firebase-common:16.0.3] /Users/gabgab/.gradle/caches/transforms-2/files-2.1/9c58ee97ef6b340b939c72f269ae7e1f/jetified-firebase-common-16.0.3/AndroidManifest.xml:13:13-37
+118-->[com.google.firebase:firebase-common:16.0.3] C:\Users\areva\.gradle\caches\transforms-2\files-2.1\6057fe04d4abe4a488476ef1fe663392\jetified-firebase-common-16.0.3\AndroidManifest.xml:13:13-37
 119            android:initOrder="100" />
-119-->[com.google.firebase:firebase-common:16.0.3] /Users/gabgab/.gradle/caches/transforms-2/files-2.1/9c58ee97ef6b340b939c72f269ae7e1f/jetified-firebase-common-16.0.3/AndroidManifest.xml:14:13-36
+119-->[com.google.firebase:firebase-common:16.0.3] C:\Users\areva\.gradle\caches\transforms-2\files-2.1\6057fe04d4abe4a488476ef1fe663392\jetified-firebase-common-16.0.3\AndroidManifest.xml:14:13-36
 120
 121        <meta-data
-121-->[com.google.android.gms:play-services-basement:16.0.1] /Users/gabgab/.gradle/caches/transforms-2/files-2.1/d0f0b695c7e98e03f773d262162eef68/jetified-play-services-basement-16.0.1/AndroidManifest.xml:23:9-25:69
+121-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\areva\.gradle\caches\transforms-2\files-2.1\fe327631a20a6df009098d4e19eff7eb\jetified-play-services-basement-16.0.1\AndroidManifest.xml:23:9-25:69
 122            android:name="com.google.android.gms.version"
-122-->[com.google.android.gms:play-services-basement:16.0.1] /Users/gabgab/.gradle/caches/transforms-2/files-2.1/d0f0b695c7e98e03f773d262162eef68/jetified-play-services-basement-16.0.1/AndroidManifest.xml:24:13-58
+122-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\areva\.gradle\caches\transforms-2\files-2.1\fe327631a20a6df009098d4e19eff7eb\jetified-play-services-basement-16.0.1\AndroidManifest.xml:24:13-58
 123            android:value="@integer/google_play_services_version" />
-123-->[com.google.android.gms:play-services-basement:16.0.1] /Users/gabgab/.gradle/caches/transforms-2/files-2.1/d0f0b695c7e98e03f773d262162eef68/jetified-play-services-basement-16.0.1/AndroidManifest.xml:25:13-66
+123-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\areva\.gradle\caches\transforms-2\files-2.1\fe327631a20a6df009098d4e19eff7eb\jetified-play-services-basement-16.0.1\AndroidManifest.xml:25:13-66
 124    </application>
 125
 126</manifest>

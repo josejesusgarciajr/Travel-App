@@ -31,7 +31,7 @@ public class FragmentTitleBindingImpl extends FragmentTitleBinding  {
     private FragmentTitleBindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 0
             , (androidx.constraintlayout.widget.ConstraintLayout) bindings[0]
-            , (android.widget.ImageView) bindings[4]
+            , (pl.droidsonroids.gif.GifImageView) bindings[4]
             , (android.widget.Button) bindings[1]
             , (android.widget.Button) bindings[3]
             , (android.widget.Button) bindings[2]
