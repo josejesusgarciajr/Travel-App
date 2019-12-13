@@ -1,10 +1,50 @@
 <p align="center">
-  <img src="https://github.com/josejesusgarciajr/Travel-App/blob/master/TravelApp/app/src/main/res/drawable/globetextgrow.gif" width="200">
+  <img src="https://github.com/josejesusgarciajr/Travel-App/blob/gabs/TravelApp/app/src/main/res/drawable-v24/newmaingif.gif" width="200">
 </p>
 
 # Travel Buddy
 
 Whether you're a hiker, trekking, or cardio, spending time walking through nature is relaxing. With our application, one can simply the greatest hiking experience. One can look for a good rating on a landmark and enjoy their afternoon trip. 
+
+
+# Register Page 
+![](images/reg.gif)
+* Users will be register and account.
+  * username
+  * password
+  * firstName
+  * LastName
+  * Age
+  * Home Town
+  
+# Login Page
+![](images/log.gif)
+* Users will be able to login.
+* After login users can stay loged in even after closing the app. (token)
+* The user is now able to edit or delete their landmarks.
+
+# Map Page
+![](images/map.PNG)
+* Users will be able to click on existing landmarks, if they're the author of such landmark they can choose to delete or edit the landmark.
+* Users can also press and hold a location on the map to add a landmark and rating of their own. The user will see the page below when adding a new landmark.
+
+![](images/addLandmark.PNG)
+
+# Edit Page
+
+* If the user is the author they will see this on the top right of the screen
+
+![](images/author.PNG)
+
+* otherwise the user sees this below image and can add a rating for the landmark
+
+# Rating
+* Users can simply decide what is the appropriate star amount to give by sliding their finger across the stars.
+* the current rating is calculated by getting the average.
+
+![](images/user.PNG)
+
+
 
 11/17/19 </br>
 There are now 2 fragments - TitleFragment & MapFragment </br>
@@ -36,6 +76,10 @@ Users can now hold down the map at desired point to add landmarks! Once users ch
 <hr>
 12/7/19<br>
 When a user clicks a marker pop up window on the map they are taken to that landmark's page.
+
+<p align="center">
+  <img src="https://github.com/josejesusgarciajr/Travel-App/blob/master/TravelApp/app/src/main/res/drawable/globetextgrow.gif" width="200">
+</p>
 
 ## Contributors
 
