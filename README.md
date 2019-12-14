@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/josejesusgarciajr/Travel-App/blob/gabs/TravelApp/app/src/main/res/drawable-v24/newmaingif.gif" width="210">
+  <img src="https://github.com/josejesusgarciajr/Travel-App/blob/gabs/TravelApp/app/src/main/res/drawable-v24/newmaingif.gif" width="200">
 </p>
 
 # Travel Buddy
